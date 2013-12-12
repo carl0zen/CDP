@@ -1,0 +1,12 @@
+/* line 1, ../sass/cdp.scss */
+.side-content {
+  background: black;
+  width: 33%;
+  float: right;
+}
+
+/* line 6, ../sass/cdp.scss */
+.page-content {
+  width: 66%;
+  float: left;
+}
