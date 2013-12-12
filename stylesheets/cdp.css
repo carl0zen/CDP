@@ -1,11 +1,16 @@
-/* line 1, ../sass/cdp.scss */
+/* line 3, ../sass/cdp.scss */
+.page-banner img {
+  width: 100%;
+}
+
+/* line 7, ../sass/cdp.scss */
 .side-content {
-  background: black;
+  margin-top: 20px;
   width: 33%;
   float: right;
 }
 
-/* line 6, ../sass/cdp.scss */
+/* line 12, ../sass/cdp.scss */
 .page-content {
   width: 66%;
   float: left;
