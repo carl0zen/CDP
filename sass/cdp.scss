@@ -110,11 +110,18 @@ ooooooooooooo                     oooo                                          
 	
 }
 ul.title-links{
+	margin:0;
+	padding:0;
 	li{
 		display: inline-block;
 		list-style-type: none;
 		border: 1px solid #999;
-		margin: 10px 0;
+		margin: 4px;
+		width: 82px;
+		height: 64px;
+		float: left;
+		padding: 11px 10px;
+		line-height: 14px;
 	}
 
 }
