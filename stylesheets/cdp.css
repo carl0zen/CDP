@@ -1,33 +1,58 @@
-/* line 3, ../sass/cdp.scss */
+/**
+
+ooooooooooooo                     oooo                                          .o8  
+8'   888   `8                     `888                                         "888  
+     888       .ooooo.   .ooooo.   888   .oooo.o     .oooo.   ooo. .oo.    .oooo888  
+     888      d88' `88b d88' `88b  888  d88(  "8    `P  )88b  `888P"Y88b  d88' `888  
+     888      888   888 888   888  888  `"Y88b.      .oP"888   888   888  888   888  
+     888      888   888 888   888  888  o.  )88b    d8(  888   888   888  888   888  
+    o888o     `Y8bod8P' `Y8bod8P' o888o 8""888P'    `Y888""8o o888o o888o `Y8bod88P" 
+                                                                                     
+                                                                                     
+                                                                                     
+    .                                          oooo                .                      
+  .o8                                          `888              .o8                      
+.o888oo  .ooooo.  ooo. .oo.  .oo.   oo.ooooo.   888   .oooo.   .o888oo  .ooooo.   .oooo.o 
+  888   d88' `88b `888P"Y88bP"Y88b   888' `88b  888  `P  )88b    888   d88' `88b d88(  "8 
+  888   888ooo888  888   888   888   888   888  888   .oP"888    888   888ooo888 `"Y88b.  
+  888 . 888    .o  888   888   888   888   888  888  d8(  888    888 . 888    .o o.  )88b 
+  "888" `Y8bod8P' o888o o888o o888o  888bod8P' o888o `Y888""8o   "888" `Y8bod8P' 8""888P' 
+                                     888                                                  
+                                    o888o                                                 
+                                                                               
+**/
+/* line 27, ../sass/cdp.scss */
 .page-banner img {
   width: 100%;
 }
 
-/* line 7, ../sass/cdp.scss */
+/* line 31, ../sass/cdp.scss */
 .side-content {
   margin-top: 20px;
   width: 33%;
   float: right;
 }
 
-/* line 12, ../sass/cdp.scss */
+/* line 36, ../sass/cdp.scss */
 .page-content {
   width: 66%;
   float: left;
 }
 
-/* line 16, ../sass/cdp.scss */
+/* line 40, ../sass/cdp.scss */
 .warning-sign {
   background: #FFFF66;
   padding: 10px;
   margin: 20px 0;
 }
-/* line 20, ../sass/cdp.scss */
+/* line 44, ../sass/cdp.scss */
 .warning-sign h3 {
   margin: 10px 0 20px 0;
+  color: #000;
 }
 
-/* line 25, ../sass/cdp.scss */
+/** Table Colors**/
+/* line 54, ../sass/cdp.scss */
 #documentList_wrapper:before {
   content: "";
   width: 100%;
@@ -36,7 +61,78 @@
   position: absolute;
 }
 
-/* line 33, ../sass/cdp.scss */
+/* line 63, ../sass/cdp.scss */
 #documentList_filter label {
-  display: none;
+  font-size: 13px;
+  color: #a2a2a2;
+}
+/* line 68, ../sass/cdp.scss */
+#documentList_filter input {
+  width: auto;
+  background: white;
+  margin: 10px;
+  line-height: 25px;
+  border: none;
+  padding: 2px 13px;
+  font-size: 13px;
+  color: #777;
+}
+
+/* line 80, ../sass/cdp.scss */
+#documentList_length label {
+  z-index: 10;
+  position: relative;
+  color: #9B9B9B;
+  font-family: Segoe UI;
+  padding: 15px;
+}
+
+/* line 91, ../sass/cdp.scss */
+#documentList thead {
+  background: #eee;
+  border: none;
+  background: #eee;
+  border: none;
+  line-height: 27px;
+}
+
+/* line 102, ../sass/cdp.scss */
+table tr, table td
+table.dataTable tr.odd {
+  background-color: #E2E4FF;
+}
+
+/* line 103, ../sass/cdp.scss */
+table.dataTable tr.even {
+  background-color: white;
+}
+
+/* line 105, ../sass/cdp.scss */
+table.dataTable tr.odd td.sorting_1 {
+  background-color: #D3D6FF;
+}
+
+/* line 106, ../sass/cdp.scss */
+table.dataTable tr.odd td.sorting_2 {
+  background-color: #DADCFF;
+}
+
+/* line 107, ../sass/cdp.scss */
+table.dataTable tr.odd td.sorting_3 {
+  background-color: #E0E2FF;
+}
+
+/* line 108, ../sass/cdp.scss */
+table.dataTable tr.even td.sorting_1 {
+  background-color: #EAEBFF;
+}
+
+/* line 109, ../sass/cdp.scss */
+table.dataTable tr.even td.sorting_2 {
+  background-color: #F2F3FF;
+}
+
+/* line 110, ../sass/cdp.scss */
+table.dataTable tr.even td.sorting_3 {
+  background-color: #F9F9FF;
 }
