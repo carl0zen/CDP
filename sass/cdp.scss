@@ -109,11 +109,7 @@ ooooooooooooo                     oooo                                          
 
 	
 }
-table.dataTable tr{
-		background: none !important;
-		border-bottom: 1px solid #eee;
-	}
-	table.dataTable {
+table.dataTable {
 		&:first-child{
 			font-weight: bold;
 			color: #858585;
@@ -124,6 +120,11 @@ table.dataTable tr{
 			background:none !important;
 		}
 	}
+table.dataTable tr{
+		background: none !important;
+		border-bottom: 1px solid #eee;
+	}
+	
 	a.download{
 		&:before{
 			position:absolute;
