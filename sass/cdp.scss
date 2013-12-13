@@ -125,15 +125,13 @@ table.dataTable tr{
 		border-bottom: 1px solid #eee;
 	}
 	
-	a.download{
-		&:before{
-			position:absolute;
-			margin-left:-35px;
-			width:27px;
-			height:27px;
-			background: url(https://raw.github.com/carlosepp/CDP/master/img/word-icon.png);
-			display: block;
-		}
+	a.download {
+		width: 27px;
+		height: 27px;
+		background: url(https://raw.github.com/carlosepp/CDP/master/img/word-icon.png);
+		text-indent: 36px;
+		line-height: 25px;
+		display: block;
 	}
 	table.dataTable tr.odd { background-color: transparent; }
 	table.dataTable tr.even { background-color: transparent; }
