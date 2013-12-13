@@ -112,38 +112,46 @@ ooooooooooooo                     oooo                                          
 }
 
 /* line 113, ../sass/cdp.scss */
+ul.title-links li {
+  display: inline-block;
+  list-style-type: none;
+  border: 1px solid #999;
+  margin: 10px 0;
+}
+
+/* line 122, ../sass/cdp.scss */
 table.dataTable tr td:first-child {
   font-weight: bold;
   color: #858585;
   background: none !important;
 }
-/* line 118, ../sass/cdp.scss */
+/* line 127, ../sass/cdp.scss */
 table.dataTable tr td {
   padding: 10px !important;
   background: none !important;
 }
-/* line 122, ../sass/cdp.scss */
+/* line 131, ../sass/cdp.scss */
 table.dataTable .title {
   width: 300px;
 }
-/* line 125, ../sass/cdp.scss */
+/* line 134, ../sass/cdp.scss */
 table.dataTable tr td:nth-of-type(3) {
   width: 100px;
 }
 
-/* line 130, ../sass/cdp.scss */
+/* line 139, ../sass/cdp.scss */
 div.h1-section1 {
   background: #CF0072 !important;
   width: 97.5% !important;
 }
 
-/* line 134, ../sass/cdp.scss */
+/* line 143, ../sass/cdp.scss */
 table.dataTable tr {
   background: none !important;
   border-bottom: 1px solid #eee;
 }
 
-/* line 139, ../sass/cdp.scss */
+/* line 148, ../sass/cdp.scss */
 a.download {
   width: 27px;
   height: 27px;
@@ -153,42 +161,42 @@ a.download {
   display: block;
 }
 
-/* line 147, ../sass/cdp.scss */
+/* line 156, ../sass/cdp.scss */
 table.dataTable tr.odd {
   background-color: transparent;
 }
 
-/* line 148, ../sass/cdp.scss */
+/* line 157, ../sass/cdp.scss */
 table.dataTable tr.even {
   background-color: transparent;
 }
 
-/* line 150, ../sass/cdp.scss */
+/* line 159, ../sass/cdp.scss */
 table.dataTable tr.odd td.sorting_1 {
   background-color: transparent;
 }
 
-/* line 151, ../sass/cdp.scss */
+/* line 160, ../sass/cdp.scss */
 table.dataTable tr.odd td.sorting_2 {
   background-color: transparent;
 }
 
-/* line 152, ../sass/cdp.scss */
+/* line 161, ../sass/cdp.scss */
 table.dataTable tr.odd td.sorting_3 {
   background-color: transparent;
 }
 
-/* line 153, ../sass/cdp.scss */
+/* line 162, ../sass/cdp.scss */
 table.dataTable tr.even td.sorting_1 {
   background-color: transparent;
 }
 
-/* line 154, ../sass/cdp.scss */
+/* line 163, ../sass/cdp.scss */
 table.dataTable tr.even td.sorting_2 {
   background-color: transparent;
 }
 
-/* line 155, ../sass/cdp.scss */
+/* line 164, ../sass/cdp.scss */
 table.dataTable tr.even td.sorting_3 {
   background-color: transparent;
 }

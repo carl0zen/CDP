@@ -109,6 +109,15 @@ ooooooooooooo                     oooo                                          
 
 	
 }
+ul.title-links{
+	li{
+		display: inline-block;
+		list-style-type: none;
+		border: 1px solid #999;
+		margin: 10px 0
+	}
+
+}
 table.dataTable {
 		tr td:first-child{
 			font-weight: bold;
