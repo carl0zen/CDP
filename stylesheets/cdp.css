@@ -112,7 +112,7 @@ ooooooooooooo                     oooo                                          
 }
 /* line 110, ../sass/cdp.scss */
 #documentList table.dataTable tr {
-  background: none;
+  background: none !important;
   border-bottom: 1px solid #eee;
 }
 /* line 115, ../sass/cdp.scss */
@@ -124,8 +124,9 @@ ooooooooooooo                     oooo                                          
 /* line 120, ../sass/cdp.scss */
 #documentList table.dataTable td {
   padding: 10px;
+  background: none !important;
 }
-/* line 125, ../sass/cdp.scss */
+/* line 126, ../sass/cdp.scss */
 #documentList a.download:before {
   position: absolute;
   margin-left: -35px;
@@ -133,35 +134,35 @@ ooooooooooooo                     oooo                                          
   height: 27px;
   background: url(https://rawgithub.com/carlosepp/CDP/master/img/word-icon.png);
 }
-/* line 133, ../sass/cdp.scss */
+/* line 134, ../sass/cdp.scss */
 #documentList table.dataTable tr.odd {
   background-color: transparent;
 }
-/* line 134, ../sass/cdp.scss */
+/* line 135, ../sass/cdp.scss */
 #documentList table.dataTable tr.even {
   background-color: transparent;
 }
-/* line 136, ../sass/cdp.scss */
+/* line 137, ../sass/cdp.scss */
 #documentList table.dataTable tr.odd td.sorting_1 {
   background-color: transparent;
 }
-/* line 137, ../sass/cdp.scss */
+/* line 138, ../sass/cdp.scss */
 #documentList table.dataTable tr.odd td.sorting_2 {
   background-color: transparent;
 }
-/* line 138, ../sass/cdp.scss */
+/* line 139, ../sass/cdp.scss */
 #documentList table.dataTable tr.odd td.sorting_3 {
   background-color: transparent;
 }
-/* line 139, ../sass/cdp.scss */
+/* line 140, ../sass/cdp.scss */
 #documentList table.dataTable tr.even td.sorting_1 {
   background-color: transparent;
 }
-/* line 140, ../sass/cdp.scss */
+/* line 141, ../sass/cdp.scss */
 #documentList table.dataTable tr.even td.sorting_2 {
   background-color: transparent;
 }
-/* line 141, ../sass/cdp.scss */
+/* line 142, ../sass/cdp.scss */
 #documentList table.dataTable tr.even td.sorting_3 {
   background-color: transparent;
 }

@@ -108,7 +108,7 @@ ooooooooooooo                     oooo                                          
 	}	
 
 	table.dataTable tr{
-		background: none;
+		background: none !important;
 		border-bottom: 1px solid #eee;
 	}
 	table.dataTable {
@@ -119,6 +119,7 @@ ooooooooooooo                     oooo                                          
 		}
 		td {
 			padding: 10px;
+			background:none !important;
 		}
 	}
 	a.download{
