@@ -29,14 +29,14 @@ ul.title-links li a {
   max-width: 100%;
 }
 /* line 29, ../sass/cdp.scss */
-.slider > tbody > tr:nth-of-type(1) {
+.slider table > tbody > tr:nth-of-type(1) {
   display: block;
   float: left;
   width: 500px;
   overflow: hidden;
 }
 /* line 35, ../sass/cdp.scss */
-.slider > tbody > tr:nth-of-type(2) {
+.slider table > tbody > tr:nth-of-type(2) {
   display: block;
   float: right;
   width: 222px;
