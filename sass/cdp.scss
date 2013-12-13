@@ -26,13 +26,13 @@ ul.title-links{
 	img{
 		max-width: 100%;
 	}
-	tr:first-child{
+	> tbody > tr:nth-of-type(1){
 		display: block;
 		float: left;
 		width: 500px;
 		overflow: hidden;
 	}
-	tr:nth-of-type(2){
+	> tbody > tr:nth-of-type(2){
 		display: block;
 		float: right;
 		width: 222px;
