@@ -127,13 +127,19 @@ table.dataTable .title {
   width: 320px;
 }
 
-/* line 126, ../sass/cdp.scss */
+/* line 127, ../sass/cdp.scss */
+div.h1-section1 {
+  background: #CF0072 !important;
+  width: 97.5% !important;
+}
+
+/* line 131, ../sass/cdp.scss */
 table.dataTable tr {
   background: none !important;
   border-bottom: 1px solid #eee;
 }
 
-/* line 131, ../sass/cdp.scss */
+/* line 136, ../sass/cdp.scss */
 a.download {
   width: 27px;
   height: 27px;
@@ -143,42 +149,42 @@ a.download {
   display: block;
 }
 
-/* line 139, ../sass/cdp.scss */
+/* line 144, ../sass/cdp.scss */
 table.dataTable tr.odd {
   background-color: transparent;
 }
 
-/* line 140, ../sass/cdp.scss */
+/* line 145, ../sass/cdp.scss */
 table.dataTable tr.even {
   background-color: transparent;
 }
 
-/* line 142, ../sass/cdp.scss */
+/* line 147, ../sass/cdp.scss */
 table.dataTable tr.odd td.sorting_1 {
   background-color: transparent;
 }
 
-/* line 143, ../sass/cdp.scss */
+/* line 148, ../sass/cdp.scss */
 table.dataTable tr.odd td.sorting_2 {
   background-color: transparent;
 }
 
-/* line 144, ../sass/cdp.scss */
+/* line 149, ../sass/cdp.scss */
 table.dataTable tr.odd td.sorting_3 {
   background-color: transparent;
 }
 
-/* line 145, ../sass/cdp.scss */
+/* line 150, ../sass/cdp.scss */
 table.dataTable tr.even td.sorting_1 {
   background-color: transparent;
 }
 
-/* line 146, ../sass/cdp.scss */
+/* line 151, ../sass/cdp.scss */
 table.dataTable tr.even td.sorting_2 {
   background-color: transparent;
 }
 
-/* line 147, ../sass/cdp.scss */
+/* line 152, ../sass/cdp.scss */
 table.dataTable tr.even td.sorting_3 {
   background-color: transparent;
 }
