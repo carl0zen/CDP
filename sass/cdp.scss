@@ -130,13 +130,13 @@ ooooooooooooo                     oooo                                          
 			background: url(https://rawgithub.com/carlosepp/CDP/master/img/word-icon.png);
 		}
 	}
-	table.dataTable tr.odd { background-color: none; }
-	table.dataTable tr.even { background-color: none; }
+	table.dataTable tr.odd { background-color: transparent; }
+	table.dataTable tr.even { background-color: transparent; }
 
-	table.dataTable tr.odd td.sorting_1 { background-color: none; }
-	table.dataTable tr.odd td.sorting_2 { background-color: none; }
-	table.dataTable tr.odd td.sorting_3 { background-color: none; }
-	table.dataTable tr.even td.sorting_1 { background-color: none; }
-	table.dataTable tr.even td.sorting_2 { background-color: none; }
-	table.dataTable tr.even td.sorting_3 { background-color: none; }
+	table.dataTable tr.odd td.sorting_1 { background-color: transparent; }
+	table.dataTable tr.odd td.sorting_2 { background-color: transparent; }
+	table.dataTable tr.odd td.sorting_3 { background-color: transparent; }
+	table.dataTable tr.even td.sorting_1 { background-color: transparent; }
+	table.dataTable tr.even td.sorting_2 { background-color: transparent; }
+	table.dataTable tr.even td.sorting_3 { background-color: transparent; }
 }
