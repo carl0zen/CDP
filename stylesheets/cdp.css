@@ -112,14 +112,14 @@ ooooooooooooo                     oooo                                          
 }
 
 /* line 113, ../sass/cdp.scss */
-table.dataTable:first-child {
+table.dataTable tr td:first-child {
   font-weight: bold;
   color: #858585;
   background: none !important;
 }
 /* line 118, ../sass/cdp.scss */
-table.dataTable td {
-  padding: 10px;
+table.dataTable tr td {
+  padding: 10px !important;
   background: none !important;
 }
 

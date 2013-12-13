@@ -110,13 +110,13 @@ ooooooooooooo                     oooo                                          
 	
 }
 table.dataTable {
-		&:first-child{
+		tr td:first-child{
 			font-weight: bold;
 			color: #858585;
 			background: none !important;
 		}
-		td {
-			padding: 10px;
+		tr td {
+			padding: 10px !important;
 			background:none !important;
 		}
 	}
