@@ -81,12 +81,15 @@ ooooooooooooo                     oooo                                          
 		z-index: 10;
 		position: relative;
 		color: #9B9B9B;
-		font-family: Segoe UI;
-		padding: 15px;
+		padding: 0;
+		margin: 15px 10px 0;
+		display: block;
 	}
 	
 }
-
+.dataTables_filter{
+	position: relative;
+}
 #documentList{
 	thead{
 		background: #eee;
@@ -94,17 +97,46 @@ ooooooooooooo                     oooo                                          
 		background: #eee;
 		border: none;
 		line-height: 27px;
+		th{
+			border: none;
+			font-size: 15px;
+			font-weight: normal;
+			line-height: 35px;
+			color: #bbb;
+			padding: 0 10px;
+		}
 	}	
+
+	table.dataTable tr{
+		background: none;
+		border-bottom: 1px solid #eee;
+	}
+	table.dataTable {
+		&:first-child{
+			font-weight: bold;
+			color: #858585;
+			background: none !important;
+		}
+		td {
+			padding: 10px;
+		}
+	}
+	a.download{
+		&:before{
+			position:absolute;
+			margin-left:-35px;
+			width:27px;
+			height:27px;
+			background: url(https://rawgithub.com/carlosepp/CDP/master/img/word-icon.png);
+		}
+	}
+	table.dataTable tr.odd { background-color: none; }
+	table.dataTable tr.even { background-color: none; }
+
+	table.dataTable tr.odd td.sorting_1 { background-color: none; }
+	table.dataTable tr.odd td.sorting_2 { background-color: none; }
+	table.dataTable tr.odd td.sorting_3 { background-color: none; }
+	table.dataTable tr.even td.sorting_1 { background-color: none; }
+	table.dataTable tr.even td.sorting_2 { background-color: none; }
+	table.dataTable tr.even td.sorting_3 { background-color: none; }
 }
-
-table tr, table td
-
-table.dataTable tr.odd { background-color: #E2E4FF; }
-table.dataTable tr.even { background-color: white; }
-
-table.dataTable tr.odd td.sorting_1 { background-color: #D3D6FF; }
-table.dataTable tr.odd td.sorting_2 { background-color: #DADCFF; }
-table.dataTable tr.odd td.sorting_3 { background-color: #E0E2FF; }
-table.dataTable tr.even td.sorting_1 { background-color: #EAEBFF; }
-table.dataTable tr.even td.sorting_2 { background-color: #F2F3FF; }
-table.dataTable tr.even td.sorting_3 { background-color: #F9F9FF; }
