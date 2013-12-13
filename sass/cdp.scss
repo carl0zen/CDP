@@ -107,7 +107,9 @@ ooooooooooooo                     oooo                                          
 		}
 	}	
 
-	table.dataTable tr{
+	
+}
+table.dataTable tr{
 		background: none !important;
 		border-bottom: 1px solid #eee;
 	}
@@ -140,4 +142,3 @@ ooooooooooooo                     oooo                                          
 	table.dataTable tr.even td.sorting_1 { background-color: transparent; }
 	table.dataTable tr.even td.sorting_2 { background-color: transparent; }
 	table.dataTable tr.even td.sorting_3 { background-color: transparent; }
-}

@@ -110,59 +110,70 @@ ooooooooooooo                     oooo                                          
   color: #bbb;
   padding: 0 10px;
 }
-/* line 110, ../sass/cdp.scss */
-#documentList table.dataTable tr {
+
+/* line 112, ../sass/cdp.scss */
+table.dataTable tr {
   background: none !important;
   border-bottom: 1px solid #eee;
 }
-/* line 115, ../sass/cdp.scss */
-#documentList table.dataTable:first-child {
+
+/* line 117, ../sass/cdp.scss */
+table.dataTable:first-child {
   font-weight: bold;
   color: #858585;
   background: none !important;
 }
-/* line 120, ../sass/cdp.scss */
-#documentList table.dataTable td {
+/* line 122, ../sass/cdp.scss */
+table.dataTable td {
   padding: 10px;
   background: none !important;
 }
-/* line 126, ../sass/cdp.scss */
-#documentList a.download:before {
+
+/* line 128, ../sass/cdp.scss */
+a.download:before {
   position: absolute;
   margin-left: -35px;
   width: 27px;
   height: 27px;
   background: url(https://rawgithub.com/carlosepp/CDP/master/img/word-icon.png);
 }
-/* line 134, ../sass/cdp.scss */
-#documentList table.dataTable tr.odd {
+
+/* line 136, ../sass/cdp.scss */
+table.dataTable tr.odd {
   background-color: transparent;
 }
-/* line 135, ../sass/cdp.scss */
-#documentList table.dataTable tr.even {
-  background-color: transparent;
-}
+
 /* line 137, ../sass/cdp.scss */
-#documentList table.dataTable tr.odd td.sorting_1 {
+table.dataTable tr.even {
   background-color: transparent;
 }
-/* line 138, ../sass/cdp.scss */
-#documentList table.dataTable tr.odd td.sorting_2 {
-  background-color: transparent;
-}
+
 /* line 139, ../sass/cdp.scss */
-#documentList table.dataTable tr.odd td.sorting_3 {
+table.dataTable tr.odd td.sorting_1 {
   background-color: transparent;
 }
+
 /* line 140, ../sass/cdp.scss */
-#documentList table.dataTable tr.even td.sorting_1 {
+table.dataTable tr.odd td.sorting_2 {
   background-color: transparent;
 }
+
 /* line 141, ../sass/cdp.scss */
-#documentList table.dataTable tr.even td.sorting_2 {
+table.dataTable tr.odd td.sorting_3 {
   background-color: transparent;
 }
+
 /* line 142, ../sass/cdp.scss */
-#documentList table.dataTable tr.even td.sorting_3 {
+table.dataTable tr.even td.sorting_1 {
+  background-color: transparent;
+}
+
+/* line 143, ../sass/cdp.scss */
+table.dataTable tr.even td.sorting_2 {
+  background-color: transparent;
+}
+
+/* line 144, ../sass/cdp.scss */
+table.dataTable tr.even td.sorting_3 {
   background-color: transparent;
 }
