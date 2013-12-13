@@ -15,3 +15,14 @@
   width: 66%;
   float: left;
 }
+
+/* line 16, ../sass/cdp.scss */
+.warning-sign {
+  background: #FFFF66;
+  padding: 10px;
+  margin: 20px 0;
+}
+/* line 20, ../sass/cdp.scss */
+.warning-sign h3 {
+  margin: 10px 0 20px 0;
+}
