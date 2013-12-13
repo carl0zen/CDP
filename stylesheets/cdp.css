@@ -136,44 +136,45 @@ a.download:before {
   width: 27px;
   height: 27px;
   background: url(https://raw.github.com/carlosepp/CDP/master/img/word-icon.png);
+  display: block;
 }
 
-/* line 137, ../sass/cdp.scss */
+/* line 138, ../sass/cdp.scss */
 table.dataTable tr.odd {
   background-color: transparent;
 }
 
-/* line 138, ../sass/cdp.scss */
+/* line 139, ../sass/cdp.scss */
 table.dataTable tr.even {
   background-color: transparent;
 }
 
-/* line 140, ../sass/cdp.scss */
+/* line 141, ../sass/cdp.scss */
 table.dataTable tr.odd td.sorting_1 {
   background-color: transparent;
 }
 
-/* line 141, ../sass/cdp.scss */
+/* line 142, ../sass/cdp.scss */
 table.dataTable tr.odd td.sorting_2 {
   background-color: transparent;
 }
 
-/* line 142, ../sass/cdp.scss */
+/* line 143, ../sass/cdp.scss */
 table.dataTable tr.odd td.sorting_3 {
   background-color: transparent;
 }
 
-/* line 143, ../sass/cdp.scss */
+/* line 144, ../sass/cdp.scss */
 table.dataTable tr.even td.sorting_1 {
   background-color: transparent;
 }
 
-/* line 144, ../sass/cdp.scss */
+/* line 145, ../sass/cdp.scss */
 table.dataTable tr.even td.sorting_2 {
   background-color: transparent;
 }
 
-/* line 145, ../sass/cdp.scss */
+/* line 146, ../sass/cdp.scss */
 table.dataTable tr.even td.sorting_3 {
   background-color: transparent;
 }
