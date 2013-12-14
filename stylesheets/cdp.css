@@ -50,15 +50,15 @@ ul.title-links li a {
 /* line 47, ../sass/cdp.scss */
 .welcome-text table > tbody > tr:nth-of-type(1) {
   display: block;
-  float: left;
-  width: 500px;
+  float: right;
+  width: 222px;
   overflow: hidden;
 }
 /* line 53, ../sass/cdp.scss */
 .welcome-text table > tbody > tr:nth-of-type(2) {
   display: block;
-  float: right;
-  width: 222px;
+  float: left;
+  width: 500px;
 }
 
 /**
