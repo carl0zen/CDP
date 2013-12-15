@@ -44,19 +44,25 @@ ul.title-links{
 }
 
 .welcome-text{
-	table > tbody >tr:nth-of-type(1){
+	> table > tbody >tr:nth-of-type(1){
 		display: block;
 		float: right;
 		width:222px;
 		overflow: hidden;
 	}
-	table > tbody > tr:nth-of-type(2){
+	> table > tbody > tr:nth-of-type(2){
 		display: block;
 		float: left;
 		width: 500px;
 	}
 }
+html body .rm-layout {
+	.tiles {
+		.purple {
 
+		}
+	}
+}
 
 /**
 
