@@ -23,6 +23,10 @@ ul.title-links{
 	ul.dfwp-column.dfwp-list{
 		width: 500px !important;
 		height: 250px;
+		li{
+			font-size: 11px;
+			line-height: 16px;
+		}
 	}
 	img{
 		max-width: 100%;
@@ -44,45 +48,55 @@ ul.title-links{
 }
 
 .welcome-text{
+	height: 158px;
 	> table > tbody >tr:nth-of-type(1){
 		display: block;
 		float: right;
-		width:222px;
+		width:242px;
 		overflow: hidden;
 	}
 	> table > tbody > tr:nth-of-type(2){
 		display: block;
 		float: left;
 		width: 500px;
+		padding: 10px 20px 10px 0px;
+	}
+	.ad{
+		background: #eee;
+		width: 300px;
+		clear: both;
+		padding: 20px;
+		height: 150px;
+		text-align: center;
+		display: table-cell;
+		vertical-align: middle;
 	}
 }
 html body .rm-layout {
 	.tiles {
-		.purple {
-
+		.purple, .orange, .blue{
+			height:200px;
 		}
+		.green{
+			float:left;
+			width:66.6%;
+		}
+		.yellow{
+			background: #FF9900;
+			float:right;
+			width:32.5%;
+			> table{
+				display: block;
+				padding: 27px;
+			}
+		}
+	}
+	p{
+		font-size: 12px;
 	}
 }
 .cbq-layout-main .dfwp-item .description{
 	@include clearfix();
-}
-html body .rm-layout .tiles{
-	.purple, .orange, .blue{
-		height:200px;
-	}
-	.green{
-		float:left;
-		width:66.6%;
-	}
-	.yellow{
-		background: #FF9900;
-		float:right;
-		width:32.5%;
-		> table{
-			display: block;
-			padding: 27px;
-		}
-	}
 }
 
 /**
