@@ -321,7 +321,13 @@ table.dataTable tr.even td.sorting_3 {
 }
 
 /* line 274, ../sass/cdp.scss */
-#compliance-review .ms-WPHeaderTd {
+#compliance-review .ms-WPHeader {
   background: #E2E2E2 !important;
   border: none !important;
+}
+/* line 277, ../sass/cdp.scss */
+#compliance-review .ms-WPHeader h3 {
+  margin: 10px 17px;
+  color: #333;
+  font-size: 16px;
 }
