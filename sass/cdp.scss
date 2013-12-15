@@ -13,7 +13,7 @@ ul.title-links{
 		padding: 11px 10px;
 		line-height: 14px;
 		a{
-			color: #333;
+			color: #333 !important;
 		}
 	}
 
@@ -72,13 +72,14 @@ html body .rm-layout .tiles{
 	}
 	.green{
 		float:left;
+		width:66.6%;
 	}
 	
 }
 .yellow{
 		background: #FF9900;
 		float:right;
-		width:33%;
+		width:33.3%;
 	}
 /**
 

@@ -17,7 +17,7 @@ ul.title-links li {
 }
 /* line 15, ../sass/cdp.scss */
 ul.title-links li a {
-  color: #333;
+  color: #333 !important;
 }
 
 /* line 23, ../sass/cdp.scss */
@@ -74,13 +74,14 @@ html body .rm-layout .tiles .purple, html body .rm-layout .tiles .orange, html b
 /* line 73, ../sass/cdp.scss */
 html body .rm-layout .tiles .green {
   float: left;
+  width: 66.6%;
 }
 
-/* line 78, ../sass/cdp.scss */
+/* line 79, ../sass/cdp.scss */
 .yellow {
   background: #FF9900;
   float: right;
-  width: 33%;
+  width: 33.3%;
 }
 
 /**
@@ -106,38 +107,38 @@ ooooooooooooo                     oooo                                          
                                     o888o                                                 
                                                                                
 **/
-/* line 108, ../sass/cdp.scss */
+/* line 109, ../sass/cdp.scss */
 .page-banner img {
   width: 100%;
 }
 
-/* line 112, ../sass/cdp.scss */
+/* line 113, ../sass/cdp.scss */
 .side-content {
   margin-top: 20px;
   width: 33%;
   float: right;
 }
 
-/* line 117, ../sass/cdp.scss */
+/* line 118, ../sass/cdp.scss */
 .page-content {
   width: 66%;
   float: left;
 }
 
-/* line 121, ../sass/cdp.scss */
+/* line 122, ../sass/cdp.scss */
 .warning-sign {
   background: #FFFF66;
   padding: 10px;
   margin: 20px 0;
 }
-/* line 125, ../sass/cdp.scss */
+/* line 126, ../sass/cdp.scss */
 .warning-sign h3 {
   margin: 10px 0 20px 0;
   color: #000;
 }
 
 /** Table Colors**/
-/* line 135, ../sass/cdp.scss */
+/* line 136, ../sass/cdp.scss */
 #documentList_wrapper:before {
   content: "";
   width: 100%;
@@ -146,12 +147,12 @@ ooooooooooooo                     oooo                                          
   position: absolute;
 }
 
-/* line 144, ../sass/cdp.scss */
+/* line 145, ../sass/cdp.scss */
 #documentList_filter label {
   font-size: 13px;
   color: #a2a2a2;
 }
-/* line 149, ../sass/cdp.scss */
+/* line 150, ../sass/cdp.scss */
 #documentList_filter input {
   width: auto;
   background: white;
@@ -163,7 +164,7 @@ ooooooooooooo                     oooo                                          
   color: #777;
 }
 
-/* line 161, ../sass/cdp.scss */
+/* line 162, ../sass/cdp.scss */
 #documentList_length label {
   z-index: 10;
   position: relative;
@@ -173,12 +174,12 @@ ooooooooooooo                     oooo                                          
   display: block;
 }
 
-/* line 171, ../sass/cdp.scss */
+/* line 172, ../sass/cdp.scss */
 .dataTables_filter {
   position: relative;
 }
 
-/* line 175, ../sass/cdp.scss */
+/* line 176, ../sass/cdp.scss */
 #documentList thead {
   background: #eee;
   border: none;
@@ -186,7 +187,7 @@ ooooooooooooo                     oooo                                          
   border: none;
   line-height: 27px;
 }
-/* line 181, ../sass/cdp.scss */
+/* line 182, ../sass/cdp.scss */
 #documentList thead th {
   border: none;
   font-size: 15px;
@@ -196,7 +197,7 @@ ooooooooooooo                     oooo                                          
   padding: 0 10px;
 }
 
-/* line 194, ../sass/cdp.scss */
+/* line 195, ../sass/cdp.scss */
 h4.ms-rteElement-H4B {
   background: #0C9DDE;
   color: white;
@@ -204,39 +205,39 @@ h4.ms-rteElement-H4B {
   font-style: normal;
 }
 
-/* line 201, ../sass/cdp.scss */
+/* line 202, ../sass/cdp.scss */
 table.dataTable tr td:first-child {
   font-weight: bold;
   color: #858585;
   background: none !important;
 }
-/* line 206, ../sass/cdp.scss */
+/* line 207, ../sass/cdp.scss */
 table.dataTable tr td {
   padding: 10px !important;
   background: none !important;
 }
-/* line 210, ../sass/cdp.scss */
+/* line 211, ../sass/cdp.scss */
 table.dataTable .title {
   width: 300px;
 }
-/* line 213, ../sass/cdp.scss */
+/* line 214, ../sass/cdp.scss */
 table.dataTable tr td:nth-of-type(3) {
   width: 100px;
 }
 
-/* line 218, ../sass/cdp.scss */
+/* line 219, ../sass/cdp.scss */
 div.h1-section1 {
   background: #CF0072 !important;
   width: 97.5% !important;
 }
 
-/* line 222, ../sass/cdp.scss */
+/* line 223, ../sass/cdp.scss */
 table.dataTable tr {
   background: none !important;
   border-bottom: 1px solid #eee;
 }
 
-/* line 227, ../sass/cdp.scss */
+/* line 228, ../sass/cdp.scss */
 a.download {
   width: 27px;
   height: 27px;
@@ -246,42 +247,42 @@ a.download {
   display: block;
 }
 
-/* line 235, ../sass/cdp.scss */
+/* line 236, ../sass/cdp.scss */
 table.dataTable tr.odd {
   background-color: transparent;
 }
 
-/* line 236, ../sass/cdp.scss */
+/* line 237, ../sass/cdp.scss */
 table.dataTable tr.even {
   background-color: transparent;
 }
 
-/* line 238, ../sass/cdp.scss */
+/* line 239, ../sass/cdp.scss */
 table.dataTable tr.odd td.sorting_1 {
   background-color: transparent;
 }
 
-/* line 239, ../sass/cdp.scss */
+/* line 240, ../sass/cdp.scss */
 table.dataTable tr.odd td.sorting_2 {
   background-color: transparent;
 }
 
-/* line 240, ../sass/cdp.scss */
+/* line 241, ../sass/cdp.scss */
 table.dataTable tr.odd td.sorting_3 {
   background-color: transparent;
 }
 
-/* line 241, ../sass/cdp.scss */
+/* line 242, ../sass/cdp.scss */
 table.dataTable tr.even td.sorting_1 {
   background-color: transparent;
 }
 
-/* line 242, ../sass/cdp.scss */
+/* line 243, ../sass/cdp.scss */
 table.dataTable tr.even td.sorting_2 {
   background-color: transparent;
 }
 
-/* line 243, ../sass/cdp.scss */
+/* line 244, ../sass/cdp.scss */
 table.dataTable tr.even td.sorting_3 {
   background-color: transparent;
 }
