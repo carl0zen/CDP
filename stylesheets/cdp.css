@@ -322,6 +322,6 @@ table.dataTable tr.even td.sorting_3 {
 
 /* line 274, ../sass/cdp.scss */
 #compliance-review .ms-WPHeaderTd {
-  background: #E2E2E2;
-  border: none;
+  background: #E2E2E2 !important;
+  border: none !important;
 }
