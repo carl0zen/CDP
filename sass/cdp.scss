@@ -1,4 +1,4 @@
-
+@import "compass/utilities";
 ul.title-links{
 	margin:0;
 	padding:0;
@@ -63,7 +63,9 @@ html body .rm-layout {
 		}
 	}
 }
-
+.cbq-layout-main .dfwp-item .description{
+	@include clearfix();
+}
 /**
 
 ooooooooooooo                     oooo                                          .o8  
