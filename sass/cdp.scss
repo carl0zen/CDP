@@ -269,15 +269,20 @@ table.dataTable tr{
 
 
 	//Compliance review
-
+	$cr-head-bg: #E2E2E2;
 	#compliance-review{
 		.ms-WPHeader{
-			background: #E2E2E2 !important;
+			background: $cr-head-bg !important;
 			border: none !important;
 			h3{
 				margin: 10px 17px;
 				color: #333;
 				font-size: 16px;
+
+			}
+			&:hover{
+				background: lighten($cr-head-bg, 10%);
+				cursor:pointer;
 			}
 		}	
 
