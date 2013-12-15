@@ -66,6 +66,19 @@ html body .rm-layout {
 .cbq-layout-main .dfwp-item .description{
 	@include clearfix();
 }
+html body .rm-layout .tiles{
+	.purple, .orange, .blue{
+		height:200px;
+	}
+	.green{
+		float:left;
+	}
+	.yellow{
+		background: yellow;
+		float:right;
+		width:33%;
+	}
+}
 /**
 
 ooooooooooooo                     oooo                                          .o8  
