@@ -74,13 +74,17 @@ html body .rm-layout .tiles{
 		float:left;
 		width:66.6%;
 	}
-	
-}
-.yellow{
+	.yellow{
 		background: #FF9900;
 		float:right;
-		width:33.3%;
+		width:32.5%;
+		> table{
+			display: block;
+			padding: 27px;
+		}
 	}
+}
+
 /**
 
 ooooooooooooo                     oooo                                          .o8  
