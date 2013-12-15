@@ -322,7 +322,7 @@ table.dataTable tr.even td.sorting_3 {
 
 /* line 274, ../sass/cdp.scss */
 #compliance-review .ms-WPHeader {
-  background: #e2e2e2 !important;
+  background: #f4f4f4 !important;
   border: none !important;
 }
 /* line 277, ../sass/cdp.scss */
@@ -333,6 +333,6 @@ table.dataTable tr.even td.sorting_3 {
 }
 /* line 283, ../sass/cdp.scss */
 #compliance-review .ms-WPHeader:hover {
-  background: #fbfbfb;
+  background: white;
   cursor: pointer;
 }
