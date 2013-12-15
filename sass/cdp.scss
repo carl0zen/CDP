@@ -1,4 +1,7 @@
 @import "compass/utilities";
+
+// WELCOME 
+
 ul.title-links{
 	margin:0;
 	padding:0;
@@ -263,3 +266,14 @@ table.dataTable tr{
 	table.dataTable tr.even td.sorting_1 { background-color: transparent; }
 	table.dataTable tr.even td.sorting_2 { background-color: transparent; }
 	table.dataTable tr.even td.sorting_3 { background-color: transparent; }
+
+
+	//Compliance and review
+
+	#compliance-review{
+		.ms-WPHeaderTd{
+			background: #E2E2E2;
+			border: none;
+		}	
+
+	}

@@ -1,9 +1,9 @@
-/* line 2, ../sass/cdp.scss */
+/* line 5, ../sass/cdp.scss */
 ul.title-links {
   margin: 0;
   padding: 0;
 }
-/* line 5, ../sass/cdp.scss */
+/* line 8, ../sass/cdp.scss */
 ul.title-links li {
   display: inline-block;
   list-style-type: none;
@@ -15,66 +15,66 @@ ul.title-links li {
   padding: 11px 10px;
   line-height: 14px;
 }
-/* line 15, ../sass/cdp.scss */
+/* line 18, ../sass/cdp.scss */
 ul.title-links li a {
   color: #333 !important;
 }
 
-/* line 23, ../sass/cdp.scss */
+/* line 26, ../sass/cdp.scss */
 .slider ul.dfwp-column.dfwp-list {
   width: 500px !important;
   height: 250px;
 }
-/* line 26, ../sass/cdp.scss */
+/* line 29, ../sass/cdp.scss */
 .slider ul.dfwp-column.dfwp-list li {
   font-size: 11px;
   line-height: 16px;
 }
-/* line 31, ../sass/cdp.scss */
+/* line 34, ../sass/cdp.scss */
 .slider img {
   max-width: 100%;
 }
-/* line 34, ../sass/cdp.scss */
+/* line 37, ../sass/cdp.scss */
 .slider table > tbody > tr:nth-of-type(1) {
   display: block;
   float: left;
   width: 500px;
   overflow: hidden;
 }
-/* line 40, ../sass/cdp.scss */
+/* line 43, ../sass/cdp.scss */
 .slider table > tbody > tr:nth-of-type(2) {
   display: block;
   float: right;
   width: 222px;
 }
-/* line 45, ../sass/cdp.scss */
+/* line 48, ../sass/cdp.scss */
 .slider #nav {
   right: 250px !important;
 }
-/* line 48, ../sass/cdp.scss */
+/* line 51, ../sass/cdp.scss */
 .slider .description {
   background-color: rgba(0, 153, 204, 0.9) !important;
 }
 
-/* line 53, ../sass/cdp.scss */
+/* line 56, ../sass/cdp.scss */
 .welcome-text {
   height: 158px;
 }
-/* line 55, ../sass/cdp.scss */
+/* line 58, ../sass/cdp.scss */
 .welcome-text > table > tbody > tr:nth-of-type(1) {
   display: block;
   float: right;
   width: 242px;
   overflow: hidden;
 }
-/* line 61, ../sass/cdp.scss */
+/* line 64, ../sass/cdp.scss */
 .welcome-text > table > tbody > tr:nth-of-type(2) {
   display: block;
   float: left;
   width: 500px;
   padding: 10px 20px 10px 0px;
 }
-/* line 67, ../sass/cdp.scss */
+/* line 70, ../sass/cdp.scss */
 .welcome-text .ad {
   background: #eee;
   width: 300px;
@@ -86,32 +86,32 @@ ul.title-links li a {
   vertical-align: middle;
 }
 
-/* line 80, ../sass/cdp.scss */
+/* line 83, ../sass/cdp.scss */
 html body .rm-layout .tiles .purple, html body .rm-layout .tiles .orange, html body .rm-layout .tiles .blue {
   height: 200px;
 }
-/* line 83, ../sass/cdp.scss */
+/* line 86, ../sass/cdp.scss */
 html body .rm-layout .tiles .green {
   float: left;
   width: 66.6%;
 }
-/* line 87, ../sass/cdp.scss */
+/* line 90, ../sass/cdp.scss */
 html body .rm-layout .tiles .yellow {
   background: #FF9900;
   float: right;
   width: 32.5%;
 }
-/* line 91, ../sass/cdp.scss */
+/* line 94, ../sass/cdp.scss */
 html body .rm-layout .tiles .yellow > table {
   display: block;
   padding: 27px;
 }
-/* line 97, ../sass/cdp.scss */
+/* line 100, ../sass/cdp.scss */
 html body .rm-layout p {
   font-size: 12px;
 }
 
-/* line 101, ../sass/cdp.scss */
+/* line 104, ../sass/cdp.scss */
 .cbq-layout-main .dfwp-item .description {
   overflow: hidden;
   *zoom: 1;
@@ -140,38 +140,38 @@ ooooooooooooo                     oooo                                          
                                     o888o                                                 
                                                                                
 **/
-/* line 130, ../sass/cdp.scss */
+/* line 133, ../sass/cdp.scss */
 .page-banner img {
   width: 100%;
 }
 
-/* line 134, ../sass/cdp.scss */
+/* line 137, ../sass/cdp.scss */
 .side-content {
   margin-top: 20px;
   width: 33%;
   float: right;
 }
 
-/* line 139, ../sass/cdp.scss */
+/* line 142, ../sass/cdp.scss */
 .page-content {
   width: 66%;
   float: left;
 }
 
-/* line 143, ../sass/cdp.scss */
+/* line 146, ../sass/cdp.scss */
 .warning-sign {
   background: #FFFF66;
   padding: 10px;
   margin: 20px 0;
 }
-/* line 147, ../sass/cdp.scss */
+/* line 150, ../sass/cdp.scss */
 .warning-sign h3 {
   margin: 10px 0 20px 0;
   color: #000;
 }
 
 /** Table Colors**/
-/* line 157, ../sass/cdp.scss */
+/* line 160, ../sass/cdp.scss */
 #documentList_wrapper:before {
   content: "";
   width: 100%;
@@ -180,12 +180,12 @@ ooooooooooooo                     oooo                                          
   position: absolute;
 }
 
-/* line 166, ../sass/cdp.scss */
+/* line 169, ../sass/cdp.scss */
 #documentList_filter label {
   font-size: 13px;
   color: #a2a2a2;
 }
-/* line 171, ../sass/cdp.scss */
+/* line 174, ../sass/cdp.scss */
 #documentList_filter input {
   width: auto;
   background: white;
@@ -197,7 +197,7 @@ ooooooooooooo                     oooo                                          
   color: #777;
 }
 
-/* line 183, ../sass/cdp.scss */
+/* line 186, ../sass/cdp.scss */
 #documentList_length label {
   z-index: 10;
   position: relative;
@@ -207,12 +207,12 @@ ooooooooooooo                     oooo                                          
   display: block;
 }
 
-/* line 193, ../sass/cdp.scss */
+/* line 196, ../sass/cdp.scss */
 .dataTables_filter {
   position: relative;
 }
 
-/* line 197, ../sass/cdp.scss */
+/* line 200, ../sass/cdp.scss */
 #documentList thead {
   background: #eee;
   border: none;
@@ -220,7 +220,7 @@ ooooooooooooo                     oooo                                          
   border: none;
   line-height: 27px;
 }
-/* line 203, ../sass/cdp.scss */
+/* line 206, ../sass/cdp.scss */
 #documentList thead th {
   border: none;
   font-size: 15px;
@@ -230,7 +230,7 @@ ooooooooooooo                     oooo                                          
   padding: 0 10px;
 }
 
-/* line 216, ../sass/cdp.scss */
+/* line 219, ../sass/cdp.scss */
 h4.ms-rteElement-H4B {
   background: #0C9DDE;
   color: white;
@@ -238,39 +238,39 @@ h4.ms-rteElement-H4B {
   font-style: normal;
 }
 
-/* line 223, ../sass/cdp.scss */
+/* line 226, ../sass/cdp.scss */
 table.dataTable tr td:first-child {
   font-weight: bold;
   color: #858585;
   background: none !important;
 }
-/* line 228, ../sass/cdp.scss */
+/* line 231, ../sass/cdp.scss */
 table.dataTable tr td {
   padding: 10px !important;
   background: none !important;
 }
-/* line 232, ../sass/cdp.scss */
+/* line 235, ../sass/cdp.scss */
 table.dataTable .title {
   width: 300px;
 }
-/* line 235, ../sass/cdp.scss */
+/* line 238, ../sass/cdp.scss */
 table.dataTable tr td:nth-of-type(3) {
   width: 100px;
 }
 
-/* line 240, ../sass/cdp.scss */
+/* line 243, ../sass/cdp.scss */
 div.h1-section1 {
   background: #CF0072 !important;
   width: 97.5% !important;
 }
 
-/* line 244, ../sass/cdp.scss */
+/* line 247, ../sass/cdp.scss */
 table.dataTable tr {
   background: none !important;
   border-bottom: 1px solid #eee;
 }
 
-/* line 249, ../sass/cdp.scss */
+/* line 252, ../sass/cdp.scss */
 a.download {
   width: 27px;
   height: 27px;
@@ -280,42 +280,48 @@ a.download {
   display: block;
 }
 
-/* line 257, ../sass/cdp.scss */
+/* line 260, ../sass/cdp.scss */
 table.dataTable tr.odd {
   background-color: transparent;
 }
 
-/* line 258, ../sass/cdp.scss */
+/* line 261, ../sass/cdp.scss */
 table.dataTable tr.even {
   background-color: transparent;
 }
 
-/* line 260, ../sass/cdp.scss */
+/* line 263, ../sass/cdp.scss */
 table.dataTable tr.odd td.sorting_1 {
   background-color: transparent;
 }
 
-/* line 261, ../sass/cdp.scss */
+/* line 264, ../sass/cdp.scss */
 table.dataTable tr.odd td.sorting_2 {
   background-color: transparent;
 }
 
-/* line 262, ../sass/cdp.scss */
+/* line 265, ../sass/cdp.scss */
 table.dataTable tr.odd td.sorting_3 {
   background-color: transparent;
 }
 
-/* line 263, ../sass/cdp.scss */
+/* line 266, ../sass/cdp.scss */
 table.dataTable tr.even td.sorting_1 {
   background-color: transparent;
 }
 
-/* line 264, ../sass/cdp.scss */
+/* line 267, ../sass/cdp.scss */
 table.dataTable tr.even td.sorting_2 {
   background-color: transparent;
 }
 
-/* line 265, ../sass/cdp.scss */
+/* line 268, ../sass/cdp.scss */
 table.dataTable tr.even td.sorting_3 {
   background-color: transparent;
+}
+
+/* line 274, ../sass/cdp.scss */
+#compliance-review .ms-WPHeaderTd {
+  background: #E2E2E2;
+  border: none;
 }
