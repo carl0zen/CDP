@@ -336,3 +336,7 @@ table.dataTable tr.even td.sorting_3 {
   background: white;
   cursor: pointer;
 }
+/* line 288, ../sass/cdp.scss */
+#compliance-review p {
+  margin: 15px 0;
+}
