@@ -376,13 +376,19 @@ table.dataTable tr.even td.sorting_3 {
 }
 /* line 320, ../sass/cdp.scss */
 #flow .disabled:hover {
-  background: #f6f6f6;
+  background: #E2E2E2;
 }
 /* line 324, ../sass/cdp.scss */
 #flow .activities {
   margin: 20px 0;
 }
 /* line 327, ../sass/cdp.scss */
+#flow .activities-for-level {
+  height: 104px;
+  width: 100%;
+  border: none;
+}
+/* line 332, ../sass/cdp.scss */
 #flow .block {
   background: #e3e3e3;
   display: block;
@@ -392,7 +398,7 @@ table.dataTable tr.even td.sorting_3 {
   font-size: 12px;
   float: left;
 }
-/* line 337, ../sass/cdp.scss */
+/* line 342, ../sass/cdp.scss */
 #flow .arrow-right {
   width: 11px;
   height: 17px;
@@ -401,7 +407,7 @@ table.dataTable tr.even td.sorting_3 {
   margin: 20px;
   margin-top: 37px;
 }
-/* line 345, ../sass/cdp.scss */
+/* line 350, ../sass/cdp.scss */
 #flow i {
   width: 11px;
   background: url(https://at.avanade.com/organizations/CDPProgram/SiteAssets/img/arrow-right.png);

@@ -318,11 +318,16 @@ table.dataTable tr{
 				background: #666;
 			}
 			&:hover{
-				background: #f6f6f6;
+				background: #E2E2E2;
 			}
 		}
 		.activities{
 			margin:20px 0;
+		}
+		.activities-for-level{
+			height:104px;
+			width: 100%;
+			border: none;
 		}
 		.block{
 			background: #e3e3e3;
