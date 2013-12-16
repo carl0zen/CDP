@@ -329,7 +329,7 @@ table.dataTable tr{
 			border: none;
 			li{
 				height:104px;
-
+				max-width: 100%;
 			}
 			.label{
 				float: left;
@@ -348,7 +348,8 @@ table.dataTable tr{
 			text-align: center;
 			font-size: 12px;
 			float: left;
-
+			color: #666;
+			font-weight: normal;
 		}
 		.arrow-right{
 			width: 11px;

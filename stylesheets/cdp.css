@@ -390,6 +390,7 @@ table.dataTable tr.even td.sorting_3 {
 /* line 330, ../sass/cdp.scss */
 #flow .activities-for-level li {
   height: 104px;
+  max-width: 100%;
 }
 /* line 334, ../sass/cdp.scss */
 #flow .activities-for-level .label {
@@ -409,8 +410,10 @@ table.dataTable tr.even td.sorting_3 {
   text-align: center;
   font-size: 12px;
   float: left;
+  color: #666;
+  font-weight: normal;
 }
-/* line 353, ../sass/cdp.scss */
+/* line 354, ../sass/cdp.scss */
 #flow .arrow-right {
   width: 11px;
   height: 17px;
@@ -419,7 +422,7 @@ table.dataTable tr.even td.sorting_3 {
   margin: 20px;
   margin-top: 37px;
 }
-/* line 361, ../sass/cdp.scss */
+/* line 362, ../sass/cdp.scss */
 #flow i {
   width: 11px;
   background: url(https://at.avanade.com/organizations/CDPProgram/SiteAssets/img/arrow-right.png);
