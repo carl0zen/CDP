@@ -325,9 +325,12 @@ table.dataTable tr{
 			margin:20px 0;
 		}
 		.activities-for-level{
-			height:104px;
 			width: 100%;
 			border: none;
+			li{
+				height:104px;
+
+			}
 			.label{
 				float: left;
 				margin-top: 35px;
