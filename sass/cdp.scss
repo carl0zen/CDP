@@ -328,6 +328,14 @@ table.dataTable tr{
 			height:104px;
 			width: 100%;
 			border: none;
+			.label{
+				float: left;
+				margin-top: 35px;
+				margin-right: -10px;
+				margin-left: 10px;
+				color: #666;
+				font-weight: normal;
+			}
 		}
 		.block{
 			background: #e3e3e3;
