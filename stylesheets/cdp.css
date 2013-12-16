@@ -403,5 +403,6 @@ table.dataTable tr.even td.sorting_3 {
 }
 /* line 345, ../sass/cdp.scss */
 #flow i {
+  width: 11px;
   background: url(https://at.avanade.com/organizations/CDPProgram/SiteAssets/img/arrow-right.png);
 }
