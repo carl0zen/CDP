@@ -390,10 +390,14 @@ table.dataTable tr.even td.sorting_3 {
 }
 /* line 334, ../sass/cdp.scss */
 #flow .arrow-right {
-  width: 12px;
+  width: 11px;
   height: 17px;
   float: left;
   background: url(https://at.avanade.com/organizations/CDPProgram/SiteAssets/img/arrow-right.png);
   margin: 20px;
   margin-top: 37px;
+}
+/* line 342, ../sass/cdp.scss */
+#flow i {
+  background: url(https://at.avanade.com/organizations/CDPProgram/SiteAssets/img/arrow-right.png);
 }
