@@ -313,8 +313,26 @@ table.dataTable tr{
 			}
 		}
 		.disabled{
+			cursor:default;
 			.number{
 				background: #666;
 			}
+		}
+		.activities{
+			margin:20px 0;
+		}
+		.block{
+			background: #e3e3e3;
+			display: block;
+			width: 190px;
+			padding: 30px 20px;
+			text-align: center;
+			font-size: 12px;
+			float: left;
+		}
+		.arrow-right{
+			width: 12px;
+			height: 17px;
+			float: left;
 		}
 	}

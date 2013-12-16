@@ -366,7 +366,31 @@ table.dataTable tr.even td.sorting_3 {
 #flow .roles button.pink {
   background: #d41980 !important;
 }
-/* line 316, ../sass/cdp.scss */
+/* line 315, ../sass/cdp.scss */
+#flow .disabled {
+  cursor: default;
+}
+/* line 317, ../sass/cdp.scss */
 #flow .disabled .number {
   background: #666;
+}
+/* line 321, ../sass/cdp.scss */
+#flow .activities {
+  margin: 20px 0;
+}
+/* line 324, ../sass/cdp.scss */
+#flow .block {
+  background: #e3e3e3;
+  display: block;
+  width: 190px;
+  padding: 30px 20px;
+  text-align: center;
+  font-size: 12px;
+  float: left;
+}
+/* line 333, ../sass/cdp.scss */
+#flow .arrow-right {
+  width: 12px;
+  height: 17px;
+  float: left;
 }
