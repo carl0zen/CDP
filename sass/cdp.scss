@@ -330,6 +330,10 @@ table.dataTable tr{
 			li{
 				height:104px;
 				max-width: 100%;
+				&:before{
+					height: 11px;
+					left: 87px;
+				}
 			}
 			.label{
 				float: left;
@@ -350,6 +354,12 @@ table.dataTable tr{
 			float: left;
 			color: #666;
 			font-weight: normal;
+			&.diamond{
+				background: url(https://at.avanade.com/organizations/CDPProgram/SiteAssets/img/diamond.png);
+				height: 130px;
+				padding: 42px 31px;
+				margin-top: -20px;
+			}
 		}
 		.arrow-right{
 			width: 11px;
