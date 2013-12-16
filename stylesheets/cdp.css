@@ -352,17 +352,21 @@ table.dataTable tr.even td.sorting_3 {
 }
 /* line 309, ../sass/cdp.scss */
 #flow .roles button.green {
-  background: #238622;
+  background: #238622 !important;
 }
 /* line 310, ../sass/cdp.scss */
 #flow .roles button.orange {
-  background: #ff6633;
+  background: #ff6633 !important;
 }
 /* line 311, ../sass/cdp.scss */
 #flow .roles button.blue {
-  background: #008dc4;
+  background: #008dc4 !important;
 }
 /* line 312, ../sass/cdp.scss */
 #flow .roles button.pink {
-  background: #d41980;
+  background: #d41980 !important;
+}
+/* line 316, ../sass/cdp.scss */
+#flow .disabled .number {
+  background: #666;
 }

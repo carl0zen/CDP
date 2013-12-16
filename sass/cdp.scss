@@ -306,10 +306,15 @@ table.dataTable tr{
 				}
 			}
 			button{
-				&.green {background: $green}
-				&.orange {background: $orange}
-				&.blue {background: $blue}
-				&.pink {background: $pink}
+				&.green {background: $green !important}
+				&.orange {background: $orange !important}
+				&.blue {background: $blue !important}
+				&.pink {background: $pink !important}
+			}
+		}
+		.disabled{
+			.number{
+				background: #666;
 			}
 		}
 	}

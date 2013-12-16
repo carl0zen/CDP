@@ -1,18 +1,20 @@
-<%@ Page language="C#"   Inherits="Microsoft.SharePoint.Publishing.PublishingLayoutPage,Microsoft.SharePoint.Publishing,Version=14.0.0.0,Culture=neutral,PublicKeyToken=71e9bce111e9429c" meta:progid="SharePoint.WebPartPage.Document" meta:webpartpageexpansion="full" %>
+<%@ Page language="C#"   Inherits="Microsoft.SharePoint.Publishing.PublishingLayoutPage,Microsoft.SharePoint.Publishing,Version=14.0.0.0,Culture=neutral,PublicKeyToken=71e9bce111e9429c" meta:progid="SharePoint.WebPartPage.Document" %>
 <%@ Register Tagprefix="SharePointWebControls" Namespace="Microsoft.SharePoint.WebControls" Assembly="Microsoft.SharePoint, Version=14.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c" %> <%@ Register Tagprefix="WebPartPages" Namespace="Microsoft.SharePoint.WebPartPages" Assembly="Microsoft.SharePoint, Version=14.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c" %> <%@ Register Tagprefix="PublishingWebControls" Namespace="Microsoft.SharePoint.Publishing.WebControls" Assembly="Microsoft.SharePoint.Publishing, Version=14.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c" %> <%@ Register Tagprefix="PublishingNavigation" Namespace="Microsoft.SharePoint.Publishing.Navigation" Assembly="Microsoft.SharePoint.Publishing, Version=14.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c" %>
 <asp:Content ContentPlaceholderID="PlaceHolderPageTitle" runat="server">
-	<SharePointWebControls:FieldValue id="PageTitle" FieldName="Title" runat="server"/>
+    <SharePointWebControls:FieldValue id="PageTitle" FieldName="Title" runat="server"/>
 </asp:Content>
 
 <asp:Content ContentPlaceholderID="PlaceHolderAdditionalPageHead" runat="server">
-	<link href="https://at.avanade.com/sites/CustomerRecordsManagement/Style%20Library/css/RMLayouts.css" type="text/css" rel="stylesheet" />	
-	<!--[if IE]>
-		<link href="https://at.avanade.com/sites/CustomerRecordsManagement/Style%20Library/css/ie.css" type="text/css" rel="stylesheet" />
-    <![endif]-->	
-	<style type="text/css">	
-		html body #s4-leftpanel{display:none;}
-		html .s4-ca{margin-left:0}		
-		/* SECTIONS */
+    <link href="https://at.avanade.com/sites/CustomerRecordsManagement/Style%20Library/css/RMLayouts.css" type="text/css" rel="stylesheet" />
+    
+    
+    <!--[if IE]>
+        <link href="https://at.avanade.com/sites/CustomerRecordsManagement/Style%20Library/css/ie.css" type="text/css" rel="stylesheet" />
+    <![endif]-->    
+    <style type="text/css"> 
+        html body #s4-leftpanel{display:none;}
+        html .s4-ca{margin-left:0}      
+        /* SECTIONS */
         .sections {
             margin: 0px !important;
             border-bottom: solid 1px #ccc;
@@ -97,8 +99,8 @@
         html body .flow .roles li button#contract-leader2,
         html body #tab2 .tab-2 .breadcrumb,
         html body #tab3 .inner-tab-2 .breadcrumb{
-        	background:#FD5500
-		}
+            background:#FD5500
+        }
 
         .flow .roles li button img{
             margin: 10% 0;
@@ -381,54 +383,55 @@
             display: block;
         }
         html body .flow li.last-child{
-        	margin-right:0px;
-		}
+            margin-right:0px;
+        }
 
-	</style>
+    </style>
+    <link href="https://rawgithub.com/carlosepp/CDP/master/stylesheets/cdp.css" type="text/css" rel="stylesheet"/>
 </asp:Content>
 <asp:Content ContentPlaceholderID="PlaceHolderMain" runat="server">
 
 <WebPartPages:SPProxyWebPartManager runat="server" id="spproxywebpartmanager"></WebPartPages:SPProxyWebPartManager>
 
-<div class="rm-layout GenericLayout Flow">
-	<div class="content-information">
-		<h1>
-			<SharePointWebControls:FieldValue id="PageTitleInContent" FieldName="Title" runat="server"/>
-		</h1>
-		<PublishingWebControls:RichHtmlField id="PageContent" FieldName="PublishingPageContent" runat="server"/>
-	</div>
-	<div class="side-bar">
-		<div class="subcol-inner ms-rteStyle-Comment"> 
-	    	<!-- Begin Sub Column Content -->
-			<h2>
-				Customer RM Programs
-			</h2>
-			 <div class="left-menu-custom"></div>
-				<script>
-		        		jQuery(document).ready(function(){
-		        			var QuickLaunch = jQuery(".s4-ql").html();
-		        			jQuery(".left-menu-custom").html(QuickLaunch);
-		        		});
-		        </script>
-	        <div class="banner-sidebar">
-	        	<PublishingWebControls:RichImageField id="ImageField" FieldName="PublishingPageImage" runat="server"/>
-	        </div>
-	    </div> 	    
-	</div>
+<div class="rm-layout GenericLayout Flow" id="flow">
+    <div class="content-information">
+        <h1>
+            <SharePointWebControls:FieldValue id="PageTitleInContent" FieldName="Title" runat="server"/>
+        </h1>
+        <PublishingWebControls:RichHtmlField id="PageContent" FieldName="PublishingPageContent" runat="server"/>
+    </div>
+    <div class="side-bar">
+        <div class="subcol-inner ms-rteStyle-Comment"> 
+            <!-- Begin Sub Column Content -->
+            <h2>
+                Customer RM Programs
+            </h2>
+             <div class="left-menu-custom"></div>
+                <script>
+                        jQuery(document).ready(function(){
+                            var QuickLaunch = jQuery(".s4-ql").html();
+                            jQuery(".left-menu-custom").html(QuickLaunch);
+                        });
+                </script>
+            <div class="banner-sidebar">
+                <PublishingWebControls:RichImageField id="ImageField" FieldName="PublishingPageImage" runat="server"/>
+            </div>
+        </div>      
+    </div>
 
 </div>
   <script type="text/javascript">
             jQuery( document ).ready(function() { 
-            	
-            	function lastli(){
-				    jQuery('ul li').last().addClass('last');
-				    document.body.focus();
-				}				
-				lastli();
-				
-				
-				jQuery(".flow ul li:last-child").addClass("last-child").css("margin-bottom","0");
-       			
+                
+                function lastli(){
+                    jQuery('ul li').last().addClass('last');
+                    document.body.focus();
+                }               
+                lastli();
+                
+                
+                jQuery(".flow ul li:last-child").addClass("last-child").css("margin-bottom","0");
+                
                 /* Functions */
                 function addActiveSecond(){
                     jQuery(".sections li:nth-child(2)").addClass("active");
