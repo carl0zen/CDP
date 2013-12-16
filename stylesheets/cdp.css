@@ -343,26 +343,26 @@ table.dataTable tr.even td.sorting_3 {
 
 /** FLOWS **/
 /* line 302, ../sass/cdp.scss */
-#flow .roles li {
-  width: 23.5%;
+.flow .roles li {
+  width: 23.5% !important;
 }
 /* line 304, ../sass/cdp.scss */
-#flow .roles li img {
+.flow .roles li img {
   margin: 0;
 }
 /* line 309, ../sass/cdp.scss */
-#flow .roles button.green {
+.flow .roles button.green {
   background: #238622;
 }
 /* line 310, ../sass/cdp.scss */
-#flow .roles button.orange {
+.flow .roles button.orange {
   background: #ff6633;
 }
 /* line 311, ../sass/cdp.scss */
-#flow .roles button.blue {
+.flow .roles button.blue {
   background: #008dc4;
 }
 /* line 312, ../sass/cdp.scss */
-#flow .roles button.pink {
+.flow .roles button.pink {
   background: #d41980;
 }

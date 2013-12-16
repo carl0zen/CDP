@@ -297,10 +297,10 @@ table.dataTable tr{
 	$blue: #008DC4;
 	$pink: #D41980;
 
-	#flow{
+	.flow{
 		.roles{
 			li{
-				width: 23.5%;
+				width: 23.5% !important;
 				img{
 					margin:0;
 				}
