@@ -376,7 +376,7 @@ table.dataTable tr.even td.sorting_3 {
 }
 /* line 320, ../sass/cdp.scss */
 #flow .disabled:hover {
-  background: #666;
+  background: #f6f6f6;
 }
 /* line 324, ../sass/cdp.scss */
 #flow .activities {
