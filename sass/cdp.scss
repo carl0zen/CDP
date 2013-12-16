@@ -290,3 +290,26 @@ table.dataTable tr{
 		}
 
 	}
+
+	/** FLOWS **/
+	$green: #238622;
+	$orange: #FF6633;
+	$blue: #008DC4;
+	$pink: #D41980;
+
+	#flows{
+		.roles{
+			li{
+				width: 23.5%;
+				img{
+					margin:0;
+				}
+			}
+			button{
+				&.green {background: $green}
+				&.orange {background: $orange}
+				&.blue {background: $blue}
+				&.pink {background: $pink}
+			}
+		}
+	}

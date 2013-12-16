@@ -7,7 +7,7 @@ ul.title-links {
 ul.title-links li {
   display: inline-block;
   list-style-type: none;
-  border: 1px solid #999;
+  border: 1px solid #999999;
   margin: 4px;
   width: 82px;
   height: 64px;
@@ -17,7 +17,7 @@ ul.title-links li {
 }
 /* line 18, ../sass/cdp.scss */
 ul.title-links li a {
-  color: #333 !important;
+  color: #333333 !important;
 }
 
 /* line 26, ../sass/cdp.scss */
@@ -260,14 +260,14 @@ table.dataTable tr td:nth-of-type(3) {
 
 /* line 243, ../sass/cdp.scss */
 div.h1-section1 {
-  background: #CF0072 !important;
+  background: #cf0072 !important;
   width: 97.5% !important;
 }
 
 /* line 247, ../sass/cdp.scss */
 table.dataTable tr {
   background: none !important;
-  border-bottom: 1px solid #eee;
+  border-bottom: 1px solid #eeeeee;
 }
 
 /* line 252, ../sass/cdp.scss */
@@ -339,4 +339,30 @@ table.dataTable tr.even td.sorting_3 {
 /* line 288, ../sass/cdp.scss */
 #compliance-review p {
   margin: 15px 0;
+}
+
+/** FLOWS **/
+/* line 302, ../sass/cdp.scss */
+#flows .roles li {
+  width: 23.5%;
+}
+/* line 304, ../sass/cdp.scss */
+#flows .roles li img {
+  margin: 0;
+}
+/* line 309, ../sass/cdp.scss */
+#flows .roles button.green {
+  background: #238622;
+}
+/* line 310, ../sass/cdp.scss */
+#flows .roles button.orange {
+  background: #ff6633;
+}
+/* line 311, ../sass/cdp.scss */
+#flows .roles button.blue {
+  background: #008dc4;
+}
+/* line 312, ../sass/cdp.scss */
+#flows .roles button.pink {
+  background: #d41980;
 }
