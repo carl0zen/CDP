@@ -424,8 +424,9 @@ table.dataTable tr.even td.sorting_3 {
   height: 130px;
   padding: 42px 31px;
   margin-top: -20px;
+  width: 130px;
 }
-/* line 364, ../sass/cdp.scss */
+/* line 365, ../sass/cdp.scss */
 #flow .arrow-right {
   width: 11px;
   height: 17px;
@@ -434,7 +435,7 @@ table.dataTable tr.even td.sorting_3 {
   margin: 20px;
   margin-top: 37px;
 }
-/* line 372, ../sass/cdp.scss */
+/* line 373, ../sass/cdp.scss */
 #flow i {
   width: 11px;
   background: url(https://at.avanade.com/organizations/CDPProgram/SiteAssets/img/arrow-right.png);
