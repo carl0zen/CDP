@@ -483,12 +483,12 @@ table.dataTable tr{
 				text-decoration: underline;
 			}
 			&.multi-arrow{
-				margin:30px;
+				margin: 0 65px;
 				&:before{
-					background: url(https://at.avanade.com/organizations/CDPProgram/SiteAssets/img/flow-multiarrows.png);
+					background: url(https://at.avanade.com/organizations/CDPProgram/SiteAssets/img/flow-multiarrows.png) no-repeat;
 					position: absolute;
 					width: 147px;
-					height: 563px;
+					height: 570px;
 					z-index: 10;
 					left: 199px;
 					content: '';
