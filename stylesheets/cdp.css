@@ -486,7 +486,20 @@ table.dataTable tr.even td.sorting_3 {
   position: absolute;
   width: 17px;
 }
-/* line 425, ../sass/cdp.scss */
+/* line 424, ../sass/cdp.scss */
+#flow .list.inverted {
+  position: absolute;
+  bottom: 0;
+}
+/* line 427, ../sass/cdp.scss */
+#flow .list.inverted li:before {
+  background: url("https://at.avanade.com/sites/CustomerRecordsManagement/Style%20Library/img/arrow-up.png");
+}
+/* line 429, ../sass/cdp.scss */
+#flow .list.inverted li:before:last-child {
+  background: url("https://at.avanade.com/sites/CustomerRecordsManagement/Style%20Library/img/arrow-up-blue.png");
+}
+/* line 434, ../sass/cdp.scss */
 #flow .block {
   background: #e3e3e3;
   display: block;
@@ -498,7 +511,7 @@ table.dataTable tr.even td.sorting_3 {
   color: #666;
   font-weight: normal;
 }
-/* line 435, ../sass/cdp.scss */
+/* line 444, ../sass/cdp.scss */
 #flow .block.diamond {
   background: url(https://at.avanade.com/organizations/CDPProgram/SiteAssets/img/diamond.png);
   height: 130px;
@@ -506,20 +519,20 @@ table.dataTable tr.even td.sorting_3 {
   margin-top: -20px;
   width: 130px;
 }
-/* line 442, ../sass/cdp.scss */
+/* line 451, ../sass/cdp.scss */
 #flow .block.center {
   margin-left: 240px;
 }
-/* line 445, ../sass/cdp.scss */
+/* line 454, ../sass/cdp.scss */
 #flow .block.blue {
   color: white;
   background: #008DC4;
 }
-/* line 449, ../sass/cdp.scss */
+/* line 458, ../sass/cdp.scss */
 #flow .block.multi-arrow {
   margin: 30px;
 }
-/* line 451, ../sass/cdp.scss */
+/* line 460, ../sass/cdp.scss */
 #flow .block.multi-arrow:before {
   background: url(https://at.avanade.com/organizations/CDPProgram/SiteAssets/img/flow-multiarrows.png);
   position: absolute;
@@ -530,7 +543,7 @@ table.dataTable tr.even td.sorting_3 {
   content: '';
   top: -90px;
 }
-/* line 463, ../sass/cdp.scss */
+/* line 472, ../sass/cdp.scss */
 #flow .arrow-right {
   width: 11px;
   height: 17px;
@@ -539,7 +552,7 @@ table.dataTable tr.even td.sorting_3 {
   margin: 20px;
   margin-top: 37px;
 }
-/* line 471, ../sass/cdp.scss */
+/* line 480, ../sass/cdp.scss */
 #flow i {
   width: 11px;
   background: url(https://at.avanade.com/organizations/CDPProgram/SiteAssets/img/arrow-right.png);

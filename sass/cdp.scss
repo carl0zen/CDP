@@ -421,6 +421,15 @@ table.dataTable tr{
 					}
 				}
 			}
+			&.inverted{
+				position: absolute; bottom:0;
+			}
+			&.inverted li:before{
+				background: url("https://at.avanade.com/sites/CustomerRecordsManagement/Style%20Library/img/arrow-up.png");
+				&:last-child{
+					background: url("https://at.avanade.com/sites/CustomerRecordsManagement/Style%20Library/img/arrow-up-blue.png");
+				}
+			}
 		}
 		.block{
 			background: #e3e3e3;
