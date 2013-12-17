@@ -363,11 +363,11 @@ table.dataTable tr{
 			margin-left: 34px;
 			&:before{
 				background: url("https://at.avanade.com/sites/CustomerRecordsManagement/Style%20Library/img/flow-arrow-down.png");
-				top: -23px;
+				top: -76px;
 				content: "";
 				display: block;
 				height: 11px;
-				left: 47.5%;
+				right: 115px;
 				position: absolute;
 				width: 17px;
 			}
@@ -379,13 +379,13 @@ table.dataTable tr{
 			width:190px;
 			&:before{
 				background: url("https://at.avanade.com/sites/CustomerRecordsManagement/Style%20Library/img/flow-arrow-down.png");
-				top: -23px;
+				top: 72px;
 				content: "";
 				display: block;
 				height: 11px;
-				left: 47.5%;
 				position: absolute;
 				width: 17px;
+				right: 116px;
 			}
 		}
 		.list{
