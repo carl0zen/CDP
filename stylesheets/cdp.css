@@ -538,12 +538,13 @@ table.dataTable tr.even td.sorting_3 {
 #flow .block.blue {
   color: white;
   background: #008DC4;
+  text-decoration: underline;
 }
-/* line 471, ../sass/cdp.scss */
+/* line 472, ../sass/cdp.scss */
 #flow .block.multi-arrow {
   margin: 30px;
 }
-/* line 473, ../sass/cdp.scss */
+/* line 474, ../sass/cdp.scss */
 #flow .block.multi-arrow:before {
   background: url(https://at.avanade.com/organizations/CDPProgram/SiteAssets/img/flow-multiarrows.png);
   position: absolute;
@@ -554,7 +555,7 @@ table.dataTable tr.even td.sorting_3 {
   content: '';
   top: -90px;
 }
-/* line 485, ../sass/cdp.scss */
+/* line 486, ../sass/cdp.scss */
 #flow .arrow-right {
   width: 11px;
   height: 17px;
@@ -563,7 +564,7 @@ table.dataTable tr.even td.sorting_3 {
   margin: 20px;
   margin-top: 37px;
 }
-/* line 493, ../sass/cdp.scss */
+/* line 494, ../sass/cdp.scss */
 #flow i {
   width: 11px;
   background: url(https://at.avanade.com/organizations/CDPProgram/SiteAssets/img/arrow-right.png);
