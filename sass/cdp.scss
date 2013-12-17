@@ -475,7 +475,7 @@ table.dataTable tr{
 			color: #666;
 			font-weight: normal;
 			&.extended{
-				width:100%;
+				width:98%;
 			}
 			&.diamond{
 				background: url(https://at.avanade.com/organizations/CDPProgram/SiteAssets/img/diamond.png);
@@ -518,5 +518,8 @@ table.dataTable tr{
 		i{
 			width: 11px;
 			background: url(https://at.avanade.com/organizations/CDPProgram/SiteAssets/img/arrow-right.png);
+		}
+		.inner-tab-4{
+			.breadcrumb{background: $pink}
 		}
 	}

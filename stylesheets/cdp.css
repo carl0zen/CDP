@@ -548,7 +548,7 @@ table.dataTable tr.even td.sorting_3 {
 }
 /* line 477, ../sass/cdp.scss */
 #flow .block.extended {
-  width: 100%;
+  width: 98%;
 }
 /* line 480, ../sass/cdp.scss */
 #flow .block.diamond {
@@ -596,4 +596,8 @@ table.dataTable tr.even td.sorting_3 {
 #flow i {
   width: 11px;
   background: url(https://at.avanade.com/organizations/CDPProgram/SiteAssets/img/arrow-right.png);
+}
+/* line 523, ../sass/cdp.scss */
+#flow .inner-tab-4 .breadcrumb {
+  background: #d41980;
 }
