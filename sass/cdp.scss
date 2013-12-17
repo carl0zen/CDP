@@ -374,9 +374,13 @@ table.dataTable tr{
 		}
 		.stop{
 			background: #D90000;
-			color:white;
-			padding: 20px;
-			width:190px;
+			color: white;
+			padding: 15px;
+			width: 190px;
+			float: right;
+			margin-top: 33px;
+			margin-right: 31px;
+			text-align: center;
 			&:before{
 				background: url("https://at.avanade.com/sites/CustomerRecordsManagement/Style%20Library/img/flow-arrow-down.png");
 				top: 72px;
