@@ -357,11 +357,40 @@ table.dataTable tr{
 			margin: 20px;
 			margin-top: 37px;
 		}
+		.wo-record{
+			margin: 20px;
+			margin-top: -50px;
+			margin-left: 34px;
+			&:before{
+				background: url("https://at.avanade.com/sites/CustomerRecordsManagement/Style%20Library/img/flow-arrow-down.png");
+				top: -23px;
+				content: "";
+				display: block;
+				height: 11px;
+				left: 47.5%;
+				position: absolute;
+				width: 17px;
+			}
+		}
+		.stop{
+			background: #D90000;
+			color:white;
+			&:before{
+				background: url("https://at.avanade.com/sites/CustomerRecordsManagement/Style%20Library/img/flow-arrow-down.png");
+				top: -23px;
+				content: "";
+				display: block;
+				height: 11px;
+				left: 47.5%;
+				position: absolute;
+				width: 17px;
+			}
+		}
 		.list{
 			.labels{
 				height: 45px;
 				li{
-
+					
 				}
 				
 				.no{
