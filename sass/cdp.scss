@@ -422,7 +422,16 @@ table.dataTable tr{
 				}
 			}
 			&.inverted{
-				position: absolute; bottom:0;
+				display: block;
+				float: right;
+				width: 221px;
+				margin-top: 386px;
+				position: absolute;
+				margin-left: 500px;
+				height: auto;
+				.stop:before{
+					display: none;
+				}
 			}
 			&.inverted li:before{
 				background: url("https://at.avanade.com/sites/CustomerRecordsManagement/Style%20Library/img/arrow-up.png");
