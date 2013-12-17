@@ -396,6 +396,10 @@ table.dataTable tr{
 			}
 		}
 		.list{
+			li.blue-arrow:before{
+				background: url("https://at.avanade.com/organizations/CDPProgram/SiteAssets/img/arrow-down-blue.png");
+
+			}
 			.labels{
 				height: 45px;
 				li{
