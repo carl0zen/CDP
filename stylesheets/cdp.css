@@ -501,7 +501,7 @@ table.dataTable tr.even td.sorting_3 {
   display: none;
 }
 /* line 435, ../sass/cdp.scss */
-#flow .list.inverted .last-child {
+#flow .list.inverted .last-child:before {
   background: url("https://at.avanade.com/organizations/CDPProgram/SiteAssets/img/arrow-up-blue.png");
   width: 11px;
   height: 17px;

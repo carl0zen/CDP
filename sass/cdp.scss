@@ -432,11 +432,11 @@ table.dataTable tr{
 				.stop:before{
 					display: none;
 				}
-				.last-child{
+				.last-child:before{
 					background: url("https://at.avanade.com/organizations/CDPProgram/SiteAssets/img/arrow-up-blue.png");
 					width:11px;
 					height: 17px;
-					
+
 				}
 			}
 			&.inverted li:before{
