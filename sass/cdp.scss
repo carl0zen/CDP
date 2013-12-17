@@ -357,8 +357,22 @@ table.dataTable tr{
 				}
 				
 				.no{
-					width:190px;
+					width: 193px;
 					line-height: 30px;
+					color: #666;
+					float: left;
+					text-align: center;
+					margin-right: 36px;
+					&:before{
+						background: url("https://at.avanade.com/sites/CustomerRecordsManagement/Style%20Library/img/flow-arrow-down.png");
+						bottom: -23px;
+						content: "";
+						display: block;
+						height: 12px;
+						left: 47.5%;
+						position: absolute;
+						width: 17px;
+					}
 				}
 			}
 		}

@@ -416,10 +416,25 @@ table.dataTable tr.even td.sorting_3 {
 }
 /* line 359, ../sass/cdp.scss */
 #flow .list .labels .no {
-  width: 190px;
+  width: 193px;
   line-height: 30px;
+  color: #666;
+  float: left;
+  text-align: center;
+  margin-right: 36px;
 }
-/* line 365, ../sass/cdp.scss */
+/* line 366, ../sass/cdp.scss */
+#flow .list .labels .no:before {
+  background: url("https://at.avanade.com/sites/CustomerRecordsManagement/Style%20Library/img/flow-arrow-down.png");
+  bottom: -23px;
+  content: "";
+  display: block;
+  height: 12px;
+  left: 47.5%;
+  position: absolute;
+  width: 17px;
+}
+/* line 379, ../sass/cdp.scss */
 #flow .block {
   background: #e3e3e3;
   display: block;
@@ -431,7 +446,7 @@ table.dataTable tr.even td.sorting_3 {
   color: #666;
   font-weight: normal;
 }
-/* line 375, ../sass/cdp.scss */
+/* line 389, ../sass/cdp.scss */
 #flow .block.diamond {
   background: url(https://at.avanade.com/organizations/CDPProgram/SiteAssets/img/diamond.png);
   height: 130px;
@@ -439,7 +454,7 @@ table.dataTable tr.even td.sorting_3 {
   margin-top: -20px;
   width: 130px;
 }
-/* line 383, ../sass/cdp.scss */
+/* line 397, ../sass/cdp.scss */
 #flow .arrow-right {
   width: 11px;
   height: 17px;
@@ -448,7 +463,7 @@ table.dataTable tr.even td.sorting_3 {
   margin: 20px;
   margin-top: 37px;
 }
-/* line 391, ../sass/cdp.scss */
+/* line 405, ../sass/cdp.scss */
 #flow i {
   width: 11px;
   background: url(https://at.avanade.com/organizations/CDPProgram/SiteAssets/img/arrow-right.png);
