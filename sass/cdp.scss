@@ -346,8 +346,9 @@ table.dataTable tr{
 		}
 		.list{
 			.labels{
+				height: 20px;
 				li{
-					height: 20px;
+
 				}
 				&:before{
 					display: none;
