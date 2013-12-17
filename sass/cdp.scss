@@ -349,9 +349,17 @@ table.dataTable tr{
 				display: none;
 			}
 		}
+		.arrow.left{
+			background: url(https://at.avanade.com/organizations/CDPProgram/SiteAssets/img/arrow-left.png);
+			width: 11px;
+			height: 17px;
+			float: left;
+			margin: 20px;
+			margin-top: 37px;
+		}
 		.list{
 			.labels{
-				height: 20px;
+				height: 45px;
 				li{
 
 				}
@@ -362,13 +370,13 @@ table.dataTable tr{
 					color: #666;
 					float: left;
 					text-align: center;
-					margin-right: 36px;
+					margin-right: 46px;
 					&:before{
 						background: url("https://at.avanade.com/sites/CustomerRecordsManagement/Style%20Library/img/flow-arrow-down.png");
 						bottom: -23px;
 						content: "";
 						display: block;
-						height: 12px;
+						height: 11px;
 						left: 47.5%;
 						position: absolute;
 						width: 17px;
