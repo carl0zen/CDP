@@ -502,11 +502,11 @@ table.dataTable tr.even td.sorting_3 {
 }
 /* line 436, ../sass/cdp.scss */
 #flow .list.inverted li:before {
-  background: url("https://at.avanade.com/sites/CustomerRecordsManagement/Style%20Library/img/arrow-up.png");
+  background: url("https://at.avanade.com/organizations/CDPProgram/SiteAssets/img/arrow-up.png");
 }
 /* line 438, ../sass/cdp.scss */
 #flow .list.inverted li:before:last-child {
-  background: url("https://at.avanade.com/sites/CustomerRecordsManagement/Style%20Library/img/arrow-up-blue.png");
+  background: url("https://at.avanade.com/organizations/CDPProgram/SiteAssets/img/arrow-up-blue.png");
 }
 /* line 443, ../sass/cdp.scss */
 #flow .block {
