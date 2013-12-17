@@ -529,7 +529,7 @@ table.dataTable tr.even td.sorting_3 {
   right: 0 !important;
 }
 /* line 461, ../sass/cdp.scss */
-#flow .list li.float-right-arrow {
+#flow .list li.float-right-arrow:before {
   left: 570px;
 }
 /* line 465, ../sass/cdp.scss */
