@@ -252,7 +252,7 @@ table.dataTable tr{
 	a.download {
 		width: 27px;
 		height: 27px;
-		background: url(https://raw.github.com/carlosepp/CDP/master/img/word-icon.png);
+		background: url( data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABsAAAAbCAYAAACN1PRVAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAALEgAACxIB0t1+/AAAABZ0RVh0Q3JlYXRpb24gVGltZQAxMi8xMy8xM+ovEHIAAAAcdEVYdFNvZnR3YXJlAEFkb2JlIEZpcmV3b3JrcyBDUzVxteM2AAACyklEQVRIia3Wy4tcRRQG8N+dmfiYLs1EYySokFw1OmqCSBYiSFAT1CBk4QMly+tWEHGhCx2QiH+BrlIggrpQVwlxJTq4lYFoCL5SiBjEByJ4ex4mk3Zxq5Om7R67Z/ygOHXPOVXfufU4dQpjoHX0TFEUxbW4Dc9joa7KN9Ya0+l0Lvan1nIMMd2AW7ATt+f+LtyEGZweJ9ipPOkmXIM7cDf2YBbbc9s0zqTDUISY3ssRzyKMOf4lfIyncWGAvYMJrGB+Cs+sP1ZLeAQvj+C7OrEBoi7Oj+g3ueYBGQEtHNP82QqKHtsKDuBQV7FRsum6Kk/h1CBjiOnPYWQf4DMcxn2azX0dv+NF3Igv8DYO5tYOMd2Jp7J/L5bwQK+il+zHuirfCjFNZ7KfMFdX5YUQ075MdryuyjczAbTxOF79zzXoI3soyx+y/Kpz6fp/k2XK8v4sWziOK/B339znsQ/7B5GVIabNLmWFk+1nb+6EmK7Gyaw7E2LaoskiNHu2gIVBfxJi+nUY2VXYi8+xjC9DTHuwQ7NXf+BnTXa5LI9ZDDHdhSex2se13EvUT1Zgb12Vn4SYTmuW7iC2djqdY0VRfIvf8sRdtPGEdewZ7M7yBL7HHDp5OU/UVVmHmO7t8W/hwxzosD87MIzs1hDT5Xinrsq/8qlbDDHN4N0Q06QmUXcxyj0bSrYDO+uq/DrEtB3bMInr6qr8LpNf3+O/GGK6R7OUw07jRfSTbcPW3N+leQUmsCXrZjHd49/GY0ZLxAPT1XMhpt2ae9dN1C+EmOb1pJ6MFj7SvHeDMsh+PNhVFCGmfqdxcKSuyleGGUNMFY52vzeaiLv37BDO9dmW8GivYqNkbTyMI6M4/x+P5+SIfqtTeN/6a5ArNTXIjBFqkIINVVev1VU5t1Y0/6ob66o8h19y+7RrHKFuHAtrHpC6Ks/iLOYZWBEvj0P2D1ji28mkbp6CAAAAAElFTkSuQmCC);
 		text-indent: 36px;
 		line-height: 25px;
 		display: block;
@@ -344,15 +344,18 @@ table.dataTable tr{
 				font-weight: normal;
 			}
 		}
+		.no-arrow-down{
+			&:before{
+				display: none;
+			}
+		}
 		.list{
 			.labels{
 				height: 20px;
 				li{
 
 				}
-				&:before{
-					display: none;
-				}
+				
 				.no{
 					width:190px;
 					line-height: 30px;
