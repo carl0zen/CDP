@@ -400,6 +400,10 @@ table.dataTable tr{
 				background: url("https://at.avanade.com/organizations/CDPProgram/SiteAssets/img/arrow-down-blue.png");
 
 			}
+			li.three-arrows:before{
+				background: url("https://at.avanade.com/organizations/CDPProgram/SiteAssets/img/arrow-three.png");
+				width:516px;
+			}
 			.labels{
 				height: 45px;
 				li{
@@ -449,6 +453,7 @@ table.dataTable tr{
 			}
 		}
 		.block{
+
 			background: #e3e3e3;
 			display: block;
 			width: 190px;
@@ -458,6 +463,9 @@ table.dataTable tr{
 			float: left;
 			color: #666;
 			font-weight: normal;
+			&.extended{
+				width:100%;
+			}
 			&.diamond{
 				background: url(https://at.avanade.com/organizations/CDPProgram/SiteAssets/img/diamond.png);
 				height: 130px;
