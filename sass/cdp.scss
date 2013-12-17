@@ -451,6 +451,13 @@ table.dataTable tr{
 				background: url("https://at.avanade.com/organizations/CDPProgram/SiteAssets/img/arrow-up.png");
 				
 			}
+			li.float-right{
+				float: right;
+				margin-right: 14px;
+				&:before{
+					right:0 !important;
+				}
+			}
 		}
 		.block{
 			line-height: 14px;
@@ -495,6 +502,7 @@ table.dataTable tr{
 					top: -90px;
 				}
 			}
+
 		}
 		.arrow-right{
 			width: 11px;
