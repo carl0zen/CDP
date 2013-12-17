@@ -406,7 +406,20 @@ table.dataTable tr.even td.sorting_3 {
   color: #666;
   font-weight: normal;
 }
-/* line 347, ../sass/cdp.scss */
+/* line 349, ../sass/cdp.scss */
+#flow .list .labels li {
+  height: 20px;
+}
+/* line 352, ../sass/cdp.scss */
+#flow .list .labels:before {
+  display: none;
+}
+/* line 355, ../sass/cdp.scss */
+#flow .list .labels .no {
+  width: 190px;
+  line-height: 30px;
+}
+/* line 361, ../sass/cdp.scss */
 #flow .block {
   background: #e3e3e3;
   display: block;
@@ -418,7 +431,7 @@ table.dataTable tr.even td.sorting_3 {
   color: #666;
   font-weight: normal;
 }
-/* line 357, ../sass/cdp.scss */
+/* line 371, ../sass/cdp.scss */
 #flow .block.diamond {
   background: url(https://at.avanade.com/organizations/CDPProgram/SiteAssets/img/diamond.png);
   height: 130px;
@@ -426,7 +439,7 @@ table.dataTable tr.even td.sorting_3 {
   margin-top: -20px;
   width: 130px;
 }
-/* line 365, ../sass/cdp.scss */
+/* line 379, ../sass/cdp.scss */
 #flow .arrow-right {
   width: 11px;
   height: 17px;
@@ -435,7 +448,7 @@ table.dataTable tr.even td.sorting_3 {
   margin: 20px;
   margin-top: 37px;
 }
-/* line 373, ../sass/cdp.scss */
+/* line 387, ../sass/cdp.scss */
 #flow i {
   width: 11px;
   background: url(https://at.avanade.com/organizations/CDPProgram/SiteAssets/img/arrow-right.png);

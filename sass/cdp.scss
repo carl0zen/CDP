@@ -344,6 +344,20 @@ table.dataTable tr{
 				font-weight: normal;
 			}
 		}
+		.list{
+			.labels{
+				li{
+					height: 20px;
+				}
+				&:before{
+					display: none;
+				}
+				.no{
+					width:190px;
+					line-height: 30px;
+				}
+			}
+		}
 		.block{
 			background: #e3e3e3;
 			display: block;

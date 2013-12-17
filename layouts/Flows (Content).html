@@ -130,23 +130,23 @@
             </div>
             <div class="flow tab-4">
                 <div class="breadcrumb">
-                   CDP / Project Team
+                   CDPS / Project Team
                 </div>
                 <h2>
                     Select the stage of interest for the <strong>CDP SME</strong> role
                 </h2>
                 <div class="stage-of-interest">
-                    <button id="RecordsLead-Start2-Button" >                    
+                    <button id="RecordsLead-Start2-Button" class="disabled">                    
                         <span class="number"> 1 </span> 
                         <span class="stage">Sales</span>
                     </button>
                     <i></i>             
-                    <button id="RecordsLead2-During-Button" class="disabled">                 
+                    <button id="RecordsLead2-During-Button" >                 
                         <span class="number"> 2 </span> 
                         <span class="stage">Develop & Implement</span>
                     </button>
                     <i></i>
-                    <button id="RecordsLead2-Close-Button" class="disabled">
+                    <button id="RecordsLead2-Close-Button" >
                         <span class="number"> 3 </span> 
                         <span class="stage">Operate / Mantain / Close Plan</span>
                     </button>
@@ -206,60 +206,41 @@
                                  <div class="block">Notify CDPS to apply existing plan to new WO</div>
 
                             </li>
-                            
+                            <li class="labels">
+                                <div class="no">NO</div>
+                                <div class="no">NO</div>
+                                <div class="arrow-down"></div>
+                            </li>
                             <li>                
                                                      
-                                <span class="stage">
-                                    Notify CFM to update any changes to the contract end date
-                                </span>
-                            </li>
-                            <li class="one-half">                
-                                                  
-                                <span class="stage">
-                                    CFM updates contract end date in SAP
-                                </span>
+                                <div class="block">
+                                    Create WO record and assign local CDP SME
+                                </div>
+                                <div class="arrow left"></div>
+                                <div class="block">
+                                    Determine if rework existing plan or new plan is required
+                                </div>
+                                <div class="block">
+                                    Create WO record 
+                                </div>
                             </li>
                             
-                            <li>
-                                                    
-                                <span class="stage">
-                                    Work with Engagement Team as necessary to identify  &amp; submit Customer Records &amp; communications that fall under Policy 0123AVA
-                                </span>
+                            <li>               
+                                                         
+                                <div class="block">
+                                    Determine Plan routing (local, ACN, Global)
+                                </div>
                             </li>
-                            <li class="one-half">
-                                <span class="number">
-                                    11a
-                                </span>                                          
-                                <span class="stage">
-                                   *Submit records in ARMS in accordance with the Policy 0123AVA <small>*In some region submission is carried out by Deal Desk/Contracts Desk</small>
-                                </span>
-                            </li>
-   
-                            <li class="one-half b">
-                                <span class="number">
-                                    11b
-                                </span>                                          
-                                <span class="stage">
-                                   *Send hard copy to local ARIM Team <small>*In some region submission is carried out by Deal Desk/Contracts Desk</small>
-                                </span>
-                            </li>
-         
-                            <li>
-                                <span class="number">
-                                    12
-                                </span>                                         
-                                <span class="stage">
-                                    Ensure ongoing compliance with Policy 0123AVA 
-                                </span>
-                            </li>
-  
-                            <li>
-                                <span class="number">
-                                    13
-                                </span>                                         
-                                <span class="stage">
-                                    Resolve any Compliance violation
-                                </span>
+                            <li >               
+                                                        
+                                <div class="block">
+                                    Evaluate Customer for existing Plan - Yes/No    
+                                 </div>
+
+                                 <div class="arrow-right"></div>
+
+                                 <div class="block">Notify CDPS to apply existing plan to new WO</div>
+
                             </li>
                                         
                         </ul>
@@ -644,7 +625,24 @@
                     </div>
                 </div>
             </div>
- 
+            <div class="inner-tab-4">
+                
+                <div class="flow tab-1" id="sales-activities">
+                    <div class="breadcrumb">
+                       CDPS / Project Team
+                    </div>
+                    <div class="activities">
+                        <div class="block">
+                            Complete Risk Assessment & Demographics tab
+                        </div>
+                        <div class="arrow-right"></div>
+                        <div class="block">
+                            Update DRS with Risk Score and Approval
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
         </div>
       
 
