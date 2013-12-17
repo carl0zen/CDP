@@ -450,11 +450,13 @@ table.dataTable tr{
 				margin:30px;
 				&:before{
 					background: url(https://at.avanade.com/organizations/CDPProgram/SiteAssets/img/flow-multiarrows.png);
-					position:absolute;
-					width: 145px;
+					position: absolute;
+					width: 147px;
 					height: 563px;
-					top:100px;
-					left:100px;
+					z-index: 10;
+					left: 199px;
+					content: '';
+					top: -90px;
 				}
 			}
 		}
