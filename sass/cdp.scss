@@ -523,3 +523,26 @@ table.dataTable tr{
 			.breadcrumb{background: $pink}
 		}
 	}
+
+
+	a.button{
+		background: #FF3300;
+		@include background-image(linear-gradient(#FF3300, #CC0000));
+		
+		color: white;
+		padding: 15px 20px 15px 43px;
+		display: block;
+		float: right;
+		font-weight: bold;
+		position: relative;
+
+		span.icon.pdf{
+			display: block;
+			background-image: url(https://at.avanade.com/organizations/CDPProgram/SiteAssets/img/pdf-icon.png);
+			width: 21px;
+			height: 20px;
+			float: left;
+			position: absolute;
+			left: 13px;
+		}
+	}

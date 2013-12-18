@@ -601,3 +601,29 @@ table.dataTable tr.even td.sorting_3 {
 #flow .inner-tab-4 .breadcrumb {
   background: #d41980;
 }
+
+/* line 528, ../sass/cdp.scss */
+a.button {
+  background: #FF3300;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ff3300), color-stop(100%, #cc0000));
+  background-image: -webkit-linear-gradient(#ff3300, #cc0000);
+  background-image: -moz-linear-gradient(#ff3300, #cc0000);
+  background-image: -o-linear-gradient(#ff3300, #cc0000);
+  background-image: linear-gradient(#ff3300, #cc0000);
+  color: white;
+  padding: 15px 20px 15px 43px;
+  display: block;
+  float: right;
+  font-weight: bold;
+  position: relative;
+}
+/* line 539, ../sass/cdp.scss */
+a.button span.icon.pdf {
+  display: block;
+  background-image: url(https://at.avanade.com/organizations/CDPProgram/SiteAssets/img/pdf-icon.png);
+  width: 21px;
+  height: 20px;
+  float: left;
+  position: absolute;
+  left: 13px;
+}
