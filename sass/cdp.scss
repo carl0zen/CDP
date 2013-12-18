@@ -302,6 +302,7 @@ table.dataTable tr{
 			padding-left: 6%;
 		}
 		.number{
+			background: #009ED8;
 			@include background-image(linear-gradient(#009ED8,#008DC4));
 		}
 		li{
@@ -323,6 +324,9 @@ table.dataTable tr{
 				&.orange {background: $orange !important}
 				&.blue {background: $blue !important}
 				&.pink {background: $pink !important}
+				span strong{
+					padding: 0 15px;
+				}
 			}
 		}
 		.disabled{
