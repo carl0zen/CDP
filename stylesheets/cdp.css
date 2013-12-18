@@ -602,7 +602,7 @@ table.dataTable tr.even td.sorting_3 {
   background: #d41980;
 }
 /* line 525, ../sass/cdp.scss */
-#flow .welcome-text {
+#flow .welcome-content {
   overflow: hidden;
   *zoom: 1;
 }
