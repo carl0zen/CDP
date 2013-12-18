@@ -587,12 +587,14 @@ table.dataTable tr.even td.sorting_3 {
   color: white;
   background: #008DC4;
   text-decoration: underline;
+  font-size: 14px;
+  line-height: 18px;
 }
-/* line 508, ../sass/cdp.scss */
+/* line 510, ../sass/cdp.scss */
 #flow .block.multi-arrow {
   margin: 0 65px;
 }
-/* line 510, ../sass/cdp.scss */
+/* line 512, ../sass/cdp.scss */
 #flow .block.multi-arrow:before {
   background: url(https://at.avanade.com/organizations/CDPProgram/SiteAssets/img/flow-multiarrows.png) no-repeat;
   position: absolute;
@@ -603,7 +605,7 @@ table.dataTable tr.even td.sorting_3 {
   content: '';
   top: -90px;
 }
-/* line 523, ../sass/cdp.scss */
+/* line 525, ../sass/cdp.scss */
 #flow .arrow-right {
   width: 11px;
   height: 17px;
@@ -612,23 +614,23 @@ table.dataTable tr.even td.sorting_3 {
   margin: 20px;
   margin-top: 37px;
 }
-/* line 531, ../sass/cdp.scss */
+/* line 533, ../sass/cdp.scss */
 #flow i {
   width: 11px;
   background: url(https://at.avanade.com/organizations/CDPProgram/SiteAssets/img/arrow-right.png);
 }
-/* line 536, ../sass/cdp.scss */
+/* line 538, ../sass/cdp.scss */
 #flow .inner-tab-4 .breadcrumb {
   background: #d41980;
 }
-/* line 538, ../sass/cdp.scss */
+/* line 540, ../sass/cdp.scss */
 #flow .welcome-content {
   overflow: hidden;
   *zoom: 1;
   margin-bottom: 25px;
 }
 
-/* line 545, ../sass/cdp.scss */
+/* line 547, ../sass/cdp.scss */
 a.button {
   background: #FF3300;
   background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ff3300), color-stop(100%, #cc0000));
@@ -643,7 +645,7 @@ a.button {
   font-weight: bold !important;
   position: relative;
 }
-/* line 548, ../sass/cdp.scss */
+/* line 550, ../sass/cdp.scss */
 a.button:hover {
   background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ff471a), color-stop(100%, #ff0000));
   background-image: -webkit-linear-gradient(#ff471a, #ff0000);
@@ -651,7 +653,7 @@ a.button:hover {
   background-image: -o-linear-gradient(#ff471a, #ff0000);
   background-image: linear-gradient(#ff471a, #ff0000);
 }
-/* line 558, ../sass/cdp.scss */
+/* line 560, ../sass/cdp.scss */
 a.button span.icon.pdf {
   display: block;
   background-image: url(https://at.avanade.com/organizations/CDPProgram/SiteAssets/img/pdf-icon.png);
