@@ -529,35 +529,41 @@ table.dataTable tr.even td.sorting_3 {
   position: absolute;
   margin-left: 500px;
   height: auto;
+  overflow: visible;
 }
-/* line 457, ../sass/cdp.scss */
+/* line 458, ../sass/cdp.scss */
 #flow .list.inverted .stop:before {
   display: none;
 }
-/* line 460, ../sass/cdp.scss */
-#flow .list.inverted .last-child:before {
+/* line 461, ../sass/cdp.scss */
+#flow .list.inverted li.last-child:before {
   background: url("https://at.avanade.com/organizations/CDPProgram/SiteAssets/img/arrow-up-blue.png");
-  width: 11px;
-  height: 17px;
+  width: 16px;
+  height: 11px;
+  position: absolute;
+  content: '';
+  z-index: 100;
+  display: block;
+  top: 102px;
 }
-/* line 467, ../sass/cdp.scss */
+/* line 473, ../sass/cdp.scss */
 #flow .list.inverted li:before {
   background: url("https://at.avanade.com/organizations/CDPProgram/SiteAssets/img/arrow-up.png");
 }
-/* line 471, ../sass/cdp.scss */
+/* line 477, ../sass/cdp.scss */
 #flow .list li.float-right {
   float: right;
   margin-right: 14px;
 }
-/* line 474, ../sass/cdp.scss */
+/* line 480, ../sass/cdp.scss */
 #flow .list li.float-right:before {
   right: 0 !important;
 }
-/* line 478, ../sass/cdp.scss */
+/* line 484, ../sass/cdp.scss */
 #flow .list li.float-right-arrow:before {
   left: 570px;
 }
-/* line 482, ../sass/cdp.scss */
+/* line 488, ../sass/cdp.scss */
 #flow .block {
   line-height: 14px;
   min-height: 97px;
@@ -571,11 +577,11 @@ table.dataTable tr.even td.sorting_3 {
   color: #666;
   font-weight: normal;
 }
-/* line 494, ../sass/cdp.scss */
+/* line 500, ../sass/cdp.scss */
 #flow .block.extended {
   width: 98%;
 }
-/* line 497, ../sass/cdp.scss */
+/* line 503, ../sass/cdp.scss */
 #flow .block.diamond {
   background: url(https://at.avanade.com/organizations/CDPProgram/SiteAssets/img/diamond.png);
   height: 130px;
@@ -583,23 +589,24 @@ table.dataTable tr.even td.sorting_3 {
   margin-top: -20px;
   width: 130px;
 }
-/* line 504, ../sass/cdp.scss */
+/* line 510, ../sass/cdp.scss */
 #flow .block.center {
   margin-left: 240px;
 }
-/* line 507, ../sass/cdp.scss */
+/* line 513, ../sass/cdp.scss */
 #flow .block.blue {
   color: white;
   background: #008DC4;
   text-decoration: underline;
   font-size: 14px;
   line-height: 18px;
+  min-height: 80px;
 }
-/* line 514, ../sass/cdp.scss */
+/* line 521, ../sass/cdp.scss */
 #flow .block.multi-arrow {
   margin: 0 65px;
 }
-/* line 516, ../sass/cdp.scss */
+/* line 523, ../sass/cdp.scss */
 #flow .block.multi-arrow:before {
   background: url(https://at.avanade.com/organizations/CDPProgram/SiteAssets/img/flow-multiarrows.png) no-repeat;
   position: absolute;
@@ -610,7 +617,7 @@ table.dataTable tr.even td.sorting_3 {
   content: '';
   top: -90px;
 }
-/* line 529, ../sass/cdp.scss */
+/* line 536, ../sass/cdp.scss */
 #flow .arrow-right {
   width: 11px;
   height: 17px;
@@ -619,23 +626,23 @@ table.dataTable tr.even td.sorting_3 {
   margin: 20px;
   margin-top: 37px;
 }
-/* line 537, ../sass/cdp.scss */
+/* line 544, ../sass/cdp.scss */
 #flow i {
   width: 11px;
   background: url(https://at.avanade.com/organizations/CDPProgram/SiteAssets/img/arrow-right.png);
 }
-/* line 542, ../sass/cdp.scss */
+/* line 549, ../sass/cdp.scss */
 #flow .inner-tab-4 .breadcrumb {
   background: #d41980;
 }
-/* line 544, ../sass/cdp.scss */
+/* line 551, ../sass/cdp.scss */
 #flow .welcome-content {
   overflow: hidden;
   *zoom: 1;
   margin-bottom: 25px;
 }
 
-/* line 551, ../sass/cdp.scss */
+/* line 558, ../sass/cdp.scss */
 a.button {
   background: #FF3300;
   background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ff3300), color-stop(100%, #cc0000));
@@ -650,7 +657,7 @@ a.button {
   font-weight: bold !important;
   position: relative;
 }
-/* line 554, ../sass/cdp.scss */
+/* line 561, ../sass/cdp.scss */
 a.button:hover {
   background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ff471a), color-stop(100%, #ff0000));
   background-image: -webkit-linear-gradient(#ff471a, #ff0000);
@@ -658,7 +665,7 @@ a.button:hover {
   background-image: -o-linear-gradient(#ff471a, #ff0000);
   background-image: linear-gradient(#ff471a, #ff0000);
 }
-/* line 564, ../sass/cdp.scss */
+/* line 571, ../sass/cdp.scss */
 a.button span.icon.pdf {
   display: block;
   background-image: url(https://at.avanade.com/organizations/CDPProgram/SiteAssets/img/pdf-icon.png);

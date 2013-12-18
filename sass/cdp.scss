@@ -454,13 +454,19 @@ table.dataTable tr{
 				position: absolute;
 				margin-left: 500px;
 				height: auto;
+				overflow: visible;
 				.stop:before{
 					display: none;
 				}
-				.last-child:before{
+				li.last-child:before{
 					background: url("https://at.avanade.com/organizations/CDPProgram/SiteAssets/img/arrow-up-blue.png");
-					width:11px;
-					height: 17px;
+					width: 16px;
+					height: 11px;
+					position: absolute;
+					content: '';
+					z-index: 100;
+					display: block;
+					top: 102px;
 
 				}
 			}
@@ -510,6 +516,7 @@ table.dataTable tr{
 				text-decoration: underline;
 				font-size: 14px;
 				line-height: 18px;
+				min-height: 80px;
 			}
 			&.multi-arrow{
 				margin: 0 65px;
