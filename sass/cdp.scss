@@ -522,6 +522,9 @@ table.dataTable tr{
 		.inner-tab-4{
 			.breadcrumb{background: $pink}
 		}
+		.welcome-text{
+			@include clearfix();
+		}
 	}
 
 
