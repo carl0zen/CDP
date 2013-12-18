@@ -615,11 +615,11 @@ a.button {
   background-image: -moz-linear-gradient(#ff3300, #cc0000);
   background-image: -o-linear-gradient(#ff3300, #cc0000);
   background-image: linear-gradient(#ff3300, #cc0000);
-  color: white;
+  color: white !important;
   padding: 15px 20px 15px 43px;
   display: block;
   float: right;
-  font-weight: bold;
+  font-weight: bold !important;
   position: relative;
 }
 /* line 542, ../sass/cdp.scss */
@@ -627,8 +627,9 @@ a.button span.icon.pdf {
   display: block;
   background-image: url(https://at.avanade.com/organizations/CDPProgram/SiteAssets/img/pdf-icon.png);
   width: 21px;
-  height: 20px;
+  height: 26px;
   float: left;
   position: absolute;
   left: 13px;
+  top: 10px;
 }
