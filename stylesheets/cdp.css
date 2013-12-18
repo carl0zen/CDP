@@ -632,7 +632,7 @@ table.dataTable tr.even td.sorting_3 {
   background: url(https://at.avanade.com/organizations/CDPProgram/SiteAssets/img/arrow-right.png);
 }
 /* line 549, ../sass/cdp.scss */
-#flow .inner-tab-4 .breadcrumb {
+#flow .inner-tab-4 .breadcrumb, #flow .tab-4 .breadcrumb {
   background: #d41980;
 }
 /* line 551, ../sass/cdp.scss */
