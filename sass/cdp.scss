@@ -565,6 +565,7 @@ table.dataTable tr{
 		background: #FF3300;
 		@include background-image(linear-gradient(#FF3300, #CC0000));
 		&:hover{
+			text-decoration: none;
 			@include background-image(linear-gradient(lighten(#FF3300,5%), lighten(#CC0000, 10%)));
 		}
 		color: white !important;
@@ -578,7 +579,7 @@ table.dataTable tr{
 			display: block;
 			background-image: url(https://at.avanade.com/organizations/CDPProgram/SiteAssets/img/pdf-icon.png);
 			width: 21px;
-			height: 26px;
+			height: 25px;
 			float: left;
 			position: absolute;
 			left: 13px;

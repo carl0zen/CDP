@@ -670,18 +670,19 @@ a.button {
 }
 /* line 567, ../sass/cdp.scss */
 a.button:hover {
+  text-decoration: none;
   background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ff471a), color-stop(100%, #ff0000));
   background-image: -webkit-linear-gradient(#ff471a, #ff0000);
   background-image: -moz-linear-gradient(#ff471a, #ff0000);
   background-image: -o-linear-gradient(#ff471a, #ff0000);
   background-image: linear-gradient(#ff471a, #ff0000);
 }
-/* line 577, ../sass/cdp.scss */
+/* line 578, ../sass/cdp.scss */
 a.button span.icon.pdf {
   display: block;
   background-image: url(https://at.avanade.com/organizations/CDPProgram/SiteAssets/img/pdf-icon.png);
   width: 21px;
-  height: 26px;
+  height: 25px;
   float: left;
   position: absolute;
   left: 13px;
