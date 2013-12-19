@@ -359,7 +359,7 @@ table.dataTable tr{
 				margin-left: 10px;
 				color: #666;
 				font-weight: bold;
-				text-transform: lowercase;
+				text-transform: capitalize;
 			}
 		}
 		.no-arrow-down{
@@ -392,6 +392,7 @@ table.dataTable tr{
 		}
 		.stop{
 			background: #D90000;
+			@include background-image(linear-gradient(#D70000,#B60000));
 			color: white;
 			padding: 15px;
 			width: 190px;
@@ -399,7 +400,7 @@ table.dataTable tr{
 			margin-top: 33px;
 			margin-right: 31px;
 			text-align: center;
-			text-transform: lowercase;
+			text-transform: capitalize;
 			&:before{
 				background: url("https://at.avanade.com/sites/CustomerRecordsManagement/Style%20Library/img/flow-arrow-down.png");
 				top: 72px;
@@ -430,7 +431,7 @@ table.dataTable tr{
 					width: 193px;
 					line-height: 30px;
 					color: #666;
-					text-transform: lowercase;
+					text-transform: capitalize;
 					float: left;
 					text-align: center;
 					margin-right: 46px;
@@ -503,9 +504,10 @@ table.dataTable tr{
 			&.diamond{
 				background: url(https://at.avanade.com/organizations/CDPProgram/SiteAssets/img/diamond.png);
 				height: 130px;
-				padding: 42px 31px;
+				padding: 53px 31px;
 				margin-top: -20px;
 				width: 130px;
+				color:white;
 			}
 			&.center{
 				margin-left: 240px;
@@ -546,7 +548,11 @@ table.dataTable tr{
 			background: url(https://at.avanade.com/organizations/CDPProgram/SiteAssets/img/arrow-right.png);
 		}
 		.inner-tab-4, .tab-4{
-			.breadcrumb{background: $pink}
+			.breadcrumb{
+				background: $pink;
+				@include background-image(linear-gradient(#CE0071, #B70064));
+			}
+
 		}
 		.welcome-content{
 			@include clearfix();
