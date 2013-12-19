@@ -298,6 +298,12 @@ table.dataTable tr{
 	$pink: #D41980;
 
 	#flow{
+		.breadcrumb{
+			text-decoration: none;
+			span{
+				text-decoration: underline;
+			}
+		}
 		.stage{
 			padding-left: 6%;
 		}
@@ -546,6 +552,7 @@ table.dataTable tr{
 		i{
 			width: 11px;
 			background: url(https://at.avanade.com/organizations/CDPProgram/SiteAssets/img/arrow-right.png);
+			height: 16px;
 		}
 		.inner-tab-4, .tab-4{
 			.breadcrumb{
