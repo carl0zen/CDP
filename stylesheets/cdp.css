@@ -1,9 +1,20 @@
-/* line 5, ../sass/cdp.scss */
+/**
+
+oooooo   oooooo     oooo           oooo                                                  
+ `888.    `888.     .8'            `888                                                  
+  `888.   .8888.   .8'    .ooooo.   888   .ooooo.   .ooooo.  ooo. .oo.  .oo.    .ooooo.  
+   `888  .8'`888. .8'    d88' `88b  888  d88' `"Y8 d88' `88b `888P"Y88bP"Y88b  d88' `88b 
+    `888.8'  `888.8'     888ooo888  888  888       888   888  888   888   888  888ooo888 
+     `888'    `888'      888    .o  888  888   .o8 888   888  888   888   888  888    .o 
+      `8'      `8'       `Y8bod8P' o888o `Y8bod8P' `Y8bod8P' o888o o888o o888o `Y8bod8P' 
+
+**/
+/* line 15, ../sass/cdp.scss */
 ul.title-links {
   margin: 0;
   padding: 0;
 }
-/* line 8, ../sass/cdp.scss */
+/* line 18, ../sass/cdp.scss */
 ul.title-links li {
   display: inline-block;
   list-style-type: none;
@@ -15,66 +26,66 @@ ul.title-links li {
   padding: 11px 10px;
   line-height: 14px;
 }
-/* line 18, ../sass/cdp.scss */
+/* line 28, ../sass/cdp.scss */
 ul.title-links li a {
   color: #333333 !important;
 }
 
-/* line 26, ../sass/cdp.scss */
+/* line 36, ../sass/cdp.scss */
 .slider ul.dfwp-column.dfwp-list {
   width: 500px !important;
   height: 250px;
 }
-/* line 29, ../sass/cdp.scss */
+/* line 39, ../sass/cdp.scss */
 .slider ul.dfwp-column.dfwp-list li {
   font-size: 11px;
   line-height: 16px;
 }
-/* line 34, ../sass/cdp.scss */
+/* line 44, ../sass/cdp.scss */
 .slider img {
   max-width: 100%;
 }
-/* line 37, ../sass/cdp.scss */
+/* line 47, ../sass/cdp.scss */
 .slider table > tbody > tr:nth-of-type(1) {
   display: block;
   float: left;
   width: 500px;
   overflow: hidden;
 }
-/* line 43, ../sass/cdp.scss */
+/* line 53, ../sass/cdp.scss */
 .slider table > tbody > tr:nth-of-type(2) {
   display: block;
   float: right;
   width: 222px;
 }
-/* line 48, ../sass/cdp.scss */
+/* line 58, ../sass/cdp.scss */
 .slider #nav {
   right: 250px !important;
 }
-/* line 51, ../sass/cdp.scss */
+/* line 61, ../sass/cdp.scss */
 .slider .description {
   background-color: rgba(0, 153, 204, 0.9) !important;
 }
 
-/* line 56, ../sass/cdp.scss */
+/* line 66, ../sass/cdp.scss */
 .welcome-text {
   height: 158px;
 }
-/* line 58, ../sass/cdp.scss */
+/* line 68, ../sass/cdp.scss */
 .welcome-text > table > tbody > tr:nth-of-type(1) {
   display: block;
   float: right;
   width: 242px;
   overflow: hidden;
 }
-/* line 64, ../sass/cdp.scss */
+/* line 74, ../sass/cdp.scss */
 .welcome-text > table > tbody > tr:nth-of-type(2) {
   display: block;
   float: left;
   width: 500px;
   padding: 10px 20px 10px 0px;
 }
-/* line 70, ../sass/cdp.scss */
+/* line 80, ../sass/cdp.scss */
 .welcome-text .ad {
   background: #eee;
   width: 300px;
@@ -86,32 +97,32 @@ ul.title-links li a {
   vertical-align: middle;
 }
 
-/* line 83, ../sass/cdp.scss */
+/* line 93, ../sass/cdp.scss */
 html body .rm-layout .tiles .purple, html body .rm-layout .tiles .orange, html body .rm-layout .tiles .blue {
   height: 200px;
 }
-/* line 86, ../sass/cdp.scss */
+/* line 96, ../sass/cdp.scss */
 html body .rm-layout .tiles .green {
   float: left;
   width: 66.6%;
 }
-/* line 90, ../sass/cdp.scss */
+/* line 100, ../sass/cdp.scss */
 html body .rm-layout .tiles .yellow {
   background: #FF9900;
   float: right;
   width: 32.5%;
 }
-/* line 94, ../sass/cdp.scss */
+/* line 104, ../sass/cdp.scss */
 html body .rm-layout .tiles .yellow > table {
   display: block;
   padding: 27px;
 }
-/* line 100, ../sass/cdp.scss */
+/* line 110, ../sass/cdp.scss */
 html body .rm-layout p {
   font-size: 12px;
 }
 
-/* line 104, ../sass/cdp.scss */
+/* line 114, ../sass/cdp.scss */
 .cbq-layout-main .dfwp-item .description {
   overflow: hidden;
   *zoom: 1;
@@ -140,38 +151,38 @@ ooooooooooooo                     oooo                                          
                                     o888o                                                 
                                                                                
 **/
-/* line 133, ../sass/cdp.scss */
+/* line 143, ../sass/cdp.scss */
 .page-banner img {
   width: 100%;
 }
 
-/* line 137, ../sass/cdp.scss */
+/* line 147, ../sass/cdp.scss */
 .side-content {
   margin-top: 20px;
   width: 33%;
   float: right;
 }
 
-/* line 142, ../sass/cdp.scss */
+/* line 152, ../sass/cdp.scss */
 .page-content {
   width: 66%;
   float: left;
 }
 
-/* line 146, ../sass/cdp.scss */
+/* line 156, ../sass/cdp.scss */
 .warning-sign {
   background: #FFFF66;
   padding: 10px;
   margin: 20px 0;
 }
-/* line 150, ../sass/cdp.scss */
+/* line 160, ../sass/cdp.scss */
 .warning-sign h3 {
   margin: 10px 0 20px 0;
   color: #000;
 }
 
 /** Table Colors**/
-/* line 160, ../sass/cdp.scss */
+/* line 170, ../sass/cdp.scss */
 #documentList_wrapper:before {
   content: "";
   width: 100%;
@@ -180,12 +191,12 @@ ooooooooooooo                     oooo                                          
   position: absolute;
 }
 
-/* line 169, ../sass/cdp.scss */
+/* line 179, ../sass/cdp.scss */
 #documentList_filter label {
   font-size: 13px;
   color: #a2a2a2;
 }
-/* line 174, ../sass/cdp.scss */
+/* line 184, ../sass/cdp.scss */
 #documentList_filter input {
   width: auto;
   background: white;
@@ -197,7 +208,7 @@ ooooooooooooo                     oooo                                          
   color: #777;
 }
 
-/* line 186, ../sass/cdp.scss */
+/* line 196, ../sass/cdp.scss */
 #documentList_length label {
   z-index: 10;
   position: relative;
@@ -207,12 +218,12 @@ ooooooooooooo                     oooo                                          
   display: block;
 }
 
-/* line 196, ../sass/cdp.scss */
+/* line 206, ../sass/cdp.scss */
 .dataTables_filter {
   position: relative;
 }
 
-/* line 200, ../sass/cdp.scss */
+/* line 210, ../sass/cdp.scss */
 #documentList thead {
   background: #eee;
   border: none;
@@ -220,7 +231,7 @@ ooooooooooooo                     oooo                                          
   border: none;
   line-height: 27px;
 }
-/* line 206, ../sass/cdp.scss */
+/* line 216, ../sass/cdp.scss */
 #documentList thead th {
   border: none;
   font-size: 15px;
@@ -230,7 +241,7 @@ ooooooooooooo                     oooo                                          
   padding: 0 10px;
 }
 
-/* line 219, ../sass/cdp.scss */
+/* line 229, ../sass/cdp.scss */
 h4.ms-rteElement-H4B {
   background: #0C9DDE;
   color: white;
@@ -238,39 +249,39 @@ h4.ms-rteElement-H4B {
   font-style: normal;
 }
 
-/* line 226, ../sass/cdp.scss */
+/* line 236, ../sass/cdp.scss */
 table.dataTable tr td:first-child {
   font-weight: bold;
   color: #858585;
   background: none !important;
 }
-/* line 231, ../sass/cdp.scss */
+/* line 241, ../sass/cdp.scss */
 table.dataTable tr td {
   padding: 10px !important;
   background: none !important;
 }
-/* line 235, ../sass/cdp.scss */
+/* line 245, ../sass/cdp.scss */
 table.dataTable .title {
   width: 300px;
 }
-/* line 238, ../sass/cdp.scss */
+/* line 248, ../sass/cdp.scss */
 table.dataTable tr td:nth-of-type(3) {
   width: 100px;
 }
 
-/* line 243, ../sass/cdp.scss */
+/* line 253, ../sass/cdp.scss */
 div.h1-section1 {
   background: #cf0072 !important;
   width: 97.5% !important;
 }
 
-/* line 247, ../sass/cdp.scss */
+/* line 257, ../sass/cdp.scss */
 table.dataTable tr {
   background: none !important;
   border-bottom: 1px solid #eeeeee;
 }
 
-/* line 252, ../sass/cdp.scss */
+/* line 262, ../sass/cdp.scss */
 a.download {
   width: 27px;
   height: 27px;
@@ -280,81 +291,93 @@ a.download {
   display: block;
 }
 
-/* line 260, ../sass/cdp.scss */
+/* line 270, ../sass/cdp.scss */
 table.dataTable tr.odd {
   background-color: transparent;
 }
 
-/* line 261, ../sass/cdp.scss */
+/* line 271, ../sass/cdp.scss */
 table.dataTable tr.even {
   background-color: transparent;
 }
 
-/* line 263, ../sass/cdp.scss */
+/* line 273, ../sass/cdp.scss */
 table.dataTable tr.odd td.sorting_1 {
   background-color: transparent;
 }
 
-/* line 264, ../sass/cdp.scss */
+/* line 274, ../sass/cdp.scss */
 table.dataTable tr.odd td.sorting_2 {
   background-color: transparent;
 }
 
-/* line 265, ../sass/cdp.scss */
+/* line 275, ../sass/cdp.scss */
 table.dataTable tr.odd td.sorting_3 {
   background-color: transparent;
 }
 
-/* line 266, ../sass/cdp.scss */
+/* line 276, ../sass/cdp.scss */
 table.dataTable tr.even td.sorting_1 {
   background-color: transparent;
 }
 
-/* line 267, ../sass/cdp.scss */
+/* line 277, ../sass/cdp.scss */
 table.dataTable tr.even td.sorting_2 {
   background-color: transparent;
 }
 
-/* line 268, ../sass/cdp.scss */
+/* line 278, ../sass/cdp.scss */
 table.dataTable tr.even td.sorting_3 {
   background-color: transparent;
 }
 
-/* line 274, ../sass/cdp.scss */
+/* line 284, ../sass/cdp.scss */
 #compliance-review .ms-WPHeader {
   background: #f4f4f4 !important;
   border: none !important;
 }
-/* line 277, ../sass/cdp.scss */
+/* line 287, ../sass/cdp.scss */
 #compliance-review .ms-WPHeader h3 {
   margin: 10px 17px;
   color: #333;
   font-size: 16px;
 }
-/* line 283, ../sass/cdp.scss */
+/* line 293, ../sass/cdp.scss */
 #compliance-review .ms-WPHeader:hover {
   background: white;
   cursor: pointer;
 }
-/* line 288, ../sass/cdp.scss */
+/* line 298, ../sass/cdp.scss */
 #compliance-review p {
   margin: 15px 0;
 }
 
-/** FLOWS **/
-/* line 301, ../sass/cdp.scss */
+	/** 
+
+
+oooooooooooo oooo                                      
+`888'     `8 `888                                      
+ 888          888   .ooooo.  oooo oooo    ooo  .oooo.o 
+ 888oooo8     888  d88' `88b  `88. `88.  .8'  d88(  "8 
+ 888    "     888  888   888   `88..]88..8'   `"Y88b.  
+ 888          888  888   888    `888'`888'    o.  )88b 
+o888o        o888o `Y8bod8P'     `8'  `8'     8""888P' 	
+
+
+	 **/
+/* line 323, ../sass/cdp.scss */
 #flow .breadcrumb {
   text-decoration: none;
 }
-/* line 303, ../sass/cdp.scss */
+/* line 325, ../sass/cdp.scss */
 #flow .breadcrumb span {
   text-decoration: underline;
 }
-/* line 307, ../sass/cdp.scss */
+/* line 329, ../sass/cdp.scss */
 #flow .stage {
   padding-left: 6%;
 }
-/* line 310, ../sass/cdp.scss */
+/* line 332, ../sass/cdp.scss */
 #flow .number {
   background: #009ED8;
   background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #009ed8), color-stop(100%, #008dc4));
@@ -363,75 +386,75 @@ table.dataTable tr.even td.sorting_3 {
   background-image: -o-linear-gradient(#009ed8, #008dc4);
   background-image: linear-gradient(#009ed8, #008dc4);
 }
-/* line 314, ../sass/cdp.scss */
+/* line 336, ../sass/cdp.scss */
 #flow li {
   list-style-type: none;
 }
-/* line 316, ../sass/cdp.scss */
+/* line 338, ../sass/cdp.scss */
 #flow li.active {
   font-weight: bold;
   font-size: 16px;
 }
-/* line 322, ../sass/cdp.scss */
+/* line 344, ../sass/cdp.scss */
 #flow .roles li {
   width: 23.5%;
 }
-/* line 324, ../sass/cdp.scss */
+/* line 346, ../sass/cdp.scss */
 #flow .roles li img {
   margin: 0;
 }
-/* line 329, ../sass/cdp.scss */
+/* line 351, ../sass/cdp.scss */
 #flow .roles button.green {
   background: #238622 !important;
 }
-/* line 330, ../sass/cdp.scss */
+/* line 352, ../sass/cdp.scss */
 #flow .roles button.orange {
   background: #ff6633 !important;
 }
-/* line 331, ../sass/cdp.scss */
+/* line 353, ../sass/cdp.scss */
 #flow .roles button.blue {
   background: #008dc4 !important;
 }
-/* line 332, ../sass/cdp.scss */
+/* line 354, ../sass/cdp.scss */
 #flow .roles button.pink {
   background: #d41980 !important;
 }
-/* line 333, ../sass/cdp.scss */
+/* line 355, ../sass/cdp.scss */
 #flow .roles button span strong {
   padding: 0 15px;
 }
-/* line 338, ../sass/cdp.scss */
+/* line 360, ../sass/cdp.scss */
 #flow .disabled {
   cursor: default;
 }
-/* line 340, ../sass/cdp.scss */
+/* line 362, ../sass/cdp.scss */
 #flow .disabled .number {
   background: #666;
 }
-/* line 343, ../sass/cdp.scss */
+/* line 365, ../sass/cdp.scss */
 #flow .disabled:hover {
   background: #E2E2E2;
 }
-/* line 347, ../sass/cdp.scss */
+/* line 369, ../sass/cdp.scss */
 #flow .activities {
   margin: 20px 0;
 }
-/* line 350, ../sass/cdp.scss */
+/* line 372, ../sass/cdp.scss */
 #flow .activities-for-level {
   width: 100%;
   border: none;
 }
-/* line 353, ../sass/cdp.scss */
+/* line 375, ../sass/cdp.scss */
 #flow .activities-for-level li {
   height: 104px;
   max-width: 100%;
 }
-/* line 356, ../sass/cdp.scss */
+/* line 378, ../sass/cdp.scss */
 #flow .activities-for-level li:before {
   height: 11px;
   left: 87px;
 }
-/* line 361, ../sass/cdp.scss */
+/* line 383, ../sass/cdp.scss */
 #flow .activities-for-level .label {
   float: left;
   margin-top: 35px;
@@ -441,11 +464,11 @@ table.dataTable tr.even td.sorting_3 {
   font-weight: bold;
   text-transform: capitalize;
 }
-/* line 372, ../sass/cdp.scss */
+/* line 394, ../sass/cdp.scss */
 #flow .no-arrow-down:before {
   display: none;
 }
-/* line 376, ../sass/cdp.scss */
+/* line 398, ../sass/cdp.scss */
 #flow .arrow.left {
   background: url(https://at.avanade.com/organizations/CDPProgram/SiteAssets/img/arrow-left.png);
   width: 11px;
@@ -454,13 +477,13 @@ table.dataTable tr.even td.sorting_3 {
   margin: 20px;
   margin-top: 37px;
 }
-/* line 384, ../sass/cdp.scss */
+/* line 406, ../sass/cdp.scss */
 #flow .wo-record {
   margin: 20px;
   margin-top: -50px;
   margin-left: 34px;
 }
-/* line 388, ../sass/cdp.scss */
+/* line 410, ../sass/cdp.scss */
 #flow .wo-record:before {
   background: url("https://at.avanade.com/sites/CustomerRecordsManagement/Style%20Library/img/flow-arrow-down.png");
   top: -76px;
@@ -471,7 +494,7 @@ table.dataTable tr.even td.sorting_3 {
   position: absolute;
   width: 17px;
 }
-/* line 399, ../sass/cdp.scss */
+/* line 421, ../sass/cdp.scss */
 #flow .stop {
   background: #D90000;
   background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #d70000), color-stop(100%, #b60000));
@@ -488,7 +511,7 @@ table.dataTable tr.even td.sorting_3 {
   text-align: center;
   text-transform: capitalize;
 }
-/* line 410, ../sass/cdp.scss */
+/* line 432, ../sass/cdp.scss */
 #flow .stop:before {
   background: url("https://at.avanade.com/sites/CustomerRecordsManagement/Style%20Library/img/flow-arrow-down.png");
   top: 72px;
@@ -499,20 +522,20 @@ table.dataTable tr.even td.sorting_3 {
   width: 17px;
   right: 116px;
 }
-/* line 422, ../sass/cdp.scss */
+/* line 444, ../sass/cdp.scss */
 #flow .list li.blue-arrow:before {
   background: url("https://at.avanade.com/organizations/CDPProgram/SiteAssets/img/arrow-down-blue.png");
 }
-/* line 426, ../sass/cdp.scss */
+/* line 448, ../sass/cdp.scss */
 #flow .list li.three-arrows:before {
   background: url("https://at.avanade.com/organizations/CDPProgram/SiteAssets/img/arrow-three.png");
   width: 515px;
 }
-/* line 430, ../sass/cdp.scss */
+/* line 452, ../sass/cdp.scss */
 #flow .list .labels {
   height: 45px;
 }
-/* line 436, ../sass/cdp.scss */
+/* line 458, ../sass/cdp.scss */
 #flow .list .labels .no {
   width: 193px;
   line-height: 30px;
@@ -522,7 +545,7 @@ table.dataTable tr.even td.sorting_3 {
   text-align: center;
   margin-right: 46px;
 }
-/* line 444, ../sass/cdp.scss */
+/* line 466, ../sass/cdp.scss */
 #flow .list .labels .no:before {
   background: url("https://at.avanade.com/sites/CustomerRecordsManagement/Style%20Library/img/flow-arrow-down.png");
   bottom: -23px;
@@ -533,7 +556,7 @@ table.dataTable tr.even td.sorting_3 {
   position: absolute;
   width: 17px;
 }
-/* line 456, ../sass/cdp.scss */
+/* line 478, ../sass/cdp.scss */
 #flow .list.inverted {
   display: block;
   float: right;
@@ -544,11 +567,11 @@ table.dataTable tr.even td.sorting_3 {
   height: auto;
   overflow: visible;
 }
-/* line 465, ../sass/cdp.scss */
+/* line 487, ../sass/cdp.scss */
 #flow .list.inverted .stop:before {
   display: none;
 }
-/* line 468, ../sass/cdp.scss */
+/* line 490, ../sass/cdp.scss */
 #flow .list.inverted li.last-child:before {
   background: url("https://at.avanade.com/organizations/CDPProgram/SiteAssets/img/arrow-up-blue.png");
   width: 16px;
@@ -559,24 +582,24 @@ table.dataTable tr.even td.sorting_3 {
   display: block;
   top: 102px;
 }
-/* line 480, ../sass/cdp.scss */
+/* line 502, ../sass/cdp.scss */
 #flow .list.inverted li:before {
   background: url("https://at.avanade.com/organizations/CDPProgram/SiteAssets/img/arrow-up.png");
 }
-/* line 484, ../sass/cdp.scss */
+/* line 506, ../sass/cdp.scss */
 #flow .list li.float-right {
   float: right;
   margin-right: 14px;
 }
-/* line 487, ../sass/cdp.scss */
+/* line 509, ../sass/cdp.scss */
 #flow .list li.float-right:before {
   right: 0 !important;
 }
-/* line 491, ../sass/cdp.scss */
+/* line 513, ../sass/cdp.scss */
 #flow .list li.float-right-arrow:before {
   left: 570px;
 }
-/* line 495, ../sass/cdp.scss */
+/* line 517, ../sass/cdp.scss */
 #flow .block {
   line-height: 14px;
   min-height: 97px;
@@ -590,11 +613,11 @@ table.dataTable tr.even td.sorting_3 {
   color: #666;
   font-weight: normal;
 }
-/* line 507, ../sass/cdp.scss */
+/* line 529, ../sass/cdp.scss */
 #flow .block.extended {
   width: 98%;
 }
-/* line 510, ../sass/cdp.scss */
+/* line 532, ../sass/cdp.scss */
 #flow .block.diamond {
   background: url(https://at.avanade.com/organizations/CDPProgram/SiteAssets/img/diamond.png);
   height: 130px;
@@ -603,11 +626,11 @@ table.dataTable tr.even td.sorting_3 {
   width: 130px;
   color: white;
 }
-/* line 518, ../sass/cdp.scss */
+/* line 540, ../sass/cdp.scss */
 #flow .block.center {
   margin-left: 240px;
 }
-/* line 521, ../sass/cdp.scss */
+/* line 543, ../sass/cdp.scss */
 #flow .block.blue {
   color: white;
   background: #008DC4;
@@ -616,11 +639,11 @@ table.dataTable tr.even td.sorting_3 {
   line-height: 18px;
   min-height: 80px;
 }
-/* line 529, ../sass/cdp.scss */
+/* line 551, ../sass/cdp.scss */
 #flow .block.multi-arrow {
   margin: 0 65px;
 }
-/* line 531, ../sass/cdp.scss */
+/* line 553, ../sass/cdp.scss */
 #flow .block.multi-arrow:before {
   background: url(https://at.avanade.com/organizations/CDPProgram/SiteAssets/img/flow-multiarrows.png) no-repeat;
   position: absolute;
@@ -631,7 +654,7 @@ table.dataTable tr.even td.sorting_3 {
   content: '';
   top: -90px;
 }
-/* line 544, ../sass/cdp.scss */
+/* line 566, ../sass/cdp.scss */
 #flow .arrow-right {
   width: 11px;
   height: 17px;
@@ -640,13 +663,13 @@ table.dataTable tr.even td.sorting_3 {
   margin: 20px;
   margin-top: 37px;
 }
-/* line 552, ../sass/cdp.scss */
+/* line 574, ../sass/cdp.scss */
 #flow i {
   width: 11px;
   background: url(https://at.avanade.com/organizations/CDPProgram/SiteAssets/img/arrow-right.png);
   height: 16px;
 }
-/* line 558, ../sass/cdp.scss */
+/* line 580, ../sass/cdp.scss */
 #flow .inner-tab-4 .breadcrumb, #flow .tab-4 .breadcrumb {
   background: #d41980;
   background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ce0071), color-stop(100%, #b70064));
@@ -655,14 +678,14 @@ table.dataTable tr.even td.sorting_3 {
   background-image: -o-linear-gradient(#ce0071, #b70064);
   background-image: linear-gradient(#ce0071, #b70064);
 }
-/* line 564, ../sass/cdp.scss */
+/* line 586, ../sass/cdp.scss */
 #flow .welcome-content {
   overflow: hidden;
   *zoom: 1;
   margin-bottom: 25px;
 }
 
-/* line 571, ../sass/cdp.scss */
+/* line 593, ../sass/cdp.scss */
 a.button {
   background: #FF3300;
   background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ff3300), color-stop(100%, #cc0000));
@@ -677,7 +700,7 @@ a.button {
   font-weight: bold !important;
   position: relative;
 }
-/* line 574, ../sass/cdp.scss */
+/* line 596, ../sass/cdp.scss */
 a.button:hover {
   text-decoration: none;
   background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ff471a), color-stop(100%, #ff0000));
@@ -686,7 +709,7 @@ a.button:hover {
   background-image: -o-linear-gradient(#ff471a, #ff0000);
   background-image: linear-gradient(#ff471a, #ff0000);
 }
-/* line 585, ../sass/cdp.scss */
+/* line 607, ../sass/cdp.scss */
 a.button span.icon.pdf {
   display: block;
   background-image: url(https://at.avanade.com/organizations/CDPProgram/SiteAssets/img/pdf-icon.png);
@@ -696,4 +719,35 @@ a.button span.icon.pdf {
   position: absolute;
   left: 13px;
   top: 10px;
+}
+
+/**
+
+ .oooooo..o                                           o8o      .               
+d8P'    `Y8                                           `"'    .o8               
+Y88bo.       .ooooo.   .ooooo.  oooo  oooo  oooo d8b oooo  .o888oo oooo    ooo 
+ `"Y8888o.  d88' `88b d88' `"Y8 `888  `888  `888""8P `888    888    `88.  .8'  
+     `"Y88b 888ooo888 888        888   888   888      888    888     `88..8'   
+oo     .d8P 888    .o 888   .o8  888   888   888      888    888 .    `888'    
+8""88888P'  `Y8bod8P' `Y8bod8P'  `V88V"V8P' d888b    o888o   "888"     .8'     
+                                                                   .o..P'      
+                                                                   `Y8P'     
+**/
+/* line 633, ../sass/cdp.scss */
+#security-software .item .picture {
+  width: 19%;
+  float: left;
+  margin-right: 1%;
+}
+/* line 638, ../sass/cdp.scss */
+#security-software .item .description {
+  width: 59%;
+  float: left;
+  margin-right: 1%;
+}
+/* line 643, ../sass/cdp.scss */
+#security-software .item .download-link {
+  width: 19%;
+  margin-right: 1%;
+  float: left;
 }
