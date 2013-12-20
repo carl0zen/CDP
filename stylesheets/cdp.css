@@ -733,19 +733,23 @@ oo     .d8P 888    .o 888   .o8  888   888   888      888    888 .    `888'
                                                                    .o..P'      
                                                                    `Y8P'     
 **/
-/* line 633, ../sass/cdp.scss */
+/* line 632, ../sass/cdp.scss */
+#security-software .item {
+  border-bottom: 1px solid #999999;
+}
+/* line 634, ../sass/cdp.scss */
 #security-software .item .picture {
   width: 19%;
   float: left;
   margin-right: 1%;
 }
-/* line 638, ../sass/cdp.scss */
+/* line 639, ../sass/cdp.scss */
 #security-software .item .description {
   width: 59%;
   float: left;
   margin-right: 1%;
 }
-/* line 643, ../sass/cdp.scss */
+/* line 644, ../sass/cdp.scss */
 #security-software .item .download-link {
   width: 19%;
   margin-right: 1%;
