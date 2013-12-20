@@ -634,18 +634,18 @@ oo     .d8P 888    .o 888   .o8  888   888   888      888    888 .    `888'
 		@include clearfix();
 		padding: 15px 0;
 		font-size: 12px;
-		div{
+		td{
 			padding: 5px;
 		}
 		.picture{
 			width:19%;
 			vertical-align: middle;
 			margin-right: 1%;
-			text-align: center;
+			text-align: center; 	
 		}
 		.description{
 			width:59%;
-
+			font-size: 14px;
 			margin-right: 1%;
 			color:#858585;
 			line-height: 1.2;
