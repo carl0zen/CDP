@@ -741,23 +741,29 @@ oo     .d8P 888    .o 888   .o8  888   888   888      888    888 .    `888'
   padding: 15px 0;
 }
 /* line 636, ../sass/cdp.scss */
+#security-software .item div {
+  padding: 5px;
+}
+/* line 639, ../sass/cdp.scss */
 #security-software .item .picture {
   width: 19%;
+  vertical-align: middle;
   margin-right: 1%;
 }
-/* line 641, ../sass/cdp.scss */
+/* line 644, ../sass/cdp.scss */
 #security-software .item .description {
   width: 59%;
   margin-right: 1%;
   color: #858585;
   line-height: 1.2;
 }
-/* line 647, ../sass/cdp.scss */
+/* line 650, ../sass/cdp.scss */
 #security-software .item .description h3 {
   color: #333;
   font-weight: bold;
+  margin: 10px 0;
 }
-/* line 652, ../sass/cdp.scss */
+/* line 656, ../sass/cdp.scss */
 #security-software .item .download-link {
   width: 19%;
   margin-right: 1%;
