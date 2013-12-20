@@ -635,12 +635,12 @@ oo     .d8P 888    .o 888   .o8  888   888   888      888    888 .    `888'
 		padding: 15px 0;
 		.picture{
 			width:19%;
-			float: left;
+
 			margin-right: 1%;
 		}
 		.description{
 			width:59%;
-			float: left;
+
 			margin-right: 1%;
 			color:#858585;
 			line-height: 1.2;
@@ -652,9 +652,8 @@ oo     .d8P 888    .o 888   .o8  888   888   888      888    888 .    `888'
 		.download-link{
 			width:19%;
 			margin-right: 1%;
-			float: left;
+
 			border-left: 1px solid #ccc;
-			display: table-cell;
 			vertical-align: middle;
 		}
 	}
