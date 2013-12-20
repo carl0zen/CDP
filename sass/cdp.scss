@@ -32,6 +32,18 @@ ul.title-links{
 
 }
 
+.slider-section{
+	.slider{
+		width:500px;
+		float: left;
+		#nav{
+			right:0 !important;
+		}
+	}
+	.side-content{
+		width:31%;
+	}
+}
 .slider{
 	ul.dfwp-column.dfwp-list{
 		width: 500px !important;
