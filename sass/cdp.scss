@@ -630,7 +630,9 @@ oo     .d8P 888    .o 888   .o8  888   888   888      888    888 .    `888'
 
 #security-software{
 	.item{
-		border-bottom: 1px solid #999;
+		border-bottom: 1px solid #ccc;
+		@include clearfix();
+		padding: 15px 0;
 		.picture{
 			width:19%;
 			float: left;
@@ -640,11 +642,20 @@ oo     .d8P 888    .o 888   .o8  888   888   888      888    888 .    `888'
 			width:59%;
 			float: left;
 			margin-right: 1%;
+			color:#858585;
+			line-height: 1.2;
+			h3{
+				color:#333;
+				font-weight: bold
+			}
 		}
 		.download-link{
 			width:19%;
 			margin-right: 1%;
 			float: left;
+			border-left: 1px solid #ccc;
+			display: table-cell;
+			vertical-align: middle;
 		}
 	}
 
