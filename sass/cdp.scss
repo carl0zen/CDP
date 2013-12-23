@@ -16,12 +16,12 @@ oooooo   oooooo     oooo           oooo
 	@include clearfix();
 	.welcome-text{
 		float: left;
-		width: 67%;
+		width: 66%;
 		h1{
 			padding-top: 0;
 		}
 		tr{
-			width: 100%;
+			width: 100% !important;
 		}
 	}
 	.side-ad{
@@ -62,9 +62,10 @@ ul.title-links{
 		#nav{
 			right:0 !important;
 		}
+		margin-bottom: 0;
 	}
 	.side-content{
-		width:31%;
+		width:30.5%;
 	}
 }
 .slider{
