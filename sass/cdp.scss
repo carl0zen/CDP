@@ -165,6 +165,9 @@ ooooooooooooo                     oooo                                          
 .page-content{
 	width:66%;
 	float:left;
+	&.full-width{
+		width: 100%;
+	}
 }
 .warning-sign{
 	background: #FFFF66;
