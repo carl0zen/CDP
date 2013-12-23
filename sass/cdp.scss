@@ -17,12 +17,21 @@ oooooo   oooooo     oooo           oooo
 	.welcome-text{
 		float: left;
 		width: 67%;
+		h1{
+			padding-top: 0;
+		}
+		tr{
+			width: 100%;
+		}
 	}
 	.side-ad{
-		width: 33%;
+		width: 32.5%;
 		float: right;
 		background: #e2e2e2;
-		line-height: 242px;
+		text-align: center;
+		vertical-align: middle;
+		height: 150px;
+		line-height: 150px;
 	}
 }
 ul.title-links{
