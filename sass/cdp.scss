@@ -12,6 +12,19 @@ oooooo   oooooo     oooo           oooo
 
 **/
 
+.welcome-section{
+	@include clearfix();
+	.welcome-text{
+		float: left;
+		width: 67%;
+	}
+	.side-ad{
+		width: 33%;
+		float: right;
+		background: #e2e2e2;
+		line-height: 242px;
+	}
+}
 ul.title-links{
 	margin:0;
 	padding:0;
