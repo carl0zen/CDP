@@ -218,6 +218,7 @@ ooooooooooooo                     oooo                                          
 
 /** Table Colors**/
 
+/**  //REMOVER ESTILO 4:27 23 dic 2013
 #documentList_wrapper{
 	&:before{
 		content:"";
@@ -226,6 +227,12 @@ ooooooooooooo                     oooo                                          
 		background: #E2E2E2;
 		position: absolute;
 	}
+}**/
+.dataTables_wrapper {
+    background-color: #E2E2E2;
+}
+table.dataTable {
+    background-color: #FFFFFF;
 }
 #documentList_filter {
 	label{
