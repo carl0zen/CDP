@@ -33,6 +33,7 @@ ul.title-links{
 }
 
 .slider-section{
+	@include clearfix();
 	.slider{
 		width:500px;
 		float: left;
