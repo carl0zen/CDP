@@ -1,7 +1,8 @@
 /* line 6, ../sass/cdp.scss */
 .left-menu-custom ul.root > li.static > a.static.menu-item {
   border-bottom: 1px solid #ccc;
-  line-height: 2.5;
+  line-height: 1.3;
+  padding: 15px 0;
 }
 
 /**
@@ -15,25 +16,25 @@ oooooo   oooooo     oooo           oooo
       `8'      `8'       `Y8bod8P' o888o `Y8bod8P' `Y8bod8P' o888o o888o o888o `Y8bod8P' 
 
 **/
-/* line 22, ../sass/cdp.scss */
+/* line 23, ../sass/cdp.scss */
 .welcome-section {
   overflow: hidden;
   *zoom: 1;
 }
-/* line 24, ../sass/cdp.scss */
+/* line 25, ../sass/cdp.scss */
 .welcome-section .welcome-text {
   float: left;
   width: 66%;
 }
-/* line 27, ../sass/cdp.scss */
+/* line 28, ../sass/cdp.scss */
 .welcome-section .welcome-text h1 {
   padding-top: 0;
 }
-/* line 30, ../sass/cdp.scss */
+/* line 31, ../sass/cdp.scss */
 .welcome-section .welcome-text tr {
   width: 100% !important;
 }
-/* line 34, ../sass/cdp.scss */
+/* line 35, ../sass/cdp.scss */
 .welcome-section .side-ad {
   width: 32.5%;
   float: right;
@@ -44,12 +45,12 @@ oooooo   oooooo     oooo           oooo
   line-height: 150px;
 }
 
-/* line 44, ../sass/cdp.scss */
+/* line 45, ../sass/cdp.scss */
 ul.title-links {
   margin: 0;
   padding: 0;
 }
-/* line 47, ../sass/cdp.scss */
+/* line 48, ../sass/cdp.scss */
 ul.title-links li {
   display: inline-block;
   list-style-type: none;
@@ -61,86 +62,86 @@ ul.title-links li {
   padding: 11px 10px;
   line-height: 14px;
 }
-/* line 57, ../sass/cdp.scss */
+/* line 58, ../sass/cdp.scss */
 ul.title-links li a {
   color: #333 !important;
 }
 
-/* line 64, ../sass/cdp.scss */
+/* line 65, ../sass/cdp.scss */
 .slider-section {
   overflow: hidden;
   *zoom: 1;
 }
-/* line 66, ../sass/cdp.scss */
+/* line 67, ../sass/cdp.scss */
 .slider-section .slider {
   width: 500px;
   float: left;
   margin-bottom: 0;
 }
-/* line 69, ../sass/cdp.scss */
+/* line 70, ../sass/cdp.scss */
 .slider-section .slider #nav {
   right: 0 !important;
 }
-/* line 74, ../sass/cdp.scss */
+/* line 75, ../sass/cdp.scss */
 .slider-section .side-content {
   width: 30.5%;
 }
 
-/* line 79, ../sass/cdp.scss */
+/* line 80, ../sass/cdp.scss */
 .slider ul.dfwp-column.dfwp-list {
   width: 500px !important;
   height: 250px;
 }
-/* line 82, ../sass/cdp.scss */
+/* line 83, ../sass/cdp.scss */
 .slider ul.dfwp-column.dfwp-list li {
   font-size: 11px;
   line-height: 16px;
 }
-/* line 87, ../sass/cdp.scss */
+/* line 88, ../sass/cdp.scss */
 .slider img {
   max-width: 100%;
 }
-/* line 90, ../sass/cdp.scss */
+/* line 91, ../sass/cdp.scss */
 .slider table > tbody > tr:nth-of-type(1) {
   display: block;
   float: left;
   width: 500px;
   overflow: hidden;
 }
-/* line 96, ../sass/cdp.scss */
+/* line 97, ../sass/cdp.scss */
 .slider table > tbody > tr:nth-of-type(2) {
   display: block;
   float: right;
   width: 222px;
 }
-/* line 101, ../sass/cdp.scss */
+/* line 102, ../sass/cdp.scss */
 .slider #nav {
   right: 250px !important;
 }
-/* line 104, ../sass/cdp.scss */
+/* line 105, ../sass/cdp.scss */
 .slider .description {
   background-color: rgba(0, 153, 204, 0.9) !important;
 }
 
-/* line 109, ../sass/cdp.scss */
+/* line 110, ../sass/cdp.scss */
 .welcome-text {
   height: 158px;
 }
-/* line 111, ../sass/cdp.scss */
+/* line 112, ../sass/cdp.scss */
 .welcome-text > table > tbody > tr:nth-of-type(1) {
   display: block;
   float: right;
   width: 242px;
   overflow: hidden;
 }
-/* line 117, ../sass/cdp.scss */
+/* line 118, ../sass/cdp.scss */
 .welcome-text > table > tbody > tr:nth-of-type(2) {
   display: block;
   float: left;
   width: 500px;
   padding: 10px 20px 10px 0px;
 }
-/* line 123, ../sass/cdp.scss */
+/* line 124, ../sass/cdp.scss */
 .welcome-text .ad {
   background: #eee;
   width: 300px;
@@ -152,31 +153,31 @@ ul.title-links li a {
   vertical-align: middle;
 }
 
-/* line 136, ../sass/cdp.scss */
+/* line 137, ../sass/cdp.scss */
 html body .rm-layout .tiles .purple, html body .rm-layout .tiles .orange, html body .rm-layout .tiles .blue {
   height: 200px;
 }
-/* line 139, ../sass/cdp.scss */
+/* line 140, ../sass/cdp.scss */
 html body .rm-layout .tiles .green {
   float: left;
   width: 66.6%;
 }
-/* line 143, ../sass/cdp.scss */
+/* line 144, ../sass/cdp.scss */
 html body .rm-layout .tiles .yellow {
   background: #FF9900;
   float: right;
   width: 32.5%;
 }
-/* line 147, ../sass/cdp.scss */
+/* line 148, ../sass/cdp.scss */
 html body .rm-layout .tiles .yellow .ms-WPBody {
   padding: 27px;
 }
-/* line 153, ../sass/cdp.scss */
+/* line 154, ../sass/cdp.scss */
 html body .rm-layout p {
   font-size: 12px;
 }
 
-/* line 157, ../sass/cdp.scss */
+/* line 158, ../sass/cdp.scss */
 .cbq-layout-main .dfwp-item .description {
   overflow: hidden;
   *zoom: 1;
@@ -205,42 +206,42 @@ ooooooooooooo                     oooo                                          
                                     o888o                                                 
                                                                                
 **/
-/* line 186, ../sass/cdp.scss */
+/* line 187, ../sass/cdp.scss */
 .page-banner img {
   width: 100%;
 }
 
-/* line 190, ../sass/cdp.scss */
+/* line 191, ../sass/cdp.scss */
 .side-content {
   margin-top: 20px;
   width: 33%;
   float: right;
 }
 
-/* line 195, ../sass/cdp.scss */
+/* line 196, ../sass/cdp.scss */
 .page-content {
   width: 66%;
   float: left;
 }
-/* line 198, ../sass/cdp.scss */
+/* line 199, ../sass/cdp.scss */
 .page-content.full-width {
   width: 100%;
 }
 
-/* line 202, ../sass/cdp.scss */
+/* line 203, ../sass/cdp.scss */
 .warning-sign {
   background: #FFFF66;
   padding: 10px;
   margin: 20px 0;
 }
-/* line 206, ../sass/cdp.scss */
+/* line 207, ../sass/cdp.scss */
 .warning-sign h3 {
   margin: 10px 0 20px 0;
   color: #000;
 }
 
 /** Table Colors**/
-/* line 216, ../sass/cdp.scss */
+/* line 217, ../sass/cdp.scss */
 #documentList_wrapper:before {
   content: "";
   width: 100%;
@@ -249,12 +250,12 @@ ooooooooooooo                     oooo                                          
   position: absolute;
 }
 
-/* line 225, ../sass/cdp.scss */
+/* line 226, ../sass/cdp.scss */
 #documentList_filter label {
   font-size: 13px;
   color: #a2a2a2;
 }
-/* line 230, ../sass/cdp.scss */
+/* line 231, ../sass/cdp.scss */
 #documentList_filter input {
   width: auto;
   background: white;
@@ -266,7 +267,7 @@ ooooooooooooo                     oooo                                          
   color: #777;
 }
 
-/* line 242, ../sass/cdp.scss */
+/* line 243, ../sass/cdp.scss */
 #documentList_length label {
   z-index: 10;
   position: relative;
@@ -276,12 +277,12 @@ ooooooooooooo                     oooo                                          
   display: block;
 }
 
-/* line 252, ../sass/cdp.scss */
+/* line 253, ../sass/cdp.scss */
 .dataTables_filter {
   position: relative;
 }
 
-/* line 256, ../sass/cdp.scss */
+/* line 257, ../sass/cdp.scss */
 #documentList thead {
   background: #eee;
   border: none;
@@ -289,7 +290,7 @@ ooooooooooooo                     oooo                                          
   border: none;
   line-height: 27px;
 }
-/* line 262, ../sass/cdp.scss */
+/* line 263, ../sass/cdp.scss */
 #documentList thead th {
   border: none;
   font-size: 15px;
@@ -299,7 +300,7 @@ ooooooooooooo                     oooo                                          
   padding: 0 10px;
 }
 
-/* line 275, ../sass/cdp.scss */
+/* line 276, ../sass/cdp.scss */
 h4.ms-rteElement-H4B {
   background: #0C9DDE;
   color: white;
@@ -307,39 +308,39 @@ h4.ms-rteElement-H4B {
   font-style: normal;
 }
 
-/* line 282, ../sass/cdp.scss */
+/* line 283, ../sass/cdp.scss */
 table.dataTable tr td:first-child {
   font-weight: bold;
   color: #858585;
   background: none !important;
 }
-/* line 287, ../sass/cdp.scss */
+/* line 288, ../sass/cdp.scss */
 table.dataTable tr td {
   padding: 10px !important;
   background: none !important;
 }
-/* line 291, ../sass/cdp.scss */
+/* line 292, ../sass/cdp.scss */
 table.dataTable .title {
   width: 300px;
 }
-/* line 294, ../sass/cdp.scss */
+/* line 295, ../sass/cdp.scss */
 table.dataTable tr td:nth-of-type(3) {
   width: 100px;
 }
 
-/* line 299, ../sass/cdp.scss */
+/* line 300, ../sass/cdp.scss */
 div.h1-section1 {
   background: #CF0072 !important;
   width: 97.5% !important;
 }
 
-/* line 303, ../sass/cdp.scss */
+/* line 304, ../sass/cdp.scss */
 table.dataTable tr {
   background: none !important;
   border-bottom: 1px solid #eee;
 }
 
-/* line 308, ../sass/cdp.scss */
+/* line 309, ../sass/cdp.scss */
 a.download {
   width: 27px;
   height: 27px;
@@ -349,63 +350,63 @@ a.download {
   display: block;
 }
 
-/* line 316, ../sass/cdp.scss */
+/* line 317, ../sass/cdp.scss */
 table.dataTable tr.odd {
   background-color: transparent;
 }
 
-/* line 317, ../sass/cdp.scss */
+/* line 318, ../sass/cdp.scss */
 table.dataTable tr.even {
   background-color: transparent;
 }
 
-/* line 319, ../sass/cdp.scss */
+/* line 320, ../sass/cdp.scss */
 table.dataTable tr.odd td.sorting_1 {
   background-color: transparent;
 }
 
-/* line 320, ../sass/cdp.scss */
+/* line 321, ../sass/cdp.scss */
 table.dataTable tr.odd td.sorting_2 {
   background-color: transparent;
 }
 
-/* line 321, ../sass/cdp.scss */
+/* line 322, ../sass/cdp.scss */
 table.dataTable tr.odd td.sorting_3 {
   background-color: transparent;
 }
 
-/* line 322, ../sass/cdp.scss */
+/* line 323, ../sass/cdp.scss */
 table.dataTable tr.even td.sorting_1 {
   background-color: transparent;
 }
 
-/* line 323, ../sass/cdp.scss */
+/* line 324, ../sass/cdp.scss */
 table.dataTable tr.even td.sorting_2 {
   background-color: transparent;
 }
 
-/* line 324, ../sass/cdp.scss */
+/* line 325, ../sass/cdp.scss */
 table.dataTable tr.even td.sorting_3 {
   background-color: transparent;
 }
 
-/* line 330, ../sass/cdp.scss */
+/* line 331, ../sass/cdp.scss */
 #compliance-review .ms-WPHeader {
   background: #f4f4f4 !important;
   border: none !important;
 }
-/* line 333, ../sass/cdp.scss */
+/* line 334, ../sass/cdp.scss */
 #compliance-review .ms-WPHeader h3 {
   margin: 10px 17px;
   color: #333;
   font-size: 16px;
 }
-/* line 339, ../sass/cdp.scss */
+/* line 340, ../sass/cdp.scss */
 #compliance-review .ms-WPHeader:hover {
   background: white;
   cursor: pointer;
 }
-/* line 344, ../sass/cdp.scss */
+/* line 345, ../sass/cdp.scss */
 #compliance-review p {
   margin: 15px 0;
 }
@@ -423,19 +424,19 @@ o888o        o888o `Y8bod8P'     `8'  `8'     8""888P'
 
 
 	 **/
-/* line 369, ../sass/cdp.scss */
+/* line 370, ../sass/cdp.scss */
 #flow .breadcrumb {
   text-decoration: none;
 }
-/* line 371, ../sass/cdp.scss */
+/* line 372, ../sass/cdp.scss */
 #flow .breadcrumb span {
   text-decoration: underline;
 }
-/* line 375, ../sass/cdp.scss */
+/* line 376, ../sass/cdp.scss */
 #flow .stage {
   padding-left: 6%;
 }
-/* line 378, ../sass/cdp.scss */
+/* line 379, ../sass/cdp.scss */
 #flow .number {
   background: #009ED8;
   background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #009ed8), color-stop(100%, #008dc4));
@@ -444,75 +445,75 @@ o888o        o888o `Y8bod8P'     `8'  `8'     8""888P'
   background-image: -o-linear-gradient(#009ed8, #008dc4);
   background-image: linear-gradient(#009ed8, #008dc4);
 }
-/* line 382, ../sass/cdp.scss */
+/* line 383, ../sass/cdp.scss */
 #flow li {
   list-style-type: none;
 }
-/* line 384, ../sass/cdp.scss */
+/* line 385, ../sass/cdp.scss */
 #flow li.active {
   font-weight: bold;
   font-size: 16px;
 }
-/* line 390, ../sass/cdp.scss */
+/* line 391, ../sass/cdp.scss */
 #flow .roles li {
   width: 23.5%;
 }
-/* line 392, ../sass/cdp.scss */
+/* line 393, ../sass/cdp.scss */
 #flow .roles li img {
   margin: 0;
 }
-/* line 397, ../sass/cdp.scss */
+/* line 398, ../sass/cdp.scss */
 #flow .roles button.green {
   background: #238622 !important;
 }
-/* line 398, ../sass/cdp.scss */
+/* line 399, ../sass/cdp.scss */
 #flow .roles button.orange {
   background: #ff6633 !important;
 }
-/* line 399, ../sass/cdp.scss */
+/* line 400, ../sass/cdp.scss */
 #flow .roles button.blue {
   background: #008dc4 !important;
 }
-/* line 400, ../sass/cdp.scss */
+/* line 401, ../sass/cdp.scss */
 #flow .roles button.pink {
   background: #d41980 !important;
 }
-/* line 401, ../sass/cdp.scss */
+/* line 402, ../sass/cdp.scss */
 #flow .roles button span strong {
   padding: 0 15px;
 }
-/* line 406, ../sass/cdp.scss */
+/* line 407, ../sass/cdp.scss */
 #flow .disabled {
   cursor: default;
 }
-/* line 408, ../sass/cdp.scss */
+/* line 409, ../sass/cdp.scss */
 #flow .disabled .number {
   background: #666;
 }
-/* line 411, ../sass/cdp.scss */
+/* line 412, ../sass/cdp.scss */
 #flow .disabled:hover {
   background: #E2E2E2;
 }
-/* line 415, ../sass/cdp.scss */
+/* line 416, ../sass/cdp.scss */
 #flow .activities {
   margin: 20px 0;
 }
-/* line 418, ../sass/cdp.scss */
+/* line 419, ../sass/cdp.scss */
 #flow .activities-for-level {
   width: 100%;
   border: none;
 }
-/* line 421, ../sass/cdp.scss */
+/* line 422, ../sass/cdp.scss */
 #flow .activities-for-level li {
   height: 104px;
   max-width: 100%;
 }
-/* line 424, ../sass/cdp.scss */
+/* line 425, ../sass/cdp.scss */
 #flow .activities-for-level li:before {
   height: 11px;
   left: 87px;
 }
-/* line 429, ../sass/cdp.scss */
+/* line 430, ../sass/cdp.scss */
 #flow .activities-for-level .label {
   float: left;
   margin-top: 35px;
@@ -522,11 +523,11 @@ o888o        o888o `Y8bod8P'     `8'  `8'     8""888P'
   font-weight: bold;
   text-transform: capitalize;
 }
-/* line 440, ../sass/cdp.scss */
+/* line 441, ../sass/cdp.scss */
 #flow .no-arrow-down:before {
   display: none;
 }
-/* line 444, ../sass/cdp.scss */
+/* line 445, ../sass/cdp.scss */
 #flow .arrow.left {
   background: url(https://at.avanade.com/organizations/CDPProgram/SiteAssets/img/arrow-left.png);
   width: 11px;
@@ -535,13 +536,13 @@ o888o        o888o `Y8bod8P'     `8'  `8'     8""888P'
   margin: 20px;
   margin-top: 37px;
 }
-/* line 452, ../sass/cdp.scss */
+/* line 453, ../sass/cdp.scss */
 #flow .wo-record {
   margin: 20px;
   margin-top: -50px;
   margin-left: 34px;
 }
-/* line 456, ../sass/cdp.scss */
+/* line 457, ../sass/cdp.scss */
 #flow .wo-record:before {
   background: url("https://at.avanade.com/sites/CustomerRecordsManagement/Style%20Library/img/flow-arrow-down.png");
   top: -76px;
@@ -552,7 +553,7 @@ o888o        o888o `Y8bod8P'     `8'  `8'     8""888P'
   position: absolute;
   width: 17px;
 }
-/* line 467, ../sass/cdp.scss */
+/* line 468, ../sass/cdp.scss */
 #flow .stop {
   background: #D90000;
   background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #d70000), color-stop(100%, #b60000));
@@ -569,7 +570,7 @@ o888o        o888o `Y8bod8P'     `8'  `8'     8""888P'
   text-align: center;
   text-transform: capitalize;
 }
-/* line 478, ../sass/cdp.scss */
+/* line 479, ../sass/cdp.scss */
 #flow .stop:before {
   background: url("https://at.avanade.com/sites/CustomerRecordsManagement/Style%20Library/img/flow-arrow-down.png");
   top: 72px;
@@ -580,20 +581,20 @@ o888o        o888o `Y8bod8P'     `8'  `8'     8""888P'
   width: 17px;
   right: 116px;
 }
-/* line 490, ../sass/cdp.scss */
+/* line 491, ../sass/cdp.scss */
 #flow .list li.blue-arrow:before {
   background: url("https://at.avanade.com/organizations/CDPProgram/SiteAssets/img/arrow-down-blue.png");
 }
-/* line 494, ../sass/cdp.scss */
+/* line 495, ../sass/cdp.scss */
 #flow .list li.three-arrows:before {
   background: url("https://at.avanade.com/organizations/CDPProgram/SiteAssets/img/arrow-three.png");
   width: 515px;
 }
-/* line 498, ../sass/cdp.scss */
+/* line 499, ../sass/cdp.scss */
 #flow .list .labels {
   height: 45px;
 }
-/* line 504, ../sass/cdp.scss */
+/* line 505, ../sass/cdp.scss */
 #flow .list .labels .no {
   width: 193px;
   line-height: 30px;
@@ -603,7 +604,7 @@ o888o        o888o `Y8bod8P'     `8'  `8'     8""888P'
   text-align: center;
   margin-right: 46px;
 }
-/* line 512, ../sass/cdp.scss */
+/* line 513, ../sass/cdp.scss */
 #flow .list .labels .no:before {
   background: url("https://at.avanade.com/sites/CustomerRecordsManagement/Style%20Library/img/flow-arrow-down.png");
   bottom: -23px;
@@ -614,7 +615,7 @@ o888o        o888o `Y8bod8P'     `8'  `8'     8""888P'
   position: absolute;
   width: 17px;
 }
-/* line 524, ../sass/cdp.scss */
+/* line 525, ../sass/cdp.scss */
 #flow .list.inverted {
   display: block;
   float: right;
@@ -625,11 +626,11 @@ o888o        o888o `Y8bod8P'     `8'  `8'     8""888P'
   height: auto;
   overflow: visible;
 }
-/* line 533, ../sass/cdp.scss */
+/* line 534, ../sass/cdp.scss */
 #flow .list.inverted .stop:before {
   display: none;
 }
-/* line 536, ../sass/cdp.scss */
+/* line 537, ../sass/cdp.scss */
 #flow .list.inverted li.last-child:before {
   background: url("https://at.avanade.com/organizations/CDPProgram/SiteAssets/img/arrow-up-blue.png");
   width: 16px;
@@ -640,24 +641,24 @@ o888o        o888o `Y8bod8P'     `8'  `8'     8""888P'
   display: block;
   top: 102px;
 }
-/* line 548, ../sass/cdp.scss */
+/* line 549, ../sass/cdp.scss */
 #flow .list.inverted li:before {
   background: url("https://at.avanade.com/organizations/CDPProgram/SiteAssets/img/arrow-up.png");
 }
-/* line 552, ../sass/cdp.scss */
+/* line 553, ../sass/cdp.scss */
 #flow .list li.float-right {
   float: right;
   margin-right: 14px;
 }
-/* line 555, ../sass/cdp.scss */
+/* line 556, ../sass/cdp.scss */
 #flow .list li.float-right:before {
   right: 0 !important;
 }
-/* line 559, ../sass/cdp.scss */
+/* line 560, ../sass/cdp.scss */
 #flow .list li.float-right-arrow:before {
   left: 570px;
 }
-/* line 563, ../sass/cdp.scss */
+/* line 564, ../sass/cdp.scss */
 #flow .block {
   line-height: 14px;
   min-height: 97px;
@@ -671,11 +672,11 @@ o888o        o888o `Y8bod8P'     `8'  `8'     8""888P'
   color: #666;
   font-weight: normal;
 }
-/* line 575, ../sass/cdp.scss */
+/* line 576, ../sass/cdp.scss */
 #flow .block.extended {
   width: 98%;
 }
-/* line 578, ../sass/cdp.scss */
+/* line 579, ../sass/cdp.scss */
 #flow .block.diamond {
   background: url(https://at.avanade.com/organizations/CDPProgram/SiteAssets/img/diamond.png);
   height: 130px;
@@ -684,11 +685,11 @@ o888o        o888o `Y8bod8P'     `8'  `8'     8""888P'
   width: 130px;
   color: white;
 }
-/* line 586, ../sass/cdp.scss */
+/* line 587, ../sass/cdp.scss */
 #flow .block.center {
   margin-left: 240px;
 }
-/* line 589, ../sass/cdp.scss */
+/* line 590, ../sass/cdp.scss */
 #flow .block.blue {
   color: white;
   background: #008DC4;
@@ -697,11 +698,11 @@ o888o        o888o `Y8bod8P'     `8'  `8'     8""888P'
   line-height: 18px;
   min-height: 80px;
 }
-/* line 597, ../sass/cdp.scss */
+/* line 598, ../sass/cdp.scss */
 #flow .block.multi-arrow {
   margin: 0 65px;
 }
-/* line 599, ../sass/cdp.scss */
+/* line 600, ../sass/cdp.scss */
 #flow .block.multi-arrow:before {
   background: url(https://at.avanade.com/organizations/CDPProgram/SiteAssets/img/flow-multiarrows.png) no-repeat;
   position: absolute;
@@ -712,7 +713,7 @@ o888o        o888o `Y8bod8P'     `8'  `8'     8""888P'
   content: '';
   top: -90px;
 }
-/* line 612, ../sass/cdp.scss */
+/* line 613, ../sass/cdp.scss */
 #flow .arrow-right {
   width: 11px;
   height: 17px;
@@ -721,13 +722,13 @@ o888o        o888o `Y8bod8P'     `8'  `8'     8""888P'
   margin: 20px;
   margin-top: 37px;
 }
-/* line 620, ../sass/cdp.scss */
+/* line 621, ../sass/cdp.scss */
 #flow i {
   width: 11px;
   background: url(https://at.avanade.com/organizations/CDPProgram/SiteAssets/img/arrow-right.png);
   height: 16px;
 }
-/* line 626, ../sass/cdp.scss */
+/* line 627, ../sass/cdp.scss */
 #flow .inner-tab-4 .breadcrumb, #flow .tab-4 .breadcrumb {
   background: #d41980;
   background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ce0071), color-stop(100%, #b70064));
@@ -736,14 +737,14 @@ o888o        o888o `Y8bod8P'     `8'  `8'     8""888P'
   background-image: -o-linear-gradient(#ce0071, #b70064);
   background-image: linear-gradient(#ce0071, #b70064);
 }
-/* line 632, ../sass/cdp.scss */
+/* line 633, ../sass/cdp.scss */
 #flow .welcome-content {
   overflow: hidden;
   *zoom: 1;
   margin-bottom: 25px;
 }
 
-/* line 639, ../sass/cdp.scss */
+/* line 640, ../sass/cdp.scss */
 a.button {
   background: #FF3300;
   background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ff3300), color-stop(100%, #cc0000));
@@ -758,7 +759,7 @@ a.button {
   font-weight: bold !important;
   position: relative;
 }
-/* line 642, ../sass/cdp.scss */
+/* line 643, ../sass/cdp.scss */
 a.button:hover {
   text-decoration: none;
   background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ff471a), color-stop(100%, #ff0000));
@@ -767,7 +768,7 @@ a.button:hover {
   background-image: -o-linear-gradient(#ff471a, #ff0000);
   background-image: linear-gradient(#ff471a, #ff0000);
 }
-/* line 653, ../sass/cdp.scss */
+/* line 654, ../sass/cdp.scss */
 a.button span.icon.pdf {
   display: block;
   background-image: url(https://at.avanade.com/organizations/CDPProgram/SiteAssets/img/pdf-icon.png);
@@ -791,7 +792,7 @@ oo     .d8P 888    .o 888   .o8  888   888   888      888    888 .    `888'
                                                                    .o..P'      
                                                                    `Y8P'     
 **/
-/* line 678, ../sass/cdp.scss */
+/* line 679, ../sass/cdp.scss */
 #security-software .item {
   border-bottom: 1px solid #ccc;
   overflow: hidden;
@@ -799,19 +800,19 @@ oo     .d8P 888    .o 888   .o8  888   888   888      888    888 .    `888'
   padding: 15px 0;
   font-size: 12px;
 }
-/* line 683, ../sass/cdp.scss */
+/* line 684, ../sass/cdp.scss */
 #security-software .item td {
   padding: 10px;
   margin: 10px 0;
 }
-/* line 687, ../sass/cdp.scss */
+/* line 688, ../sass/cdp.scss */
 #security-software .item .picture {
   width: 19%;
   vertical-align: middle;
   margin-right: 1%;
   text-align: center;
 }
-/* line 693, ../sass/cdp.scss */
+/* line 694, ../sass/cdp.scss */
 #security-software .item .description {
   width: 59%;
   font-size: 12px;
@@ -819,14 +820,14 @@ oo     .d8P 888    .o 888   .o8  888   888   888      888    888 .    `888'
   color: #858585;
   line-height: 1.2;
 }
-/* line 699, ../sass/cdp.scss */
+/* line 700, ../sass/cdp.scss */
 #security-software .item .description h3 {
   color: #333;
   font-weight: bold;
   margin: 10px 0;
   font-size: 14px;
 }
-/* line 706, ../sass/cdp.scss */
+/* line 707, ../sass/cdp.scss */
 #security-software .item .download-link {
   width: 19%;
   margin-right: 1%;
