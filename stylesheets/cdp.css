@@ -162,7 +162,7 @@ html body .rm-layout .tiles .yellow {
   width: 32.5%;
 }
 /* line 140, ../sass/cdp.scss */
-html body .rm-layout .tiles .yellow > table {
+html body .rm-layout .tiles .yellow .ms-WPBody {
   display: block;
   padding: 27px;
 }
