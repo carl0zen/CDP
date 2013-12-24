@@ -1,7 +1,7 @@
 3.2.10 (Media Mark)
-d31b6fdccfb912bff5ca68d51620926b726e40ed
+162228431e20ac4cadc8da53afde0fda058c7d50
 o:Sass::Tree::RootNode
-:@template"Õx@import "compass";
+:@template"ëx@import "compass";
 
 
 
@@ -232,10 +232,10 @@ ooooooooooooo                     oooo                                          
 	}
 }**/
 .dataTables_wrapper {
-Â Â Â Â background-color: #E2E2E2;
+Â Â Â Â background-color: #E2E2E2 !important;
 }
 table.dataTable {
-Â Â Â Â background-color: #FFFFFF;
+Â Â Â Â background-color: #FFFFFF !important;
 }
 #documentList_filter {
 	label{
@@ -1311,9 +1311,9 @@ color;o;$;;%;"	#000;@;&;';@;"i ;	[ ;iÖ;iÔ;iÐo;
 		position: absolute;
 	}
 }**/;@;	[ ;iÝo;;[".dataTables_wrapper;o;;[o;;[o;
-;0;o;;{ ;[o;;["dataTables_wrapper;" ;iç;@X;iç;@X;iç;T;@;"i ;	[o;#;["Â Â Â Â background-color;o;$;;%;"#E2E2E2;@;&;';@;"i ;	[ ;iè;iço;;["table.dataTable;o;;[o;;[o;
+;0;o;;{ ;[o;;["dataTables_wrapper;" ;iç;@X;iç;@X;iç;T;@;"i ;	[o;#;["Â Â Â Â background-color;o;$;;%;"#E2E2E2 !important;@;&;';@;"i ;	[ ;iè;iço;;["table.dataTable;o;;[o;;[o;
 ;0;o;;{ ;[o; 	;["
-table;!0;" ;iêo;;["dataTable;@n;iê;@n;iê;@n;iê;T;@;"i ;	[o;#;["Â Â Â Â background-color;o;$;;%;"#FFFFFF;@;&;';@;"i ;	[ ;ië;iêo;;["#documentList_filter;o;;[o;;[o;
+table;!0;" ;iêo;;["dataTable;@n;iê;@n;iê;@n;iê;T;@;"i ;	[o;#;["Â Â Â Â background-color;o;$;;%;"#FFFFFF !important;@;&;';@;"i ;	[ ;ië;iêo;;["#documentList_filter;o;;[o;;[o;
 ;0;o;;{ ;[o;0;["documentList_filter;" ;ií;@‡;ií;@‡;ií;T;@;"i ;	[o;;["
 label;o;;[o;;[o;
 ;0;o;;{ ;[o; 	;["
