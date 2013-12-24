@@ -268,12 +268,12 @@ ooooooooooooo                     oooo                                          
 }**/
 /* line 231, ../sass/cdp.scss */
 .dataTables_wrapper {
-      background-color: #E2E2E2 !important;
+      background-color: #e2e2e2;
 }
 
 /* line 234, ../sass/cdp.scss */
 table.dataTable {
-      background-color: #FFFFFF !important;
+      background-color: white;
 }
 
 /* line 238, ../sass/cdp.scss */
