@@ -325,10 +325,10 @@ table.dataTable tr{
 		text-indent: 36px;
 		line-height: 25px;
 		display: block;
-		&.doc, &.docx, &.docm{background: url(https://at.avanade.com/organizations/CDPProgram/SiteAssets/img/doc.png)}
-		&.pdf{background: url(https://at.avanade.com/organizations/CDPProgram/SiteAssets/img/pdf.png)}
-		&.xls, &.xlsx{background: url(https://at.avanade.com/organizations/CDPProgram/SiteAssets/img/xls.png)}
-		&.ppt, &.pptx{background: url(https://at.avanade.com/organizations/CDPProgram/SiteAssets/img/ppt.png)}
+		&.doc, &.docx, &.docm{background: url(https://at.avanade.com/organizations/CDPProgram/SiteAssets/img/extensions/doc.png)}
+		&.pdf{background: url(https://at.avanade.com/organizations/CDPProgram/SiteAssets/img/extensions/pdf.png)}
+		&.xls, &.xlsx{background: url(https://at.avanade.com/organizations/CDPProgram/SiteAssets/img/extensions/xls.png)}
+		&.ppt, &.pptx{background: url(https://at.avanade.com/organizations/CDPProgram/SiteAssets/img/extensions/ppt.png)}
 	
 	}
 	table.dataTable tr.odd { background-color: transparent; }

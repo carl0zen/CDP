@@ -1,7 +1,7 @@
 3.2.10 (Media Mark)
-fd6f237f0664e374d335bab575bbc188f5185ef4
+6644e074176d6d3780b1ac031aebfa4330fa01b3
 o:Sass::Tree::RootNode
-:@template"z@import "compass";
+:@template"«z@import "compass";
 
 
 
@@ -328,10 +328,10 @@ table.dataTable tr{
 		text-indent: 36px;
 		line-height: 25px;
 		display: block;
-		&.doc, &.docx, &.docm{background: url(https://at.avanade.com/organizations/CDPProgram/SiteAssets/img/doc.png)}
-		&.pdf{background: url(https://at.avanade.com/organizations/CDPProgram/SiteAssets/img/pdf.png)}
-		&.xls, &.xlsx{background: url(https://at.avanade.com/organizations/CDPProgram/SiteAssets/img/xls.png)}
-		&.ppt, &.pptx{background: url(https://at.avanade.com/organizations/CDPProgram/SiteAssets/img/ppt.png)}
+		&.doc, &.docx, &.docm{background: url(https://at.avanade.com/organizations/CDPProgram/SiteAssets/img/extensions/doc.png)}
+		&.pdf{background: url(https://at.avanade.com/organizations/CDPProgram/SiteAssets/img/extensions/pdf.png)}
+		&.xls, &.xlsx{background: url(https://at.avanade.com/organizations/CDPProgram/SiteAssets/img/extensions/xls.png)}
+		&.ppt, &.pptx{background: url(https://at.avanade.com/organizations/CDPProgram/SiteAssets/img/extensions/ppt.png)}
 	
 	}
 	table.dataTable tr.odd { background-color: transparent; }
@@ -1378,13 +1378,13 @@ width;o;$;;%;"	27px;@;&;';@;"i ;	[ ;iBo;#;["height;o;$;;%;"	2
 block;@;&;';@;"i ;	[ ;iGo;;["&.doc, &.docx, &.docm;o;;[o;;[o;
 ;0;o;;{ ;[o;9;" ;iHo;;["doc;@ü;iH;@ü;iHo;;[o;
 ;0;o;;{ ;[o;9;@ü;iHo;;["	docx;@ü;iH;@ü;iHo;;[o;
-;0;o;;{ ;[o;9;@ü;iHo;;["	docm;@ü;iH;@ü;iH;@ü;iH;T;@;"i ;	[o;#;["background;o;$	;;%;"Purl(https://at.avanade.com/organizations/CDPProgram/SiteAssets/img/doc.png);@;iH;&;';@;"i ;	[ ;iH;iHo;;["
+;0;o;;{ ;[o;9;@ü;iHo;;["	docm;@ü;iH;@ü;iH;@ü;iH;T;@;"i ;	[o;#;["background;o;$	;;%;"[url(https://at.avanade.com/organizations/CDPProgram/SiteAssets/img/extensions/doc.png);@;iH;&;';@;"i ;	[ ;iH;iHo;;["
 &.pdf;o;;[o;;[o;
-;0;o;;{ ;[o;9;" ;iIo;;["pdf;@'	;iI;@'	;iI;@'	;iI;T;@;"i ;	[o;#;["background;o;$	;;%;"Purl(https://at.avanade.com/organizations/CDPProgram/SiteAssets/img/pdf.png);@;iI;&;';@;"i ;	[ ;iI;iIo;;["&.xls, &.xlsx;o;;[o;;[o;
+;0;o;;{ ;[o;9;" ;iIo;;["pdf;@'	;iI;@'	;iI;@'	;iI;T;@;"i ;	[o;#;["background;o;$	;;%;"[url(https://at.avanade.com/organizations/CDPProgram/SiteAssets/img/extensions/pdf.png);@;iI;&;';@;"i ;	[ ;iI;iIo;;["&.xls, &.xlsx;o;;[o;;[o;
 ;0;o;;{ ;[o;9;" ;iJo;;["xls;@>	;iJ;@>	;iJo;;[o;
-;0;o;;{ ;[o;9;@>	;iJo;;["	xlsx;@>	;iJ;@>	;iJ;@>	;iJ;T;@;"i ;	[o;#;["background;o;$	;;%;"Purl(https://at.avanade.com/organizations/CDPProgram/SiteAssets/img/xls.png);@;iJ;&;';@;"i ;	[ ;iJ;iJo;;["&.ppt, &.pptx;o;;[o;;[o;
+;0;o;;{ ;[o;9;@>	;iJo;;["	xlsx;@>	;iJ;@>	;iJ;@>	;iJ;T;@;"i ;	[o;#;["background;o;$	;;%;"[url(https://at.avanade.com/organizations/CDPProgram/SiteAssets/img/extensions/xls.png);@;iJ;&;';@;"i ;	[ ;iJ;iJo;;["&.ppt, &.pptx;o;;[o;;[o;
 ;0;o;;{ ;[o;9;" ;iKo;;["ppt;@_	;iK;@_	;iKo;;[o;
-;0;o;;{ ;[o;9;@_	;iKo;;["	pptx;@_	;iK;@_	;iK;@_	;iK;T;@;"i ;	[o;#;["background;o;$	;;%;"Purl(https://at.avanade.com/organizations/CDPProgram/SiteAssets/img/ppt.png);@;iK;&;';@;"i ;	[ ;iK;iK;iAo;;["table.dataTable tr.odd;o;;[o;;[o;
+;0;o;;{ ;[o;9;@_	;iKo;;["	pptx;@_	;iK;@_	;iK;@_	;iK;T;@;"i ;	[o;#;["background;o;$	;;%;"[url(https://at.avanade.com/organizations/CDPProgram/SiteAssets/img/extensions/ppt.png);@;iK;&;';@;"i ;	[ ;iK;iK;iAo;;["table.dataTable tr.odd;o;;[o;;[o;
 ;0;o;;{ ;[o; 	;["
 table;!0;" ;iNo;;["dataTable;@‚	;iN;@‚	;iNo;
 ;0;o;;{ ;[o; 	;["tr;!0;@‚	;iNo;;["odd;@‚	;iN;@‚	;iN;@‚	;iN;T;@;"i ;	[o;#;["background-color;o;$;;%;"transparent;@;&;';@;"i ;	[ ;iN;iNo;;["table.dataTable tr.even;o;;[o;;[o;

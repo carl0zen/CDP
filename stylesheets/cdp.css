@@ -376,19 +376,19 @@ a.download {
 }
 /* line 328, ../sass/cdp.scss */
 a.download.doc, a.download.docx, a.download.docm {
-  background: url(https://at.avanade.com/organizations/CDPProgram/SiteAssets/img/doc.png);
+  background: url(https://at.avanade.com/organizations/CDPProgram/SiteAssets/img/extensions/doc.png);
 }
 /* line 329, ../sass/cdp.scss */
 a.download.pdf {
-  background: url(https://at.avanade.com/organizations/CDPProgram/SiteAssets/img/pdf.png);
+  background: url(https://at.avanade.com/organizations/CDPProgram/SiteAssets/img/extensions/pdf.png);
 }
 /* line 330, ../sass/cdp.scss */
 a.download.xls, a.download.xlsx {
-  background: url(https://at.avanade.com/organizations/CDPProgram/SiteAssets/img/xls.png);
+  background: url(https://at.avanade.com/organizations/CDPProgram/SiteAssets/img/extensions/xls.png);
 }
 /* line 331, ../sass/cdp.scss */
 a.download.ppt, a.download.pptx {
-  background: url(https://at.avanade.com/organizations/CDPProgram/SiteAssets/img/ppt.png);
+  background: url(https://at.avanade.com/organizations/CDPProgram/SiteAssets/img/extensions/ppt.png);
 }
 
 /* line 334, ../sass/cdp.scss */
