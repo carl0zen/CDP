@@ -300,12 +300,12 @@ ooooooooooooo                     oooo                                          
 }**/
 /* line 260, ../sass/cdp.scss */
 .dataTables_wrapper {
-      background-color: #e2e2e2;
+      background-color: #e2e2e2 !important;
 }
 
 /* line 263, ../sass/cdp.scss */
 table.dataTable {
-      background-color: white;
+      background-color: white !important;
 }
 
 /* line 267, ../sass/cdp.scss */
