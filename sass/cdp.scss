@@ -22,7 +22,7 @@
 		border-left: 5px solid transparent;
 		top: 25px;
 	}
-	&.open{
+	&.open:before{
 		content: '';
 		position: absolute;
 		right: 0;

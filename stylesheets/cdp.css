@@ -22,7 +22,7 @@
   top: 25px;
 }
 /* line 25, ../sass/cdp.scss */
-.menu-item.hasSubmenu.open {
+.menu-item.hasSubmenu.open:before {
   content: '';
   position: absolute;
   right: 0;
