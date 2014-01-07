@@ -10,6 +10,7 @@
 }
 
 .menu-item.hasSubmenu{
+	position: relative;
 	&:before{
 		content:'';
 		position: absolute;
@@ -152,16 +153,19 @@ ul.title-links{
 html body .rm-layout {
 	.tiles {
 		.purple, .orange, .blue{
-			height:200px;
+			height:270px;
+			font-size: 11px;
 		}
 		.green{
 			float:left;
 			width:66.6%;
+			height: 235px;
 		}
 		.yellow{
 			background: #FF9900;
 			float:right;
 			width:32.5%;
+			height: 235px;
 			.ms-WPBody{
 			
 				padding: 27px;
