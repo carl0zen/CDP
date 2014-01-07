@@ -19,9 +19,22 @@
   border-top: 5px solid #333333;
   border-right: 5px solid transparent;
   border-left: 5px solid transparent;
+  top: 25px;
+}
+/* line 25, ../sass/cdp.scss */
+.menu-item.hasSubmenu.open {
+  content: '';
+  position: absolute;
+  right: 0;
+  width: 0;
+  height: 0;
+  border-left: 5px solid #333333;
+  border-top: 5px solid transparent;
+  border-bottom: 5px solid transparent;
+  top: 25px;
 }
 
-/* line 25, ../sass/cdp.scss */
+/* line 37, ../sass/cdp.scss */
 html body .left-menu-custom ul.root > li.static > a.static.menu-item .menu-item-text:before {
   content: "";
   left: auto;
@@ -29,7 +42,7 @@ html body .left-menu-custom ul.root > li.static > a.static.menu-item .menu-item-
   text-decoration: none !important;
 }
 
-/* line 26, ../sass/cdp.scss */
+/* line 38, ../sass/cdp.scss */
 .left-menu-custom ul.root > li.static > a.static.menu-item {
   font-size: 20px;
   color: #46464a !important;
@@ -47,25 +60,25 @@ oooooo   oooooo     oooo           oooo
       `8'      `8'       `Y8bod8P' o888o `Y8bod8P' `Y8bod8P' o888o o888o o888o `Y8bod8P' 
 
 **/
-/* line 41, ../sass/cdp.scss */
+/* line 53, ../sass/cdp.scss */
 .welcome-section {
   overflow: hidden;
   *zoom: 1;
 }
-/* line 43, ../sass/cdp.scss */
+/* line 55, ../sass/cdp.scss */
 .welcome-section .welcome-text {
   float: left;
   width: 66%;
 }
-/* line 46, ../sass/cdp.scss */
+/* line 58, ../sass/cdp.scss */
 .welcome-section .welcome-text h1 {
   padding-top: 0;
 }
-/* line 49, ../sass/cdp.scss */
+/* line 61, ../sass/cdp.scss */
 .welcome-section .welcome-text tr {
   width: 100% !important;
 }
-/* line 53, ../sass/cdp.scss */
+/* line 65, ../sass/cdp.scss */
 .welcome-section .side-ad {
   width: 32.5%;
   float: right;
@@ -76,12 +89,12 @@ oooooo   oooooo     oooo           oooo
   line-height: 150px;
 }
 
-/* line 63, ../sass/cdp.scss */
+/* line 75, ../sass/cdp.scss */
 ul.title-links {
   margin: 0;
   padding: 0;
 }
-/* line 66, ../sass/cdp.scss */
+/* line 78, ../sass/cdp.scss */
 ul.title-links li {
   display: inline-block;
   list-style-type: none;
@@ -93,86 +106,86 @@ ul.title-links li {
   padding: 11px 10px;
   line-height: 14px;
 }
-/* line 76, ../sass/cdp.scss */
+/* line 88, ../sass/cdp.scss */
 ul.title-links li a {
   color: #333333 !important;
 }
 
-/* line 83, ../sass/cdp.scss */
+/* line 95, ../sass/cdp.scss */
 .slider-section {
   overflow: hidden;
   *zoom: 1;
 }
-/* line 85, ../sass/cdp.scss */
+/* line 97, ../sass/cdp.scss */
 .slider-section .slider {
   width: 500px;
   float: left;
   margin-bottom: 0;
 }
-/* line 88, ../sass/cdp.scss */
+/* line 100, ../sass/cdp.scss */
 .slider-section .slider #nav {
   right: 0 !important;
 }
-/* line 93, ../sass/cdp.scss */
+/* line 105, ../sass/cdp.scss */
 .slider-section .side-content {
   width: 30.5%;
 }
 
-/* line 98, ../sass/cdp.scss */
+/* line 110, ../sass/cdp.scss */
 .slider ul.dfwp-column.dfwp-list {
   width: 500px !important;
   height: 250px;
 }
-/* line 101, ../sass/cdp.scss */
+/* line 113, ../sass/cdp.scss */
 .slider ul.dfwp-column.dfwp-list li {
   font-size: 11px;
   line-height: 16px;
 }
-/* line 106, ../sass/cdp.scss */
+/* line 118, ../sass/cdp.scss */
 .slider img {
   max-width: 100%;
 }
-/* line 109, ../sass/cdp.scss */
+/* line 121, ../sass/cdp.scss */
 .slider table > tbody > tr:nth-of-type(1) {
   display: block;
   float: left;
   width: 500px;
   overflow: hidden;
 }
-/* line 115, ../sass/cdp.scss */
+/* line 127, ../sass/cdp.scss */
 .slider table > tbody > tr:nth-of-type(2) {
   display: block;
   float: right;
   width: 222px;
 }
-/* line 120, ../sass/cdp.scss */
+/* line 132, ../sass/cdp.scss */
 .slider #nav {
   right: 250px !important;
 }
-/* line 123, ../sass/cdp.scss */
+/* line 135, ../sass/cdp.scss */
 .slider .description {
   background-color: rgba(0, 153, 204, 0.9) !important;
 }
 
-/* line 128, ../sass/cdp.scss */
+/* line 140, ../sass/cdp.scss */
 .welcome-text {
   height: 158px;
 }
-/* line 130, ../sass/cdp.scss */
+/* line 142, ../sass/cdp.scss */
 .welcome-text > table > tbody > tr:nth-of-type(1) {
   display: block;
   float: right;
   width: 242px;
   overflow: hidden;
 }
-/* line 136, ../sass/cdp.scss */
+/* line 148, ../sass/cdp.scss */
 .welcome-text > table > tbody > tr:nth-of-type(2) {
   display: block;
   float: left;
   width: 500px;
   padding: 10px 20px 10px 0px;
 }
-/* line 142, ../sass/cdp.scss */
+/* line 154, ../sass/cdp.scss */
 .welcome-text .ad {
   background: #eee;
   width: 300px;
@@ -184,34 +197,34 @@ ul.title-links li a {
   vertical-align: middle;
 }
 
-/* line 155, ../sass/cdp.scss */
+/* line 167, ../sass/cdp.scss */
 html body .rm-layout .tiles .purple, html body .rm-layout .tiles .orange, html body .rm-layout .tiles .blue {
   height: 270px;
   font-size: 11px;
 }
-/* line 159, ../sass/cdp.scss */
+/* line 171, ../sass/cdp.scss */
 html body .rm-layout .tiles .green {
   float: left;
   width: 66.6%;
   height: 235px;
 }
-/* line 164, ../sass/cdp.scss */
+/* line 176, ../sass/cdp.scss */
 html body .rm-layout .tiles .yellow {
   background: #FF9900;
   float: right;
   width: 32.5%;
   height: 235px;
 }
-/* line 169, ../sass/cdp.scss */
+/* line 181, ../sass/cdp.scss */
 html body .rm-layout .tiles .yellow .ms-WPBody {
   padding: 27px;
 }
-/* line 175, ../sass/cdp.scss */
+/* line 187, ../sass/cdp.scss */
 html body .rm-layout p {
   font-size: 12px;
 }
 
-/* line 179, ../sass/cdp.scss */
+/* line 191, ../sass/cdp.scss */
 .cbq-layout-main .dfwp-item .description {
   overflow: hidden;
   *zoom: 1;
@@ -240,35 +253,35 @@ ooooooooooooo                     oooo                                          
                                     o888o                                                 
                                                                                
 **/
-/* line 208, ../sass/cdp.scss */
+/* line 220, ../sass/cdp.scss */
 .page-banner img {
   width: 100%;
 }
 
-/* line 212, ../sass/cdp.scss */
+/* line 224, ../sass/cdp.scss */
 .side-content {
   margin-top: 20px;
   width: 33%;
   float: right;
 }
 
-/* line 217, ../sass/cdp.scss */
+/* line 229, ../sass/cdp.scss */
 .page-content {
   width: 66%;
   float: left;
 }
-/* line 220, ../sass/cdp.scss */
+/* line 232, ../sass/cdp.scss */
 .page-content.full-width {
   width: 100%;
 }
 
-/* line 224, ../sass/cdp.scss */
+/* line 236, ../sass/cdp.scss */
 .warning-sign {
   background: #FFFF66;
   padding: 10px;
   margin: 20px 0;
 }
-/* line 228, ../sass/cdp.scss */
+/* line 240, ../sass/cdp.scss */
 .warning-sign h3 {
   margin: 10px 0 20px 0;
   color: #000;
@@ -285,22 +298,22 @@ ooooooooooooo                     oooo                                          
 		position: absolute;
 	}
 }**/
-/* line 247, ../sass/cdp.scss */
+/* line 259, ../sass/cdp.scss */
 .dataTables_wrapper {
       background-color: #e2e2e2;
 }
 
-/* line 250, ../sass/cdp.scss */
+/* line 262, ../sass/cdp.scss */
 table.dataTable {
       background-color: white;
 }
 
-/* line 254, ../sass/cdp.scss */
+/* line 266, ../sass/cdp.scss */
 #documentList_filter label {
   font-size: 13px;
   color: #a2a2a2;
 }
-/* line 259, ../sass/cdp.scss */
+/* line 271, ../sass/cdp.scss */
 #documentList_filter input {
   width: auto;
   background: white;
@@ -312,7 +325,7 @@ table.dataTable {
   color: #777;
 }
 
-/* line 271, ../sass/cdp.scss */
+/* line 283, ../sass/cdp.scss */
 #documentList_length label {
   z-index: 10;
   position: relative;
@@ -322,12 +335,12 @@ table.dataTable {
   display: block;
 }
 
-/* line 281, ../sass/cdp.scss */
+/* line 293, ../sass/cdp.scss */
 .dataTables_filter {
   position: relative;
 }
 
-/* line 285, ../sass/cdp.scss */
+/* line 297, ../sass/cdp.scss */
 #documentList thead {
   background: #eee;
   border: none;
@@ -335,7 +348,7 @@ table.dataTable {
   border: none;
   line-height: 27px;
 }
-/* line 291, ../sass/cdp.scss */
+/* line 303, ../sass/cdp.scss */
 #documentList thead th {
   border: none;
   font-size: 15px;
@@ -345,7 +358,7 @@ table.dataTable {
   padding: 0 10px;
 }
 
-/* line 304, ../sass/cdp.scss */
+/* line 316, ../sass/cdp.scss */
 h4.ms-rteElement-H4B {
   background: #0C9DDE;
   color: white;
@@ -353,39 +366,39 @@ h4.ms-rteElement-H4B {
   font-style: normal;
 }
 
-/* line 311, ../sass/cdp.scss */
+/* line 323, ../sass/cdp.scss */
 table.dataTable tr td:first-child {
   font-weight: bold;
   color: #858585;
   background: none !important;
 }
-/* line 316, ../sass/cdp.scss */
+/* line 328, ../sass/cdp.scss */
 table.dataTable tr td {
   padding: 10px !important;
   background: none !important;
 }
-/* line 320, ../sass/cdp.scss */
+/* line 332, ../sass/cdp.scss */
 table.dataTable .title {
   width: 300px;
 }
-/* line 323, ../sass/cdp.scss */
+/* line 335, ../sass/cdp.scss */
 table.dataTable tr td:nth-of-type(3) {
   width: 100px;
 }
 
-/* line 328, ../sass/cdp.scss */
+/* line 340, ../sass/cdp.scss */
 div.h1-section1 {
   background: #cf0072 !important;
   width: 97.5% !important;
 }
 
-/* line 332, ../sass/cdp.scss */
+/* line 344, ../sass/cdp.scss */
 table.dataTable tr {
   background: none !important;
   border-bottom: 1px solid #eeeeee;
 }
 
-/* line 337, ../sass/cdp.scss */
+/* line 349, ../sass/cdp.scss */
 a.download {
   width: 27px;
   height: 27px;
@@ -393,80 +406,80 @@ a.download {
   line-height: 25px;
   display: block;
 }
-/* line 344, ../sass/cdp.scss */
+/* line 356, ../sass/cdp.scss */
 a.download.doc, a.download.docx, a.download.docm {
   background: url(https://at.avanade.com/organizations/CDPProgram/SiteAssets/img/extensions/doc.png);
 }
-/* line 345, ../sass/cdp.scss */
+/* line 357, ../sass/cdp.scss */
 a.download.pdf {
   background: url(https://at.avanade.com/organizations/CDPProgram/SiteAssets/img/extensions/pdf.png);
 }
-/* line 346, ../sass/cdp.scss */
+/* line 358, ../sass/cdp.scss */
 a.download.xls, a.download.xlsx {
   background: url(https://at.avanade.com/organizations/CDPProgram/SiteAssets/img/extensions/xls.png);
 }
-/* line 347, ../sass/cdp.scss */
+/* line 359, ../sass/cdp.scss */
 a.download.ppt, a.download.pptx {
   background: url(https://at.avanade.com/organizations/CDPProgram/SiteAssets/img/extensions/ppt.png);
 }
 
-/* line 350, ../sass/cdp.scss */
+/* line 362, ../sass/cdp.scss */
 table.dataTable tr.odd {
   background-color: transparent;
 }
 
-/* line 351, ../sass/cdp.scss */
+/* line 363, ../sass/cdp.scss */
 table.dataTable tr.even {
   background-color: transparent;
 }
 
-/* line 353, ../sass/cdp.scss */
+/* line 365, ../sass/cdp.scss */
 table.dataTable tr.odd td.sorting_1 {
   background-color: transparent;
 }
 
-/* line 354, ../sass/cdp.scss */
+/* line 366, ../sass/cdp.scss */
 table.dataTable tr.odd td.sorting_2 {
   background-color: transparent;
 }
 
-/* line 355, ../sass/cdp.scss */
+/* line 367, ../sass/cdp.scss */
 table.dataTable tr.odd td.sorting_3 {
   background-color: transparent;
 }
 
-/* line 356, ../sass/cdp.scss */
+/* line 368, ../sass/cdp.scss */
 table.dataTable tr.even td.sorting_1 {
   background-color: transparent;
 }
 
-/* line 357, ../sass/cdp.scss */
+/* line 369, ../sass/cdp.scss */
 table.dataTable tr.even td.sorting_2 {
   background-color: transparent;
 }
 
-/* line 358, ../sass/cdp.scss */
+/* line 370, ../sass/cdp.scss */
 table.dataTable tr.even td.sorting_3 {
   background-color: transparent;
 }
 
-/* line 364, ../sass/cdp.scss */
+/* line 376, ../sass/cdp.scss */
 #compliance-review .ms-WPHeader {
   background: #f4f4f4 !important;
   border: none !important;
 }
-/* line 367, ../sass/cdp.scss */
+/* line 379, ../sass/cdp.scss */
 #compliance-review .ms-WPHeader h3 {
   margin: 10px 17px;
   color: #333;
   font-size: 16px;
 }
-/* line 373, ../sass/cdp.scss */
+/* line 385, ../sass/cdp.scss */
 #compliance-review .ms-WPHeader:hover {
   background: white;
   cursor: pointer;
 }
-/* line 378, ../sass/cdp.scss */
+/* line 390, ../sass/cdp.scss */
 #compliance-review p {
   margin: 15px 0;
 }
@@ -484,25 +497,25 @@ o888o        o888o `Y8bod8P'     `8'  `8'     8""888P'
 FLOWS
 
 	 **/
-/* line 402, ../sass/cdp.scss */
+/* line 414, ../sass/cdp.scss */
 html body #s4-leftpanel {
   display: none;
 }
 
-/* line 403, ../sass/cdp.scss */
+/* line 415, ../sass/cdp.scss */
 html .s4-ca {
   margin-left: 0;
 }
 
 /* SECTIONS */
-/* line 405, ../sass/cdp.scss */
+/* line 417, ../sass/cdp.scss */
 .sections {
   margin: 0px !important;
   border-bottom: solid 1px #cccccc;
   overflow: hidden;
 }
 
-/* line 410, ../sass/cdp.scss */
+/* line 422, ../sass/cdp.scss */
 .sections li {
   float: left;
   list-style: none;
@@ -513,14 +526,14 @@ html .s4-ca {
   color: #ccc;
 }
 
-/* line 419, ../sass/cdp.scss */
+/* line 431, ../sass/cdp.scss */
 .sections li.active {
   background-color: #e2e2e2;
   color: #333;
 }
 
 /* GENERAL FLOW  and ROLES STAGE ONE SECTIOM*/
-/* line 424, ../sass/cdp.scss */
+/* line 436, ../sass/cdp.scss */
 .flow {
   clear: both;
   overflow: hidden;
@@ -529,7 +542,7 @@ html .s4-ca {
   width: 100%;
 }
 
-/* line 431, ../sass/cdp.scss */
+/* line 443, ../sass/cdp.scss */
 .flow h2 {
   text-align: center;
   margin: 40px 0px !important;
@@ -537,12 +550,12 @@ html .s4-ca {
   font-size: 16px;
 }
 
-/* line 437, ../sass/cdp.scss */
+/* line 449, ../sass/cdp.scss */
 .flow .roles {
   margin: 0px;
 }
 
-/* line 440, ../sass/cdp.scss */
+/* line 452, ../sass/cdp.scss */
 .flow .roles li {
   float: left;
   list-style: none;
@@ -551,12 +564,12 @@ html .s4-ca {
   background-color: #000;
 }
 
-/* line 447, ../sass/cdp.scss */
+/* line 459, ../sass/cdp.scss */
 .flow .roles li:last-child {
   margin-right: 0px;
 }
 
-/* line 450, ../sass/cdp.scss */
+/* line 462, ../sass/cdp.scss */
 .flow .roles li button {
   background: none;
   cursor: pointer;
@@ -578,12 +591,12 @@ html .s4-ca {
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#2cae2b', endColorstr='#238622',GradientType=0 );
 }
 
-/* line 470, ../sass/cdp.scss */
+/* line 482, ../sass/cdp.scss */
 .flow .roles li button:hover span {
   background: #f6f6f6;
 }
 
-/* line 475, ../sass/cdp.scss */
+/* line 487, ../sass/cdp.scss */
 html body .flow .roles li button#records-lead,
 html body #tab2 .tab-3 .breadcrumb,
 html body #tab3 .inner-tab-3 .breadcrumb {
@@ -598,19 +611,19 @@ html body #tab3 .inner-tab-3 .breadcrumb {
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#009fda', endColorstr='#008dc4',GradientType=0 );
 }
 
-/* line 488, ../sass/cdp.scss */
+/* line 500, ../sass/cdp.scss */
 html body .flow .roles li button#contract-leader2,
 html body #tab2 .tab-2 .breadcrumb,
 html body #tab3 .inner-tab-2 .breadcrumb {
   background: #fd5500;
 }
 
-/* line 492, ../sass/cdp.scss */
+/* line 504, ../sass/cdp.scss */
 .flow .roles li button img {
   margin: 10% 0;
 }
 
-/* line 495, ../sass/cdp.scss */
+/* line 507, ../sass/cdp.scss */
 .flow .roles li button span {
   display: block;
   background: #E2E2E2;
@@ -622,7 +635,7 @@ html body #tab3 .inner-tab-2 .breadcrumb {
   height: 100px;
 }
 
-/* line 505, ../sass/cdp.scss */
+/* line 517, ../sass/cdp.scss */
 .flow .roles li button span strong {
   display: block;
   font-size: 20px;
@@ -631,7 +644,7 @@ html body #tab3 .inner-tab-2 .breadcrumb {
 }
 
 /* Bread Crumb */
-/* line 513, ../sass/cdp.scss */
+/* line 525, ../sass/cdp.scss */
 .breadcrumb {
   color: #fff;
   margin: 10px 0px 0px;
@@ -650,7 +663,7 @@ html body #tab3 .inner-tab-2 .breadcrumb {
 }
 
 /*  ICON ARROWS */
-/* line 532, ../sass/cdp.scss */
+/* line 544, ../sass/cdp.scss */
 .flow .stage-of-interest i, .flow i {
   background: url(img/flow-arrow.png);
   display: block;
@@ -661,7 +674,7 @@ html body #tab3 .inner-tab-2 .breadcrumb {
 }
 
 /* STAGE 2 */
-/* line 541, ../sass/cdp.scss */
+/* line 553, ../sass/cdp.scss */
 .flow .stage-of-interest button {
   width: 30%;
   cursor: pointer;
@@ -681,13 +694,13 @@ html body #tab3 .inner-tab-2 .breadcrumb {
   display: table;
 }
 
-/* line 556, ../sass/cdp.scss */
+/* line 568, ../sass/cdp.scss */
 .flow .stage-of-interest button:hover {
   background-color: #f6f6f6;
 }
 
 /* NUMBER */
-/* line 560, ../sass/cdp.scss */
+/* line 572, ../sass/cdp.scss */
 .flow .number {
   background: none repeat scroll 0 0 #009fda;
   color: #FFFFFF;
@@ -699,7 +712,7 @@ html body #tab3 .inner-tab-2 .breadcrumb {
 }
 
 /* TEXT AFTER NUMBER */
-/* line 570, ../sass/cdp.scss */
+/* line 582, ../sass/cdp.scss */
 .flow .stage {
   padding: 2%;
   font-size: 12px;
@@ -714,7 +727,7 @@ html body #tab3 .inner-tab-2 .breadcrumb {
   /* Opera/IE 8+ */
 }
 
-/* line 581, ../sass/cdp.scss */
+/* line 593, ../sass/cdp.scss */
 .flow .number,
 .flow .stage {
   display: table-cell;
@@ -723,7 +736,7 @@ html body #tab3 .inner-tab-2 .breadcrumb {
 }
 
 /* STAGE 3 */
-/* line 587, ../sass/cdp.scss */
+/* line 599, ../sass/cdp.scss */
 .flow .activities-for-level {
   border-right: 1px solid #cccccc;
   clear: both;
@@ -740,23 +753,23 @@ html body #tab3 .inner-tab-2 .breadcrumb {
   margin-top: 30px;
 }
 
-/* line 599, ../sass/cdp.scss */
+/* line 611, ../sass/cdp.scss */
 .flow .activities-for-level .number {
   min-width: 33px;
 }
 
-/* line 602, ../sass/cdp.scss */
+/* line 614, ../sass/cdp.scss */
 .flow .activities-for-level .stage {
   background: #e2e2e2;
 }
 
-/* line 605, ../sass/cdp.scss */
+/* line 617, ../sass/cdp.scss */
 .flow .activities-for-level button {
   display: block;
   float: none;
 }
 
-/* line 609, ../sass/cdp.scss */
+/* line 621, ../sass/cdp.scss */
 .flow .activities-for-level i {
   text-align: center;
   width: 100%;
@@ -769,7 +782,7 @@ html body #tab3 .inner-tab-2 .breadcrumb {
   line-height: 15px !important;
 }
 
-/* line 620, ../sass/cdp.scss */
+/* line 632, ../sass/cdp.scss */
 .flow .activities-for-level .list {
   clear: both;
   height: 100%;
@@ -789,7 +802,7 @@ html body #tab3 .inner-tab-2 .breadcrumb {
   /* Opera/IE 8+ */
 }
 
-/* line 635, ../sass/cdp.scss */
+/* line 647, ../sass/cdp.scss */
 .flow .activities-for-level .list li {
   border-bottom: 4px solid white;
   color: #FFFFFF;
@@ -800,7 +813,7 @@ html body #tab3 .inner-tab-2 .breadcrumb {
   clear: both;
 }
 
-/* line 644, ../sass/cdp.scss */
+/* line 656, ../sass/cdp.scss */
 .flow .activities-for-level .list li:before {
   background: url("https://at.avanade.com/sites/CustomerRecordsManagement/Style%20Library/img/flow-arrow-down.png");
   bottom: -23px;
@@ -812,20 +825,20 @@ html body #tab3 .inner-tab-2 .breadcrumb {
   width: 17px;
 }
 
-/* line 655, ../sass/cdp.scss */
+/* line 667, ../sass/cdp.scss */
 .flow .activities-for-level .list li:last-child,
 .flow .activities-for-level .list li.last-child {
   margin-bottom: 0px;
 }
 
-/* line 659, ../sass/cdp.scss */
+/* line 671, ../sass/cdp.scss */
 .flow .activities-for-level .list li:last-child:before,
 .flow .activities-for-level .list li.last-child:before {
   display: none;
 }
 
 /* ASIDE LINKS */
-/* line 663, ../sass/cdp.scss */
+/* line 675, ../sass/cdp.scss */
 .flow .aside-links {
   width: 30%;
   float: right;
@@ -838,7 +851,7 @@ html body #tab3 .inner-tab-2 .breadcrumb {
   padding: 4%;
 }
 
-/* line 671, ../sass/cdp.scss */
+/* line 683, ../sass/cdp.scss */
 .flow .aside-links h2 {
   text-align: left;
   margin: 0 0 17px !important;
@@ -846,41 +859,41 @@ html body #tab3 .inner-tab-2 .breadcrumb {
   font-size: 16px;
 }
 
-/* line 677, ../sass/cdp.scss */
+/* line 689, ../sass/cdp.scss */
 .flow .aside-links h3 {
   font-size: 14px;
 }
 
-/* line 680, ../sass/cdp.scss */
+/* line 692, ../sass/cdp.scss */
 .flow .aside-links a {
   font-size: 13px;
   text-decoration: underline;
 }
 
-/* line 684, ../sass/cdp.scss */
+/* line 696, ../sass/cdp.scss */
 .flow .aside-links ul {
   margin-left: 15px;
   color: #009FD8;
 }
 
 /* SPECIAL FLOWS TAB 2 */
-/* line 689, ../sass/cdp.scss */
+/* line 701, ../sass/cdp.scss */
 .flow .one-half {
   display: inline-block;
   width: 47%;
 }
 
-/* line 693, ../sass/cdp.scss */
+/* line 705, ../sass/cdp.scss */
 .flow .one-half:before {
   left: 75% !important;
 }
 
-/* line 696, ../sass/cdp.scss */
+/* line 708, ../sass/cdp.scss */
 .flow .one-half.b {
   float: right;
 }
 
-/* line 699, ../sass/cdp.scss */
+/* line 711, ../sass/cdp.scss */
 .flow .activities-for-level .one-half.b:before {
   background: url("https://at.avanade.com/sites/CustomerRecordsManagement/Style%20Library/img/flow-arrow.png") no-repeat;
   height: 18px;
@@ -889,14 +902,14 @@ html body #tab3 .inner-tab-2 .breadcrumb {
   width: 12px;
 }
 
-/* line 707, ../sass/cdp.scss */
+/* line 719, ../sass/cdp.scss */
 .flow.tab-2.active .activities-for-level,
 .flow.tab-3.active .activities-for-level {
   padding: 0 4%;
 }
 
 /* SPECIAL FLOWS TAB 3 */
-/* line 711, ../sass/cdp.scss */
+/* line 723, ../sass/cdp.scss */
 .flow.tab-3.active .activities-for-level .diagram {
   background: url("https://at.avanade.com/sites/CustomerRecordsManagement/Style%20Library/img/diamond.png") no-repeat center center;
   float: left;
@@ -905,19 +918,19 @@ html body #tab3 .inner-tab-2 .breadcrumb {
   width: 28%;
 }
 
-/* line 718, ../sass/cdp.scss */
+/* line 730, ../sass/cdp.scss */
 .flow.tab-3.active .activities-for-level .diagram:before {
   left: 54px !important;
 }
 
-/* line 721, ../sass/cdp.scss */
+/* line 733, ../sass/cdp.scss */
 .flow.tab-3.active .activities-for-level .diagram-answer-no {
   float: right;
   width: 40%;
   clear: none;
 }
 
-/* line 727, ../sass/cdp.scss */
+/* line 739, ../sass/cdp.scss */
 .flow.tab-3.active .activities-for-level .diagram .stage,
 .flow.tab-3.active .activities-for-level .diagram .number {
   background: none;
@@ -927,12 +940,12 @@ html body #tab3 .inner-tab-2 .breadcrumb {
   height: auto;
 }
 
-/* line 734, ../sass/cdp.scss */
+/* line 746, ../sass/cdp.scss */
 .flow.tab-3.active .activities-for-level .diagram .number {
   padding-top: 20px;
 }
 
-/* line 737, ../sass/cdp.scss */
+/* line 749, ../sass/cdp.scss */
 .flow.tab-3.active .activities-for-level .diagram .stage {
   max-width: 100px;
   padding-top: 10px;
@@ -941,7 +954,7 @@ html body #tab3 .inner-tab-2 .breadcrumb {
   font-weight: 600;
 }
 
-/* line 745, ../sass/cdp.scss */
+/* line 757, ../sass/cdp.scss */
 .flow .diagram .answer-yes,
 .flow .diagram .answer-no {
   color: #333;
@@ -949,19 +962,19 @@ html body #tab3 .inner-tab-2 .breadcrumb {
   position: absolute;
 }
 
-/* line 750, ../sass/cdp.scss */
+/* line 762, ../sass/cdp.scss */
 .flow .diagram .answer-yes {
   bottom: -10px;
   left: 41%;
 }
 
-/* line 754, ../sass/cdp.scss */
+/* line 766, ../sass/cdp.scss */
 .flow .diagram .answer-no {
   right: -14px;
   top: 58px;
 }
 
-/* line 758, ../sass/cdp.scss */
+/* line 770, ../sass/cdp.scss */
 .flow .activities-for-level .list li.diagram-answer-no:before {
   background: url("https://at.avanade.com/sites/CustomerRecordsManagement/Style%20Library/img/flow-arrow.png");
   height: 18px;
@@ -971,34 +984,34 @@ html body #tab3 .inner-tab-2 .breadcrumb {
 }
 
 /* INITIAL STYLES */
-/* line 766, ../sass/cdp.scss */
+/* line 778, ../sass/cdp.scss */
 .flow {
   display: none;
 }
 
-/* line 769, ../sass/cdp.scss */
+/* line 781, ../sass/cdp.scss */
 .flow#tab1 {
   display: block;
 }
 
-/* line 772, ../sass/cdp.scss */
+/* line 784, ../sass/cdp.scss */
 html body .flow li.last-child {
   margin-right: 0px;
 }
 
-/* line 777, ../sass/cdp.scss */
+/* line 789, ../sass/cdp.scss */
 #flow .breadcrumb {
   text-decoration: none;
 }
-/* line 779, ../sass/cdp.scss */
+/* line 791, ../sass/cdp.scss */
 #flow .breadcrumb span {
   text-decoration: underline;
 }
-/* line 783, ../sass/cdp.scss */
+/* line 795, ../sass/cdp.scss */
 #flow .stage {
   padding-left: 6%;
 }
-/* line 786, ../sass/cdp.scss */
+/* line 798, ../sass/cdp.scss */
 #flow .number {
   background: #009ED8;
   background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #009ed8), color-stop(100%, #008dc4));
@@ -1007,75 +1020,75 @@ html body .flow li.last-child {
   background-image: -o-linear-gradient(#009ed8, #008dc4);
   background-image: linear-gradient(#009ed8, #008dc4);
 }
-/* line 790, ../sass/cdp.scss */
+/* line 802, ../sass/cdp.scss */
 #flow li {
   list-style-type: none;
 }
-/* line 792, ../sass/cdp.scss */
+/* line 804, ../sass/cdp.scss */
 #flow li.active {
   font-weight: bold;
   font-size: 16px;
 }
-/* line 798, ../sass/cdp.scss */
+/* line 810, ../sass/cdp.scss */
 #flow .roles li {
   width: 23.5%;
 }
-/* line 800, ../sass/cdp.scss */
+/* line 812, ../sass/cdp.scss */
 #flow .roles li img {
   margin: 0;
 }
-/* line 805, ../sass/cdp.scss */
+/* line 817, ../sass/cdp.scss */
 #flow .roles button.green {
   background: #238622 !important;
 }
-/* line 806, ../sass/cdp.scss */
+/* line 818, ../sass/cdp.scss */
 #flow .roles button.orange {
   background: #ff6633 !important;
 }
-/* line 807, ../sass/cdp.scss */
+/* line 819, ../sass/cdp.scss */
 #flow .roles button.blue {
   background: #008dc4 !important;
 }
-/* line 808, ../sass/cdp.scss */
+/* line 820, ../sass/cdp.scss */
 #flow .roles button.pink {
   background: #d41980 !important;
 }
-/* line 809, ../sass/cdp.scss */
+/* line 821, ../sass/cdp.scss */
 #flow .roles button span strong {
   padding: 0 15px;
 }
-/* line 814, ../sass/cdp.scss */
+/* line 826, ../sass/cdp.scss */
 #flow .disabled {
   cursor: default;
 }
-/* line 816, ../sass/cdp.scss */
+/* line 828, ../sass/cdp.scss */
 #flow .disabled .number {
   background: #666;
 }
-/* line 819, ../sass/cdp.scss */
+/* line 831, ../sass/cdp.scss */
 #flow .disabled:hover {
   background: #E2E2E2;
 }
-/* line 823, ../sass/cdp.scss */
+/* line 835, ../sass/cdp.scss */
 #flow .activities {
   margin: 20px 0;
 }
-/* line 826, ../sass/cdp.scss */
+/* line 838, ../sass/cdp.scss */
 #flow .activities-for-level {
   width: 100%;
   border: none;
 }
-/* line 829, ../sass/cdp.scss */
+/* line 841, ../sass/cdp.scss */
 #flow .activities-for-level li {
   height: 104px;
   max-width: 100%;
 }
-/* line 832, ../sass/cdp.scss */
+/* line 844, ../sass/cdp.scss */
 #flow .activities-for-level li:before {
   height: 11px;
   left: 87px;
 }
-/* line 837, ../sass/cdp.scss */
+/* line 849, ../sass/cdp.scss */
 #flow .activities-for-level .label {
   float: left;
   margin-top: 35px;
@@ -1085,11 +1098,11 @@ html body .flow li.last-child {
   font-weight: bold;
   text-transform: capitalize;
 }
-/* line 848, ../sass/cdp.scss */
+/* line 860, ../sass/cdp.scss */
 #flow .no-arrow-down:before {
   display: none;
 }
-/* line 852, ../sass/cdp.scss */
+/* line 864, ../sass/cdp.scss */
 #flow .arrow.left {
   background: url(https://at.avanade.com/organizations/CDPProgram/SiteAssets/img/arrow-left.png);
   width: 11px;
@@ -1098,13 +1111,13 @@ html body .flow li.last-child {
   margin: 20px;
   margin-top: 37px;
 }
-/* line 860, ../sass/cdp.scss */
+/* line 872, ../sass/cdp.scss */
 #flow .wo-record {
   margin: 20px;
   margin-top: -50px;
   margin-left: 34px;
 }
-/* line 864, ../sass/cdp.scss */
+/* line 876, ../sass/cdp.scss */
 #flow .wo-record:before {
   background: url("https://at.avanade.com/sites/CustomerRecordsManagement/Style%20Library/img/flow-arrow-down.png");
   top: -76px;
@@ -1115,7 +1128,7 @@ html body .flow li.last-child {
   position: absolute;
   width: 17px;
 }
-/* line 875, ../sass/cdp.scss */
+/* line 887, ../sass/cdp.scss */
 #flow .stop {
   background: #D90000;
   background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #d70000), color-stop(100%, #b60000));
@@ -1132,7 +1145,7 @@ html body .flow li.last-child {
   text-align: center;
   text-transform: capitalize;
 }
-/* line 886, ../sass/cdp.scss */
+/* line 898, ../sass/cdp.scss */
 #flow .stop:before {
   background: url("https://at.avanade.com/sites/CustomerRecordsManagement/Style%20Library/img/flow-arrow-down.png");
   top: 72px;
@@ -1143,20 +1156,20 @@ html body .flow li.last-child {
   width: 17px;
   right: 116px;
 }
-/* line 898, ../sass/cdp.scss */
+/* line 910, ../sass/cdp.scss */
 #flow .list li.blue-arrow:before {
   background: url("https://at.avanade.com/organizations/CDPProgram/SiteAssets/img/arrow-down-blue.png");
 }
-/* line 902, ../sass/cdp.scss */
+/* line 914, ../sass/cdp.scss */
 #flow .list li.three-arrows:before {
   background: url("https://at.avanade.com/organizations/CDPProgram/SiteAssets/img/arrow-three.png");
   width: 515px;
 }
-/* line 906, ../sass/cdp.scss */
+/* line 918, ../sass/cdp.scss */
 #flow .list .labels {
   height: 45px;
 }
-/* line 912, ../sass/cdp.scss */
+/* line 924, ../sass/cdp.scss */
 #flow .list .labels .no {
   width: 193px;
   line-height: 30px;
@@ -1166,7 +1179,7 @@ html body .flow li.last-child {
   text-align: center;
   margin-right: 46px;
 }
-/* line 920, ../sass/cdp.scss */
+/* line 932, ../sass/cdp.scss */
 #flow .list .labels .no:before {
   background: url("https://at.avanade.com/sites/CustomerRecordsManagement/Style%20Library/img/flow-arrow-down.png");
   bottom: -23px;
@@ -1177,7 +1190,7 @@ html body .flow li.last-child {
   position: absolute;
   width: 17px;
 }
-/* line 932, ../sass/cdp.scss */
+/* line 944, ../sass/cdp.scss */
 #flow .list.inverted {
   display: block;
   float: right;
@@ -1188,11 +1201,11 @@ html body .flow li.last-child {
   height: auto;
   overflow: visible;
 }
-/* line 941, ../sass/cdp.scss */
+/* line 953, ../sass/cdp.scss */
 #flow .list.inverted .stop:before {
   display: none;
 }
-/* line 944, ../sass/cdp.scss */
+/* line 956, ../sass/cdp.scss */
 #flow .list.inverted li.last-child:before {
   background: url("https://at.avanade.com/organizations/CDPProgram/SiteAssets/img/arrow-up-blue.png");
   width: 16px;
@@ -1203,24 +1216,24 @@ html body .flow li.last-child {
   display: block;
   top: 102px;
 }
-/* line 956, ../sass/cdp.scss */
+/* line 968, ../sass/cdp.scss */
 #flow .list.inverted li:before {
   background: url("https://at.avanade.com/organizations/CDPProgram/SiteAssets/img/arrow-up.png");
 }
-/* line 960, ../sass/cdp.scss */
+/* line 972, ../sass/cdp.scss */
 #flow .list li.float-right {
   float: right;
   margin-right: 14px;
 }
-/* line 963, ../sass/cdp.scss */
+/* line 975, ../sass/cdp.scss */
 #flow .list li.float-right:before {
   right: 0 !important;
 }
-/* line 967, ../sass/cdp.scss */
+/* line 979, ../sass/cdp.scss */
 #flow .list li.float-right-arrow:before {
   left: 570px;
 }
-/* line 971, ../sass/cdp.scss */
+/* line 983, ../sass/cdp.scss */
 #flow .block {
   line-height: 14px;
   min-height: 97px;
@@ -1234,11 +1247,11 @@ html body .flow li.last-child {
   color: #666;
   font-weight: normal;
 }
-/* line 983, ../sass/cdp.scss */
+/* line 995, ../sass/cdp.scss */
 #flow .block.extended {
   width: 98%;
 }
-/* line 986, ../sass/cdp.scss */
+/* line 998, ../sass/cdp.scss */
 #flow .block.diamond {
   background: url(https://at.avanade.com/organizations/CDPProgram/SiteAssets/img/diamond.png);
   height: 130px;
@@ -1247,11 +1260,11 @@ html body .flow li.last-child {
   width: 130px;
   color: white;
 }
-/* line 994, ../sass/cdp.scss */
+/* line 1006, ../sass/cdp.scss */
 #flow .block.center {
   margin-left: 240px;
 }
-/* line 997, ../sass/cdp.scss */
+/* line 1009, ../sass/cdp.scss */
 #flow .block.blue {
   color: white;
   background: #008DC4;
@@ -1260,11 +1273,11 @@ html body .flow li.last-child {
   line-height: 18px;
   min-height: 80px;
 }
-/* line 1005, ../sass/cdp.scss */
+/* line 1017, ../sass/cdp.scss */
 #flow .block.multi-arrow {
   margin: 0 65px;
 }
-/* line 1007, ../sass/cdp.scss */
+/* line 1019, ../sass/cdp.scss */
 #flow .block.multi-arrow:before {
   background: url(https://at.avanade.com/organizations/CDPProgram/SiteAssets/img/flow-multiarrows.png) no-repeat;
   position: absolute;
@@ -1275,7 +1288,7 @@ html body .flow li.last-child {
   content: '';
   top: -90px;
 }
-/* line 1020, ../sass/cdp.scss */
+/* line 1032, ../sass/cdp.scss */
 #flow .arrow-right {
   width: 11px;
   height: 17px;
@@ -1284,13 +1297,13 @@ html body .flow li.last-child {
   margin: 20px;
   margin-top: 37px;
 }
-/* line 1028, ../sass/cdp.scss */
+/* line 1040, ../sass/cdp.scss */
 #flow i {
   width: 11px;
   background: url(https://at.avanade.com/organizations/CDPProgram/SiteAssets/img/arrow-right.png);
   height: 16px;
 }
-/* line 1034, ../sass/cdp.scss */
+/* line 1046, ../sass/cdp.scss */
 #flow .inner-tab-4 .breadcrumb, #flow .tab-4 .breadcrumb {
   background: #d41980;
   background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ce0071), color-stop(100%, #b70064));
@@ -1299,14 +1312,14 @@ html body .flow li.last-child {
   background-image: -o-linear-gradient(#ce0071, #b70064);
   background-image: linear-gradient(#ce0071, #b70064);
 }
-/* line 1040, ../sass/cdp.scss */
+/* line 1052, ../sass/cdp.scss */
 #flow .welcome-content {
   overflow: hidden;
   *zoom: 1;
   margin-bottom: 25px;
 }
 
-/* line 1047, ../sass/cdp.scss */
+/* line 1059, ../sass/cdp.scss */
 a.button {
   background: #FF3300;
   background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ff3300), color-stop(100%, #cc0000));
@@ -1321,7 +1334,7 @@ a.button {
   font-weight: bold !important;
   position: relative;
 }
-/* line 1050, ../sass/cdp.scss */
+/* line 1062, ../sass/cdp.scss */
 a.button:hover {
   text-decoration: none;
   background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ff471a), color-stop(100%, #ff0000));
@@ -1330,7 +1343,7 @@ a.button:hover {
   background-image: -o-linear-gradient(#ff471a, #ff0000);
   background-image: linear-gradient(#ff471a, #ff0000);
 }
-/* line 1061, ../sass/cdp.scss */
+/* line 1073, ../sass/cdp.scss */
 a.button span.icon.pdf {
   display: block;
   background-image: url(https://at.avanade.com/organizations/CDPProgram/SiteAssets/img/pdf-icon.png);
@@ -1354,7 +1367,7 @@ oo     .d8P 888    .o 888   .o8  888   888   888      888    888 .    `888'
                                                                    .o..P'      
                                                                    `Y8P'     
 **/
-/* line 1086, ../sass/cdp.scss */
+/* line 1098, ../sass/cdp.scss */
 #security-software .item {
   border-bottom: 1px solid #cccccc;
   overflow: hidden;
@@ -1362,19 +1375,19 @@ oo     .d8P 888    .o 888   .o8  888   888   888      888    888 .    `888'
   padding: 15px 0;
   font-size: 12px;
 }
-/* line 1091, ../sass/cdp.scss */
+/* line 1103, ../sass/cdp.scss */
 #security-software .item td {
   padding: 10px;
   margin: 10px 0;
 }
-/* line 1095, ../sass/cdp.scss */
+/* line 1107, ../sass/cdp.scss */
 #security-software .item .picture {
   width: 19%;
   vertical-align: middle;
   margin-right: 1%;
   text-align: center;
 }
-/* line 1101, ../sass/cdp.scss */
+/* line 1113, ../sass/cdp.scss */
 #security-software .item .description {
   width: 59%;
   font-size: 12px;
@@ -1382,14 +1395,14 @@ oo     .d8P 888    .o 888   .o8  888   888   888      888    888 .    `888'
   color: #858585;
   line-height: 1.2;
 }
-/* line 1107, ../sass/cdp.scss */
+/* line 1119, ../sass/cdp.scss */
 #security-software .item .description h3 {
   color: #333;
   font-weight: bold;
   margin: 10px 0;
   font-size: 14px;
 }
-/* line 1114, ../sass/cdp.scss */
+/* line 1126, ../sass/cdp.scss */
 #security-software .item .download-link {
   width: 19%;
   margin-right: 1%;

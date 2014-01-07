@@ -12,14 +12,26 @@
 .menu-item.hasSubmenu{
 	position: relative;
 	&:before{
-		content:'';
+		content: '';
 		position: absolute;
 		right: 0;
 		width: 0;
 		height: 0;
-		border-top: 5px solid #333;
+		border-top: 5px solid #333333;
 		border-right: 5px solid transparent;
 		border-left: 5px solid transparent;
+		top: 25px;
+	}
+	&.open{
+		content: '';
+		position: absolute;
+		right: 0;
+		width: 0;
+		height: 0;
+		border-left: 5px solid #333333;
+		border-top: 5px solid transparent;
+		border-bottom: 5px solid transparent;
+		top: 25px;
 	}
 }
 html body .left-menu-custom ul.root > li.static > a.static.menu-item .menu-item-text:before { content: "";    left: auto;    position: static;    text-decoration: none !important;}
