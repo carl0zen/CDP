@@ -9,6 +9,18 @@
 	padding: 15px 0;
 }
 
+.menu-item.hasSubmenu{
+	&:before{
+		content:'';
+		position: absolute;
+		right: 0;
+		width: 0;
+		height: 0;
+		border-top: 5px solid #333;
+		border-right: 5px solid transparent;
+		border-left: 5px solid transparent;
+	}
+}
 html body .left-menu-custom ul.root > li.static > a.static.menu-item .menu-item-text:before { content: "";    left: auto;    position: static;    text-decoration: none !important;}
 .left-menu-custom ul.root > li.static > a.static.menu-item{font-size:20px; color:#46464A !important; font-family:"Segoe UI",Arial,Sans-serf}
 .left-menu-custom ul.root > li.static > ul.static li.static a.static.menu-item{}
