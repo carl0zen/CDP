@@ -1,6 +1,6 @@
 /* line 3, ../sass/cdp.scss */
 div.h1-overlap {
-  background-color: transparent;
+  background-color: transparent !important;
 }
 
 /* line 8, ../sass/cdp.scss */
